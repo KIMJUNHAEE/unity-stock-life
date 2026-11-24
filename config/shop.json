@@ -1,0 +1,29 @@
+{
+  "_about": "가구 카탈로그. slots 의 id 는 config/theme.json 의 layout.room.<id> 위치와 연결된다. image 는 config/assets.json 키. 구매는 한 번만, 재판매 없음. 가구는 외형만 바꾸며 거래 성능에 영향이 없다.",
+  "slots": [
+    { "id": "desk", "name": "책상", "show_empty": true },
+    { "id": "pc", "name": "컴퓨터", "show_empty": true },
+    { "id": "chair", "name": "의자", "show_empty": true },
+    { "id": "light", "name": "조명", "show_empty": false },
+    { "id": "deco", "name": "소품", "show_empty": false }
+  ],
+  "starting_items": ["desk_old", "pc_old_laptop"],
+  "items": [
+    { "id": "desk_old", "slot": "desk", "name": "낡은 접이식 책상", "price": 0, "image": "furn_desk_old", "description": "다리가 조금 흔들리는 첫 책상." },
+    { "id": "desk_wood", "slot": "desk", "name": "원목 책상", "price": 90000, "image": "furn_desk_wood", "description": "모니터와 노트를 같이 올려도 넉넉한 책상.", "purchase_line": "흔들리지 않는 책상이라니." },
+    { "id": "desk_l", "slot": "desk", "name": "ㄱ자 작업 책상", "price": 320000, "image": "furn_desk_l", "description": "작업 공간과 생활 공간이 나뉘는 큰 책상.", "purchase_line": "여기서는 일하고, 저기서는 쉬고." },
+
+    { "id": "pc_old_laptop", "slot": "pc", "name": "오래된 노트북", "price": 0, "image": "furn_pc_old", "description": "팬 소리가 조금 큰 노트북." },
+    { "id": "pc_monitor", "slot": "pc", "name": "노트북 + 모니터", "price": 150000, "image": "furn_pc_monitor", "description": "화면이 하나 더. 정보량은 같지만 눈이 편하다.", "purchase_line": "화면이 커지니 마음도 넓어지는 기분." },
+    { "id": "pc_dual", "slot": "pc", "name": "듀얼 모니터 세트", "price": 450000, "image": "furn_pc_dual", "description": "방에서 가장 눈에 띄는 장비.", "purchase_line": "…조금 프로 같아 보이나?" },
+
+    { "id": "chair_cushion", "slot": "chair", "name": "쿠션 의자", "price": 45000, "image": "furn_chair_cushion", "description": "오래 앉아도 덜 아픈 의자.", "purchase_line": "차트는 그대로인데 허리는 행복하네." },
+    { "id": "chair_ergonomic", "slot": "chair", "name": "인체공학 의자", "price": 260000, "image": "furn_chair_ergo", "description": "등받이가 몸을 받쳐 주는 의자.", "purchase_line": "이게 의자의 세계구나." },
+
+    { "id": "light_stand", "slot": "light", "name": "스탠드 조명", "price": 25000, "image": "furn_light_stand", "description": "책상 위를 따뜻하게 비추는 작은 조명.", "purchase_line": "방이 조금 덜 차가워졌어." },
+    { "id": "light_mood", "slot": "light", "name": "무드등과 줄조명", "price": 70000, "image": "furn_light_mood", "description": "밤 거래가 덜 외로워지는 불빛.", "purchase_line": "예쁘다… 이건 사치 아니야. 아마도." },
+
+    { "id": "deco_plant", "slot": "deco", "name": "작은 화분", "price": 15000, "image": "furn_deco_plant", "description": "물만 잘 주면 매일 조금씩 자란다.", "purchase_line": "너도 같이 크자." },
+    { "id": "deco_plush", "slot": "deco", "name": "토끼 인형", "price": 30000, "image": "furn_deco_plush", "description": "책상 구석에서 차트를 같이 봐 주는 인형.", "purchase_line": "오늘부터 우리 팀이야." }
+  ]
+}

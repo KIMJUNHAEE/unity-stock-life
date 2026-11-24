@@ -1,0 +1,340 @@
+{
+  "_about": "이미지 키 → 파일 경로(데이터 폴더 기준). 파일이 없으면 게임은 자리표시 상자를 그린다. PNG/JPG를 해당 경로에 넣거나 path 를 바꾸면 실행 중에도 자동으로 다시 읽는다. Unity 임포트 불필요. 넣기 전에 docs/에셋 생성 규칙.md 와 리소스 관리대장을 따른다.",
+  "images": {
+    "title_bg": {
+      "path": "art/ui/title_bg.png",
+      "label": "타이틀 배경"
+    },
+    "desktop_wallpaper": {
+      "path": "art/ui/desktop_wallpaper.png",
+      "label": "바탕화면"
+    },
+    "desktop_wallpaper_sakura": {
+      "path": "art/ui/desktop_wallpaper_sakura.png",
+      "label": "바탕화면 (벚꽃)"
+    },
+    "icon_stock": {
+      "path": "art/ui/icons/stock.png",
+      "label": "증권",
+      "placeholder_color": "#FFFFFFCC"
+    },
+    "icon_browser": {
+      "path": "art/ui/icons/browser.png",
+      "label": "인터넷",
+      "placeholder_color": "#FFFFFFCC"
+    },
+    "icon_finance": {
+      "path": "art/ui/icons/finance.png",
+      "label": "금융",
+      "placeholder_color": "#FFFFFFCC"
+    },
+    "icon_album": {
+      "path": "art/ui/icons/album.png",
+      "label": "밤의 기록",
+      "placeholder_color": "#FFFFFFCC"
+    },
+    "icon_settings": {
+      "path": "art/ui/icons/settings.png",
+      "label": "설정",
+      "placeholder_color": "#FFFFFFCC"
+    },
+    "site_news_logo": {
+      "path": "art/ui/site_news_logo.png",
+      "label": "뉴스"
+    },
+    "site_community_logo": {
+      "path": "art/ui/site_community_logo.png",
+      "label": "커뮤니티"
+    },
+    "room_bg": {
+      "path": "art/room/room_bg.png",
+      "label": "방 배경"
+    },
+    "room_door": {
+      "path": "art/room/door.png",
+      "label": "문 (알바 출근)",
+      "placeholder_color": "#E9DCCB"
+    },
+    "room_bed": {
+      "path": "art/room/bed.png",
+      "label": "침대",
+      "placeholder_color": "#F3E6EF"
+    },
+    "furn_desk_old": {
+      "path": "art/room/furniture/desk_old.png",
+      "label": "낡은 접이식 책상",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_desk_wood": {
+      "path": "art/room/furniture/desk_wood.png",
+      "label": "원목 책상",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_desk_l": {
+      "path": "art/room/furniture/desk_l.png",
+      "label": "ㄱ자 작업 책상",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_pc_old": {
+      "path": "art/room/furniture/pc_old.png",
+      "label": "오래된 노트북",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_pc_monitor": {
+      "path": "art/room/furniture/pc_monitor.png",
+      "label": "노트북 + 모니터",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_pc_dual": {
+      "path": "art/room/furniture/pc_dual.png",
+      "label": "듀얼 모니터 세트",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_chair_cushion": {
+      "path": "art/room/furniture/chair_cushion.png",
+      "label": "쿠션 의자",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_chair_ergo": {
+      "path": "art/room/furniture/chair_ergo.png",
+      "label": "인체공학 의자",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_light_stand": {
+      "path": "art/room/furniture/light_stand.png",
+      "label": "스탠드 조명",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_light_mood": {
+      "path": "art/room/furniture/light_mood.png",
+      "label": "무드등과 줄조명",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_deco_plant": {
+      "path": "art/room/furniture/deco_plant.png",
+      "label": "작은 화분",
+      "placeholder_color": "#FFF6EC"
+    },
+    "furn_deco_plush": {
+      "path": "art/room/furniture/deco_plush.png",
+      "label": "토끼 인형",
+      "placeholder_color": "#FFF6EC"
+    },
+    "seoha_normal": {
+      "path": "art/characters/seoha/portrait_normal.png",
+      "label": "서하 (기본)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_happy": {
+      "path": "art/characters/seoha/portrait_happy.png",
+      "label": "서하 (기쁨)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_sad": {
+      "path": "art/characters/seoha/portrait_sad.png",
+      "label": "서하 (속상)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_surprised": {
+      "path": "art/characters/seoha/portrait_surprised.png",
+      "label": "서하 (놀람)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_tired": {
+      "path": "art/characters/seoha/portrait_tired.png",
+      "label": "서하 (피곤)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_focus": {
+      "path": "art/characters/seoha/portrait_focus.png",
+      "label": "서하 (집중)",
+      "placeholder_color": "#EAF2FB"
+    },
+    "seoha_stand_normal": {
+      "path": "art/characters/seoha/stand_normal.png",
+      "label": "윤서하 입상 (기본)",
+      "placeholder_color": "#EAF2FBAA"
+    },
+    "seoha_stand_happy": {
+      "path": "art/characters/seoha/stand_happy.png",
+      "label": "윤서하 입상 (기쁨)",
+      "placeholder_color": "#EAF2FBAA"
+    },
+    "seoha_stand_sad": {
+      "path": "art/characters/seoha/stand_sad.png",
+      "label": "윤서하 입상 (속상)",
+      "placeholder_color": "#EAF2FBAA"
+    },
+    "seoha_stand_tired": {
+      "path": "art/characters/seoha/stand_tired.png",
+      "label": "윤서하 입상 (피곤)",
+      "placeholder_color": "#EAF2FBAA"
+    },
+    "store_bg": {
+      "path": "art/store/store_bg.png",
+      "label": "편의점 배경"
+    },
+    "customer_1": {
+      "path": "art/store/customer_1.png",
+      "label": "손님 1",
+      "placeholder_color": "#F0F4F8"
+    },
+    "customer_2": {
+      "path": "art/store/customer_2.png",
+      "label": "손님 2",
+      "placeholder_color": "#F0F4F8"
+    },
+    "customer_3": {
+      "path": "art/store/customer_3.png",
+      "label": "손님 3",
+      "placeholder_color": "#F0F4F8"
+    },
+    "customer_4": {
+      "path": "art/store/customer_4.png",
+      "label": "손님 4",
+      "placeholder_color": "#F0F4F8"
+    },
+    "item_rice_ball": {
+      "path": "art/store/items/rice_ball.png",
+      "label": "삼각김밥"
+    },
+    "item_banana_milk": {
+      "path": "art/store/items/banana_milk.png",
+      "label": "바나나우유"
+    },
+    "item_cup_noodle": {
+      "path": "art/store/items/cup_noodle.png",
+      "label": "컵라면"
+    },
+    "item_water": {
+      "path": "art/store/items/water.png",
+      "label": "생수"
+    },
+    "item_lunchbox": {
+      "path": "art/store/items/lunchbox.png",
+      "label": "도시락"
+    },
+    "item_soda": {
+      "path": "art/store/items/soda.png",
+      "label": "탄산음료"
+    },
+    "item_jelly": {
+      "path": "art/store/items/jelly.png",
+      "label": "젤리"
+    },
+    "item_sandwich": {
+      "path": "art/store/items/sandwich.png",
+      "label": "샌드위치"
+    },
+    "item_coffee": {
+      "path": "art/store/items/coffee.png",
+      "label": "커피"
+    },
+    "item_snack": {
+      "path": "art/store/items/snack.png",
+      "label": "과자"
+    },
+    "item_icecream": {
+      "path": "art/store/items/icecream.png",
+      "label": "아이스크림"
+    },
+    "item_pen": {
+      "path": "art/store/items/pen.png",
+      "label": "볼펜"
+    },
+    "cs_default_sleep": {
+      "path": "art/cutscenes/default_sleep.png",
+      "label": "오늘도 수고했어",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_first_profit": {
+      "path": "art/cutscenes/first_profit.png",
+      "label": "오늘 디저트는 두 개",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_big_win": {
+      "path": "art/cutscenes/big_win.png",
+      "label": "표정 관리 실패",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_confidence": {
+      "path": "art/cutscenes/confidence.png",
+      "label": "조금씩 쌓인 자신감",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_nobody_believed": {
+      "path": "art/cutscenes/nobody_believed.png",
+      "label": "아무도 안 믿던 글",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_so_many_likes": {
+      "path": "art/cutscenes/so_many_likes.png",
+      "label": "추천은 많았는데",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_news_was_true": {
+      "path": "art/cutscenes/news_was_true.png",
+      "label": "기사는 진짜였잖아",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_first_loan": {
+      "path": "art/cutscenes/first_loan.png",
+      "label": "빌린 돈의 무게",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_loan_cleared": {
+      "path": "art/cutscenes/loan_cleared.png",
+      "label": "내 돈으로 돌아온 밤",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_first_repay": {
+      "path": "art/cutscenes/first_repay.png",
+      "label": "줄어든 숫자",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_still_working": {
+      "path": "art/cutscenes/still_working.png",
+      "label": "내일도 출근",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_no_trade": {
+      "path": "art/cutscenes/no_trade.png",
+      "label": "아무것도 안 하는 용기",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_dozed": {
+      "path": "art/cutscenes/dozed.png",
+      "label": "차트보다 먼저 졸았다",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_warm_meal": {
+      "path": "art/cutscenes/warm_meal.png",
+      "label": "수익보다 따뜻한 한 끼",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_enough_today": {
+      "path": "art/cutscenes/enough_today.png",
+      "label": "오늘은 여기까지",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_next_home": {
+      "path": "art/cutscenes/next_home.png",
+      "label": "다음 집에서는",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_liquidation": {
+      "path": "art/cutscenes/liquidation.png",
+      "label": "화면은 꺼도 현실은 남는다",
+      "placeholder_color": "#2A3142"
+    },
+    "cs_intro": {
+      "path": "art/cutscenes/intro.png",
+      "label": "프롤로그",
+      "placeholder_color": "#2A3142"
+    },
+    "settlement_bg": {
+      "path": "art/ui/settlement_bg.png",
+      "label": "결산 배경"
+    }
+  }
+}

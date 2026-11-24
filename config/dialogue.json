@@ -1,0 +1,113 @@
+{
+  "_about": "윤서하의 반응 대사, 표정 이미지 연결, 튜토리얼, 인트로, 시스템 문구. 대사는 결과에 반응할 뿐 매매를 지시하거나 플레이어를 비난하지 않는다.",
+  "settings": {
+    "bubble_seconds": 3.5,
+    "min_interval_seconds": 5,
+    "priority_triggers": ["condition_blink_warning", "condition_empty", "loan_taken", "loan_cleared", "session_end", "sell_big_profit", "sell_big_loss"]
+  },
+
+  "expressions": {
+    "normal": "seoha_normal",
+    "happy": "seoha_happy",
+    "sad": "seoha_sad",
+    "surprised": "seoha_surprised",
+    "tired": "seoha_tired",
+    "focus": "seoha_focus"
+  },
+  "standing": {
+    "normal": "seoha_stand_normal",
+    "happy": "seoha_stand_happy",
+    "sad": "seoha_stand_sad",
+    "surprised": "seoha_stand_normal",
+    "tired": "seoha_stand_tired",
+    "focus": "seoha_stand_normal"
+  },
+
+  "thresholds": {
+    "big_profit": 50000,
+    "big_loss": 50000
+  },
+
+  "reactions": {
+    "morning": [
+      { "text": "좋은 아침. 오늘도 출근.", "expression": "normal" },
+      { "text": "알람 두 번 만에 일어났어. 장하다, 나.", "expression": "happy" }
+    ],
+    "job_start": [{ "text": "어서 오세요! …오늘도 잘 해 보자.", "expression": "happy" }],
+    "job_end": [
+      { "text": "오늘 몫은 했어.", "expression": "normal" },
+      { "text": "퇴근! 이건 내가 일해서 번 돈.", "expression": "happy" }
+    ],
+    "buy": [
+      { "text": "샀다. 이제 숫자가 아니라 내 돈이야.", "expression": "focus" },
+      { "text": "체결 확인.", "expression": "focus" },
+      { "text": "…두 시간 일한 돈이네, 이거.", "expression": "normal" }
+    ],
+    "buy_with_loan": [{ "text": "빌린 돈이 섞여 있다는 거, 잊지 말자.", "expression": "focus" }],
+    "sell_profit": [
+      { "text": "오늘 디저트 값 확보.", "expression": "happy" },
+      { "text": "작아도 이익은 이익.", "expression": "happy" }
+    ],
+    "sell_big_profit": [{ "text": "침착하자. …침착하자고.", "expression": "surprised" }],
+    "sell_loss": [
+      { "text": "…알바 한 시간어치.", "expression": "sad" },
+      { "text": "괜찮아. 기록해 두자.", "expression": "normal" }
+    ],
+    "sell_big_loss": [{ "text": "내일 알바는 지각하면 안 되겠다.", "expression": "sad" }],
+    "sell_flat": [{ "text": "본전. 수수료만 냈네.", "expression": "normal" }],
+    "loan_taken": [{ "text": "빌린 돈은 갚아야 하는 돈. 알고 있어.", "expression": "focus" }],
+    "repay": [{ "text": "조금 갚았다.", "expression": "normal" }],
+    "loan_cleared": [{ "text": "다 갚았다…!", "expression": "happy" }],
+    "repay_starting_debt": [{ "text": "끝자리가 조금 바뀌었어.", "expression": "normal" }],
+    "condition_tired": [{ "text": "하암… 슬슬 피곤하다.", "expression": "tired" }],
+    "condition_down": [{ "text": "눈이 뻑뻑해.", "expression": "tired" }],
+    "condition_blink_warning": [{ "text": "졸음 때문에 차트를 잠깐 놓칠 수 있어.", "expression": "tired" }],
+    "condition_empty": [{ "text": "더는… 못 보겠어.", "expression": "tired" }],
+    "use_snack": [{ "text": "당 충전.", "expression": "happy" }],
+    "use_meal": [{ "text": "밥은 제대로 먹자.", "expression": "normal" }],
+    "use_energy_drink": [{ "text": "이걸로 조금만 더 버티자.", "expression": "focus" }],
+    "session_end": [{ "text": "장 마감. 오늘은 여기까지.", "expression": "normal" }],
+    "settle_profit": [{ "text": "오늘은 웃으면서 잘 수 있겠다.", "expression": "happy" }],
+    "settle_loss": [{ "text": "오늘은 이랬네. 내일은 내일.", "expression": "sad" }],
+    "settle_flat": [{ "text": "제자리. 그것도 나쁘지 않아.", "expression": "normal" }],
+    "settle_no_trade": [{ "text": "오늘은 지켜만 봤어.", "expression": "normal" }],
+    "buy_furniture": [{ "text": "차트는 그대로인데 허리는 행복하네.", "expression": "happy" }]
+  },
+
+  "tutorial": {
+    "stock": [
+      { "text": "증권 앱이야. 왼쪽은 관심 종목, 가운데는 캔들 차트, 아래 막대는 거래량이야.", "expression": "normal" },
+      { "text": "빨간 봉은 그 시간에 올랐고 파란 봉은 내렸다는 뜻이야. 기호(▲▼)도 같이 보여 줄게.", "expression": "normal" },
+      { "text": "오른쪽에서 수량을 정하고 시장가로 사고팔 수 있어. 주문 전 금액과 수수료가 같이 보여.", "expression": "focus" },
+      { "text": "이 창이 앞에 있을 때만 시장 시간이 흘러. 브라우저나 메뉴를 열면 모든 종목이 함께 멈춰.", "expression": "normal" },
+      { "text": "어떤 차트 모양도 수익을 보장하진 않아. 판단은 네 몫이야.", "expression": "focus" }
+    ],
+    "browser": [
+      { "text": "뉴스 사이트와 커뮤니티 사이트가 있어. 둘 다 게임 속 가상 사이트야.", "expression": "normal" },
+      { "text": "뉴스는 확인된 사실이지만, 가격엔 이미 반영됐을 수도 있어. 기사 시각과 차트를 같이 봐.", "expression": "focus" },
+      { "text": "커뮤니티 글은 빠르지만 틀릴 수 있어. 추천 수나 말투가 진실을 알려 주진 않아.", "expression": "normal" }
+    ]
+  },
+
+  "intro": {
+    "id": "INTRO",
+    "title": "내일도, 다녀오겠습니다",
+    "image": "cs_intro",
+    "lines": [
+      { "speaker": "", "text": "새벽 알람. 작은 방, 작은 냉장고, 의자에 걸린 편의점 근무복." },
+      { "speaker": "서하", "text": "…일어나자.", "expression": "tired" },
+      { "speaker": "", "text": "책상 위 상환 안내서. 남은 금액 1,000,000,000원." },
+      { "speaker": "서하", "text": "오늘도 분명 일할 건데. 왜 하나도 가까워지는 것 같지가 않지.", "expression": "sad" },
+      { "speaker": "서하", "text": "…일단 출근. 밤에는 그 앱, 한번 열어 보자.", "expression": "normal" }
+    ]
+  },
+
+  "system": {
+    "market_note": "모든 종목의 시장 시간이 함께 흐릅니다. 다른 앱이나 메뉴를 열면 시장이 멈춥니다. (Space: 일시정지)",
+    "blink_warning": "졸음 단계: 가끔 눈이 감겨 차트를 잠깐 놓칠 수 있어요. 주문·현금·현재가는 그대로입니다.",
+    "browser_hint": "뉴스는 확인된 사실이지만 가격에 먼저 반영됐을 수 있고, 커뮤니티 글은 빠르지만 틀릴 수 있어요. 게시 시각과 차트를 함께 보세요.",
+    "starting_debt_title": "부모님이 남긴 빚",
+    "starting_debt_note": "시작 부채는 장기 목표입니다. 시제품에서는 이자나 강제 기한 없이 원할 때 원금만 갚을 수 있어요.",
+    "story_placeholder": "본편 장면은 아직 작성 전입니다. 선택은 이번 회차에 기록됩니다."
+  }
+}

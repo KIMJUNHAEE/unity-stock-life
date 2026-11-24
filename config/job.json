@@ -1,0 +1,51 @@
+{
+  "_about": "아침 편의점 알바 미니게임. 저장하면 다음 근무부터 반영.",
+  "howto": "손님이 올려둔 상품을 눌러 스캔하세요. 모두 찍으면 손님이 말한 결제 방법을 고르고, 현금이면 거스름돈을 맞게 고릅니다. 끝까지 근무하면 기본급을 받고, 빠르고 정확하게 응대할수록 근무 보너스가 붙어요.",
+  "duration_seconds": 75,
+  "base_pay": 60000,
+  "bonus_per_customer": 3000,
+  "mistake_penalty": 1500,
+  "perfect_bonus": 5000,
+  "perfect_min_customers": 3,
+  "condition_cost": 10,
+  "customer_patience_seconds": [14, 20],
+  "next_customer_delay": 0.6,
+  "items_per_customer": [1, 4],
+  "cash_bills": [1000, 5000, 10000, 50000],
+
+  "items": [
+    { "name": "삼각김밥", "price": 1300, "color": "#FDF1D2", "image": "item_rice_ball", "barcode": "8801043" },
+    { "name": "바나나우유", "price": 1700, "color": "#FFF4C2", "image": "item_banana_milk", "barcode": "8801104" },
+    { "name": "컵라면", "price": 1500, "color": "#FFE1D6", "image": "item_cup_noodle", "barcode": "8801073" },
+    { "name": "생수", "price": 900, "color": "#E3F3FF", "image": "item_water", "barcode": "8801094" },
+    { "name": "도시락", "price": 4800, "color": "#E9F7E8", "image": "item_lunchbox", "barcode": "8801118" },
+    { "name": "탄산음료", "price": 1800, "color": "#E8E6FF", "image": "item_soda", "barcode": "8801056" },
+    { "name": "젤리", "price": 1200, "color": "#FFE3F0", "image": "item_jelly", "barcode": "8801117" },
+    { "name": "샌드위치", "price": 3200, "color": "#FFF0DE", "image": "item_sandwich", "barcode": "8801128" },
+    { "name": "커피", "price": 2500, "color": "#F1E6DC", "image": "item_coffee", "barcode": "8801037" },
+    { "name": "과자", "price": 1600, "color": "#FFEBD1", "image": "item_snack", "barcode": "8801019" },
+    { "name": "아이스크림", "price": 2000, "color": "#E6F6FF", "image": "item_icecream", "barcode": "8801062" },
+    { "name": "볼펜", "price": 1000, "color": "#EEF1F5", "image": "item_pen", "barcode": "8801099" }
+  ],
+
+  "payments": [
+    { "id": "card", "label": "카드", "lines": ["카드로 할게요.", "카드요.", "이걸로 계산해 주세요."] },
+    { "id": "cash", "label": "현금", "lines": ["현금이요.", "현금으로 낼게요.", "잔돈 있어요? 현금이요."] },
+    { "id": "mobile", "label": "간편결제", "lines": ["폰으로 결제할게요.", "바코드 결제 되죠?", "앱으로 할게요."] }
+  ],
+
+  "customers": [
+    { "name": "출근길 직장인", "image": "customer_1" },
+    { "name": "등교하는 학생", "image": "customer_2" },
+    { "name": "산책 나온 어르신", "image": "customer_3" },
+    { "name": "야간 근무 끝난 손님", "image": "customer_4" }
+  ],
+
+  "lines": {
+    "greetings": ["이거 계산해 주세요.", "안녕하세요, 이것만요.", "봉투는 괜찮아요.", "급해서요, 빨리 부탁해요!", "적립은 안 해도 돼요."],
+    "thanks": ["감사합니다! 안녕히 가세요.", "적립하시겠어요? …감사합니다!", "좋은 하루 되세요!"],
+    "wrong_payment": ["앗, 손님이 말한 결제 방법이 아니에요.", "결제 방법을 다시 확인해 주세요."],
+    "wrong_change": ["거스름돈이 맞지 않아요.", "다시 계산해 볼까요?"],
+    "customer_left": ["손님이 기다리다 돌아갔어요…", "앗, 너무 오래 걸렸나 봐요."]
+  }
+}

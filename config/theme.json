@@ -1,0 +1,154 @@
+{
+  "_about": "색·글자 크기·폰트·화면 배치. 좌표는 모두 1920x1080 기준 [x, y, 너비, 높이]. 저장하면 즉시 반영.",
+  "reference_resolution": [1920, 1080],
+  "game_title": "내일도, 다녀오겠습니다",
+  "game_subtitle": "편의점 알바와 밤의 투자",
+  "toast_seconds": 3.5,
+
+  "fonts": {
+    "light":   { "library_name": "GyeonggiTitle-Light",  "editor_path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Light.ttf",  "os_fallback": ["Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK KR"] },
+    "regular": { "library_name": "GyeonggiTitle-Medium", "editor_path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Medium.ttf", "os_fallback": ["Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK KR"] },
+    "bold":    { "library_name": "GyeonggiTitle-Bold",   "editor_path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Bold.ttf",   "os_fallback": ["Malgun Gothic Bold", "Malgun Gothic", "Apple SD Gothic Neo"] }
+  },
+
+  "font_sizes": {
+    "tiny": 16,
+    "small": 19,
+    "body": 22,
+    "button": 22,
+    "title": 28,
+    "large": 34,
+    "huge": 56
+  },
+
+  "chart": {
+    "default_visible_candles": 60,
+    "min_visible_candles": 20,
+    "max_visible_candles": 300
+  },
+
+  "apps": {
+    "stock":    { "name": "증권",     "icon": "icon_stock" },
+    "browser":  { "name": "인터넷",   "icon": "icon_browser" },
+    "finance":  { "name": "금융",     "icon": "icon_finance" },
+    "album":    { "name": "밤의 기록", "icon": "icon_album" },
+    "settings": { "name": "설정",     "icon": "icon_settings" }
+  },
+
+  "default_theme": "pastel_day",
+  "themes": {
+    "pastel_day": {
+      "name": "기본 파스텔",
+      "description": "우윳빛 흰색과 옅은 하늘색, 민트·연보라 포인트.",
+      "radius": 12,
+      "wallpaper": "desktop_wallpaper",
+      "colors": {
+        "letterbox": "#DCE6F0",
+        "shadow": "#5A6E8A1F",
+        "dim": "#2B3A5266",
+        "panel": "#FFFFFFF5",
+        "panel_alt": "#F2F7FC",
+        "panel_border": "#D4E0EC",
+        "text": "#2F3E52",
+        "text_dim": "#6E7F94",
+        "text_on_accent": "#FFFFFF",
+        "accent": "#78AEE3",
+        "accent_dark": "#4F86C2",
+        "button": "#E8F1FA",
+        "button_hover": "#D6E7F8",
+        "hover_tint": "#FFFFFF",
+        "transparent": "#00000000",
+        "tab": "#EEF4FA",
+        "tab_active": "#CFE3F7",
+        "selected": "#DCEBFA",
+        "up": "#EC6A7C",
+        "down": "#4C8FE0",
+        "danger": "#E8838C",
+        "warning": "#D9953B",
+        "mint": "#9EDCC5",
+        "mint_text": "#2F9C78",
+        "pink": "#F8D3DE",
+        "grid": "#E3EAF2",
+        "avg_line": "#8C7BC9",
+        "news_marker": "#B79BE8",
+        "locked": "#B8C4D3",
+        "chip": "#FFFFFFD9",
+        "topbar": "#FFFFFFB8",
+        "taskbar": "#FFFFFFC7",
+        "window_bg": "#FBFDFF",
+        "window_title": "#E2EEFA",
+        "desktop_top": "#BFD8F2",
+        "desktop_bottom": "#F4D9E8",
+        "desktop_icon_text": "#2F3E52",
+        "toast_bg": "#3B4C63E6",
+        "toast_text": "#FFFFFF",
+        "bubble": "#FFFFFFF2",
+        "vignette": "#4B5D7A",
+        "eyelid": "#2E3446F2",
+        "cutscene_bg": "#1F2533",
+        "cutscene_top": "#C9DDF3",
+        "cutscene_bottom": "#F3D8E6",
+        "room_wall": "#F6F1EA",
+        "room_wall2": "#EAF0F7",
+        "room_wall_night": "#C9CFE6",
+        "room_wall_night2": "#E6D7E6",
+        "room_floor": "#E2D3C3",
+        "room_frame": "#FFFFFF",
+        "sky_day_top": "#A9D3F5",
+        "sky_day_bottom": "#E8F4FD",
+        "sky_night_top": "#5E6FA8",
+        "sky_night_bottom": "#C7A9CF",
+        "store_top": "#EAF6F3",
+        "store_bottom": "#F8F2E8",
+        "store_counter": "#E3D6C6"
+      }
+    },
+    "sakura_night": {
+      "name": "벚꽃 밤",
+      "description": "분홍 노을과 연보라 창. 첫 번째 거래 성과 보상.",
+      "unlock": { "stat": "cumulative_realized_profit", "op": ">=", "value": 100000 },
+      "unlock_hint": "누적 실현 순수익 100,000원",
+      "radius": 16,
+      "wallpaper": "desktop_wallpaper_sakura",
+      "colors": {
+        "letterbox": "#EADCE8",
+        "panel_alt": "#FBF3F8",
+        "panel_border": "#EBD5E3",
+        "accent": "#D98FB5",
+        "accent_dark": "#B86A94",
+        "button": "#F8ECF3",
+        "button_hover": "#F1DCEA",
+        "tab": "#F9EEF5",
+        "tab_active": "#EFD2E4",
+        "selected": "#F5DFEC",
+        "window_title": "#F4E1EE",
+        "desktop_top": "#E9C3DC",
+        "desktop_bottom": "#C9C2EC",
+        "news_marker": "#8FA9E8"
+      }
+    }
+  },
+
+  "layout": {
+    "desktop": {
+      "window": [136, 64, 1764, 952],
+      "portrait": [22, 880, 96, 96]
+    },
+    "home": {
+      "info_panel": [1400, 40, 480, 1000]
+    },
+    "room": {
+      "area": [0, 0, 1380, 1080],
+      "window": [150, 110, 380, 290],
+      "door": [1170, 250, 170, 520],
+      "bed": [720, 640, 580, 230],
+      "desk": [100, 560, 440, 220],
+      "pc": [170, 420, 270, 150],
+      "light": [450, 400, 90, 170],
+      "deco": [40, 470, 110, 100],
+      "chair": [300, 700, 170, 200],
+      "seoha": [600, 250, 300, 600],
+      "computer_hotspot": [100, 400, 450, 380]
+    }
+  }
+}
