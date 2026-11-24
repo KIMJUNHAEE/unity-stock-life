@@ -70,3 +70,16 @@ ThirdParty/Generated/ART-0001/prompt.txt
 ThirdParty/Generated/ART-0001/terms/terms_review.txt
 This provenance entry is not a statement that the supplied references or
 resulting sheet have been cleared for a commercial release.
+
+Development-only panic profile ART-0002:
+docs/concepts/chr_yoon_seoha_profile_panic_v001.png
+윤서하 / YOON SEOHA — panic profile concept v001.
+Generated on 2026-11-25 using Codex's built-in image_gen tool.
+Inputs: ART-0001 for character identity and expression; REF-001 for the
+original face, panic emotion and hands-at-head pose. Inherited reference
+release-use permissions remain unverified. Not registered as a release asset.
+Actual native output: 1254 x 1254 RGBA PNG with real transparent background.
+Original and project copy are byte-identical; no crop, upscale or retouch.
+Original, prompt, source hashes and link to the same day's archived terms:
+ThirdParty/Generated/ART-0002/provenance.json
+ThirdParty/Generated/ART-0002/prompt.txt

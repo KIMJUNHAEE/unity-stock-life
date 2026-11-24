@@ -1,0 +1,78 @@
+{
+  "asset_id": "ART-0002",
+  "status": "concept_pending_user_design_review",
+  "purpose": "패닉 상태 윤서하의 정사각형 프로필 초상화",
+  "created_at": "2026-11-25T03:13:59+09:00",
+  "target_size_px": [1024, 1024],
+  "actual_generated_size_px": [1254, 1254],
+  "runtime_size_px": null,
+  "aspect_ratio": "1:1",
+  "transparent_background": true,
+  "file_format": "PNG",
+  "pixel_format": "32-bit RGBA",
+  "alpha_verification": {
+    "top_left": 0,
+    "top_right": 0,
+    "face_sample": 253,
+    "note": "Actual alpha channel verified; character interior sample is nearly opaque. No alpha correction was applied."
+  },
+  "tool": "Codex built-in image_gen",
+  "operation": "reference-guided generation",
+  "model": null,
+  "seed": null,
+  "unavailable_settings_note": "Tool did not expose model name or seed; no CLI/API fallback was used.",
+  "reference_files_and_ids": [
+    {
+      "id": "ART-0001",
+      "file": "docs/concepts/chr_yoon_seoha_sheet_v001.png",
+      "role": "primary identity, PANIC expression, hairstyle, outfit and drawing style reference",
+      "sha256": "2ce6939d86bb70079f673f852f4241c2c72a39e39f7b6d6549e01e1e341610b4"
+    },
+    {
+      "id": "REF-001",
+      "file": "기초 컨셉 이미지.jpg",
+      "role": "supporting original face, panic emotion and hands-at-head pose reference",
+      "sha256": "bfc5f0664308088e58b9902d1178c79c5d720949a5d12820ecb9e603740f0a15",
+      "rights": "user supplied; creator and release-use permissions unverified"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "9423daaec7e32b939277e449ae3117c100a3086c6c51ca722af7186b5b25cddf",
+  "original_file": "generated_original.png",
+  "original_sha256": "43d1ab88c2de4773918ab6ec29da99e109a03a9c52630376501229c719a81dab",
+  "generator_saved_output": "C:/Users/kkjjh/.codex/generated_images/01a20ea3-f399-78e2-9701-3f8d87b5bfb3/exec-be42c6fe-245c-4eaf-aabe-ac3f8049bdb0.png",
+  "derived_files": [
+    {
+      "file": "docs/concepts/chr_yoon_seoha_profile_panic_v001.png",
+      "operation": "byte-identical copy",
+      "size_px": [1254, 1254],
+      "sha256": "43d1ab88c2de4773918ab6ec29da99e109a03a9c52630376501229c719a81dab"
+    }
+  ],
+  "transformations": [],
+  "layered_source_provided": false,
+  "rights_and_terms_evidence": [
+    {
+      "url": "https://openai.com/policies/terms-of-use/",
+      "archive": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "url": "https://openai.com/policies/service-terms/",
+      "archive": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_review": "Reuses the same tool's official terms inspected and archived on 2026-11-25 for ART-0001; see ThirdParty/Generated/ART-0001/terms/terms_review.txt. This is not a new legal clearance or a fresh terms check.",
+  "release_clearance": "not established; development concept only",
+  "review_notes": [
+    "Read the project asset-generation rules before generation.",
+    "Preserved blue-black layered hair, amber-brown eyes and pale ice-blue T-shirt.",
+    "Visually reviewed wide worried eyes, open mouth, flushed cheeks, sweat and both hands at the sides of the head.",
+    "Native square output preserved without crop, upscaling, retouching or profile conversion.",
+    "Shoulder and upper-torso crop is intentional portrait framing; hair and fingertips remain visible.",
+    "Independent profile concept, not a registered face-swap sprite; no alignment with a runtime base pose is claimed.",
+    "No text, logos, environment, copied sheet labels or new external resources.",
+    "User design approval and Unity import/display checks remain pending."
+  ]
+}
