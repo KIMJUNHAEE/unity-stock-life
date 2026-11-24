@@ -1,0 +1,1658 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53f6674d4074e094aa022541a1d3e678, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::StockGame.GameConfig
+  balance:
+    run:
+      fixedSeed: 0
+    economy:
+      startingCash: 300000
+    debt:
+      startingDebt: 1000000000
+      repayOptions: 102700000000000050c3000000000000a086010000000000
+    trading:
+      feeRate: 0.001
+      minFee: 0
+      sellTaxRate: 0
+    market:
+      tradableCompanyIds:
+      - momo_bio
+      - starlight_drink
+      - dawn_tech
+      tradableCompanyCount: 3
+      sessionStartMinute: 1260
+      sessionLengthTicks: 180
+      substepsPerTick: 5
+      secondsPerTick: 1.2
+      speedOptions:
+      - 1
+      - 2
+      - 4
+      initialPriceRange: {x: 1000, y: 8000}
+      companyOverrides:
+      - key: momo_bio
+        initialPrice: 1000
+        volatilityMult: 1.2
+      - key: starlight_drink
+        initialPrice: 2700
+        volatilityMult: 1
+      - key: dawn_tech
+        initialPrice: 5400
+        volatilityMult: 0.8
+      volatilityRunSpread: 0.25
+      baseVolatilityPerTick: 0.004
+      marketFactorVolPerTick: 0.0015
+      meanReversionPerTick: 0.01
+      driftPerTick: 0
+      attentionVolBoost: 0.35
+      baseVolumePerTick: 4000
+      volumeReturnSensitivity: 60
+      minPrice: 100
+      tickSizes:
+      - {x: 2000, y: 1}
+      - {x: 5000, y: 5}
+      - {x: 20000, y: 10}
+      - {x: 50000, y: 50}
+      - {x: 200000, y: 100}
+      - {x: 500000, y: 500}
+      - {x: 1e+12, y: 1000}
+    events:
+      perDayMin: 1
+      perDayMax: 2
+      officialOffsetTicks: {x: 20, y: 165}
+      rumorChance: 0.65
+      rumorLeadTicks: {x: 25, y: 200}
+      leakWindowTicks: {x: 5, y: 25}
+      followUpDelayTicks: {x: 20, y: 90}
+      pricedInWithRumor: {x: 0.35, y: 0.85}
+      pricedInWithoutRumor: {x: 0, y: 0.4}
+      rumorHypeChance: 0.6
+      rumorHype: {x: 0.01, y: 0.06}
+      sellTheNewsRatio: {x: 0, y: 0.6}
+      officialJumpShare: {x: 0.4, y: 0.8}
+      attentionPerImpact: 12
+      minGapBetweenCompanyEvents: 10
+    eventOutcomes:
+    - key: development_success
+      tone: 0
+      weight: 0.7
+      impact: {x: 0.07, y: 0.2}
+    - key: development_delay
+      tone: 1
+      weight: 1
+      impact: {x: -0.05, y: 0.01}
+    - key: development_failure
+      tone: 2
+      weight: 1
+      impact: {x: -0.18, y: -0.06}
+    - key: launch_strong
+      tone: 0
+      weight: 0.8
+      impact: {x: 0.05, y: 0.15}
+    - key: launch_mixed
+      tone: 1
+      weight: 1
+      impact: {x: -0.03, y: 0.03}
+    - key: launch_weak
+      tone: 2
+      weight: 1
+      impact: {x: -0.12, y: -0.04}
+    - key: contract_signed
+      tone: 0
+      weight: 0.7
+      impact: {x: 0.06, y: 0.16}
+    - key: contract_negotiating
+      tone: 1
+      weight: 1
+      impact: {x: -0.03, y: 0.03}
+    - key: contract_cancelled
+      tone: 2
+      weight: 0.9
+      impact: {x: -0.15, y: -0.05}
+    - key: earnings_above
+      tone: 0
+      weight: 0.8
+      impact: {x: 0.04, y: 0.12}
+    - key: earnings_mixed
+      tone: 1
+      weight: 1
+      impact: {x: -0.03, y: 0.03}
+    - key: earnings_below
+      tone: 2
+      weight: 1
+      impact: {x: -0.12, y: -0.04}
+    - key: expansion_ready
+      tone: 0
+      weight: 0.7
+      impact: {x: 0.03, y: 0.1}
+    - key: expansion_delayed
+      tone: 1
+      weight: 1
+      impact: {x: -0.04, y: 0.01}
+    - key: expansion_reduced
+      tone: 2
+      weight: 0.9
+      impact: {x: -0.1, y: -0.03}
+    - key: review_passed
+      tone: 0
+      weight: 0.7
+      impact: {x: 0.06, y: 0.18}
+    - key: review_pending
+      tone: 1
+      weight: 1
+      impact: {x: -0.04, y: 0.02}
+    - key: review_failed
+      tone: 2
+      weight: 0.9
+      impact: {x: -0.18, y: -0.06}
+    - key: supply_improved
+      tone: 0
+      weight: 0.8
+      impact: {x: 0.03, y: 0.09}
+    - key: supply_stable
+      tone: 1
+      weight: 1
+      impact: {x: -0.02, y: 0.02}
+    - key: supply_disrupted
+      tone: 2
+      weight: 0.9
+      impact: {x: -0.1, y: -0.03}
+    - key: partner_signed
+      tone: 0
+      weight: 0.7
+      impact: {x: 0.05, y: 0.14}
+    - key: partner_discussing
+      tone: 1
+      weight: 1
+      impact: {x: -0.03, y: 0.03}
+    - key: partner_ended
+      tone: 2
+      weight: 0.9
+      impact: {x: -0.12, y: -0.04}
+    feed:
+      rumorPostsPerEventMin: 1
+      rumorPostsPerEventMax: 2
+      generalPostsPerDayMin: 4
+      generalPostsPerDayMax: 7
+      generalCommentsPerPostMin: 1
+      generalCommentsPerPostMax: 3
+      postViews: {x: 30, y: 1500}
+      newsViews: {x: 300, y: 8000}
+    loan:
+      enabled: 1
+      limit: 500000
+      amountOptions: a086010000000000e09304000000000020a1070000000000
+      repayOptions: 102700000000000050c3000000000000a086010000000000
+      dailyInterestRate: 0.01
+      dailyInterestCap: 10000
+      maxAccumulatedInterest: 100000
+      termDays: 5
+      onlyBeforeTradingStarts: 1
+      cashThreshold: 150000
+      overdueJobIncomeRatio: 0.3
+    condition:
+      startValue: 100
+      maxValue: 100
+      drainPerTick: 0.3
+      sleepRestore: 100
+      firstBlinkDelayTicks: 6
+      blinkCloseFraction: 0.18
+      stages:
+      - name: "\uC591\uD638"
+        min: 70
+        vignette: 0
+        hasBlink: 0
+        blinkIntervalTicks: {x: 18, y: 30}
+        blinkDurationSeconds: {x: 0.5, y: 1}
+        effectText: "\uC815\uC0C1 \uD654\uBA74. \uAC70\uB798\uC5D0 \uC9D1\uC911\uD560
+          \uC218 \uC788\uC5B4\uC694."
+      - name: "\uD53C\uACE4"
+        min: 45
+        vignette: 0.35
+        hasBlink: 0
+        blinkIntervalTicks: {x: 18, y: 30}
+        blinkDurationSeconds: {x: 0.5, y: 1}
+        effectText: "\uD558\uD488\uACFC \uD654\uBA74 \uAC00\uC7A5\uC790\uB9AC \uD750\uB9BC.
+          \uD575\uC2EC \uC815\uBCF4\uB294 \uADF8\uB300\uB85C \uC77D\uC744 \uC218
+          \uC788\uC5B4\uC694."
+      - name: "\uB9E4\uC6B0 \uD53C\uACE4"
+        min: 20
+        vignette: 0.5
+        hasBlink: 1
+        blinkIntervalTicks: {x: 18, y: 30}
+        blinkDurationSeconds: {x: 0.5, y: 1}
+        effectText: "\uAC00\uB054 \uC9E7\uAC8C \uB208\uC774 \uAC10\uACA8 \uCC28\uD2B8
+          \uC77C\uBD80\uB97C \uC2E4\uC2DC\uAC04\uC73C\uB85C \uB193\uCE60 \uC218 \uC788\uC5B4\uC694."
+      - name: "\uD55C\uACC4 \uC9C1\uC804"
+        min: 0.01
+        vignette: 0.65
+        hasBlink: 1
+        blinkIntervalTicks: {x: 8, y: 16}
+        blinkDurationSeconds: {x: 1, y: 2}
+        effectText: "\uB208 \uAC10\uAE40\uC774 \uB354 \uAE38\uACE0 \uC7A6\uC544\uC838\uC694.
+          \uD68C\uBCF5\uC774\uB098 \uD734\uC2DD\uC774 \uD544\uC694\uD574\uC694."
+      - name: "\uC18C\uC9C4"
+        min: -1
+        vignette: 0.75
+        hasBlink: 0
+        blinkIntervalTicks: {x: 18, y: 30}
+        blinkDurationSeconds: {x: 0.5, y: 1}
+        effectText: "\uC2DC\uC7A5\uC774 \uBA48\uCD94\uACE0, \uD68C\uBCF5\uD558\uAC70\uB098
+          \uC624\uB298 \uAC70\uB798\uB97C \uB9C8\uCCD0\uC57C \uD574\uC694."
+      items:
+      - key: snack
+        name: "\uAC04\uC2DD"
+        price: 2000
+        restore: 8
+        limitPerNight: 3
+        description: "\uC18C\uB7C9 \uC989\uC2DC \uD68C\uBCF5."
+        reduceDrainTicks: 0
+        reduceDrainMult: 1
+        suppressDrainTicks: 0
+        repeatDecay: 1
+      - key: meal
+        name: "\uC2DD\uC0AC"
+        price: 9000
+        restore: 25
+        limitPerNight: 1
+        description: "\uD06C\uAC8C \uD68C\uBCF5\uD558\uACE0 \uD55C\uB3D9\uC548 \uC18C\uBAA8\uAC00
+          \uC904\uC5B4\uC694. \uD558\uB8FB\uBC24 1\uD68C."
+        reduceDrainTicks: 60
+        reduceDrainMult: 0.6
+        suppressDrainTicks: 0
+        repeatDecay: 1
+      - key: energy_drink
+        name: "\uC5D0\uB108\uC9C0 \uC74C\uB8CC"
+        price: 3500
+        restore: 0
+        limitPerNight: 3
+        description: "\uC7A0\uC2DC \uCEE8\uB514\uC158 \uAC10\uC18C\uB97C \uB9C9\uC544\uC694.
+          \uC5F0\uC18D\uC73C\uB85C \uB9C8\uC2E4\uC218\uB85D \uD6A8\uACFC\uAC00 \uC904\uC5B4\uC694."
+        reduceDrainTicks: 0
+        reduceDrainMult: 1
+        suppressDrainTicks: 40
+        repeatDecay: 0.5
+    dev:
+      hotReloadPollSeconds: 1
+      debugPanel: 1
+  job:
+    howto: "\uC190\uB2D8\uC774 \uC62C\uB824\uB454 \uC0C1\uD488\uC744 \uB20C\uB7EC
+      \uC2A4\uCE94\uD558\uC138\uC694. \uBAA8\uB450 \uCC0D\uC73C\uBA74 \uC190\uB2D8\uC774
+      \uB9D0\uD55C \uACB0\uC81C \uBC29\uBC95\uC744 \uACE0\uB974\uACE0, \uD604\uAE08\uC774\uBA74
+      \uAC70\uC2A4\uB984\uB3C8\uC744 \uB9DE\uAC8C \uACE0\uB985\uB2C8\uB2E4. \uB05D\uAE4C\uC9C0
+      \uADFC\uBB34\uD558\uBA74 \uAE30\uBCF8\uAE09\uC744 \uBC1B\uACE0, \uBE60\uB974\uACE0
+      \uC815\uD655\uD558\uAC8C \uC751\uB300\uD560\uC218\uB85D \uADFC\uBB34 \uBCF4\uB108\uC2A4\uAC00
+      \uBD99\uC5B4\uC694."
+    durationSeconds: 75
+    basePay: 60000
+    bonusPerCustomer: 3000
+    mistakePenalty: 1500
+    perfectBonus: 5000
+    perfectMinCustomers: 3
+    conditionCost: 10
+    customerPatienceSeconds: {x: 14, y: 20}
+    nextCustomerDelay: 0.6
+    itemsPerCustomer: {x: 1, y: 4}
+    cashBills: e8030000000000008813000000000000102700000000000050c3000000000000
+    items:
+    - name: "\uC0BC\uAC01\uAE40\uBC25"
+      price: 1300
+      color: {r: 0.99215686, g: 0.94509804, b: 0.8235294, a: 1}
+      image: {fileID: 0}
+      barcode: 8801043
+    - name: "\uBC14\uB098\uB098\uC6B0\uC720"
+      price: 1700
+      color: {r: 1, g: 0.95686275, b: 0.7607843, a: 1}
+      image: {fileID: 0}
+      barcode: 8801104
+    - name: "\uCEF5\uB77C\uBA74"
+      price: 1500
+      color: {r: 1, g: 0.88235295, b: 0.8392157, a: 1}
+      image: {fileID: 0}
+      barcode: 8801073
+    - name: "\uC0DD\uC218"
+      price: 900
+      color: {r: 0.8901961, g: 0.9529412, b: 1, a: 1}
+      image: {fileID: 0}
+      barcode: 8801094
+    - name: "\uB3C4\uC2DC\uB77D"
+      price: 4800
+      color: {r: 0.9137255, g: 0.96862745, b: 0.9098039, a: 1}
+      image: {fileID: 0}
+      barcode: 8801118
+    - name: "\uD0C4\uC0B0\uC74C\uB8CC"
+      price: 1800
+      color: {r: 0.9098039, g: 0.9019608, b: 1, a: 1}
+      image: {fileID: 0}
+      barcode: 8801056
+    - name: "\uC824\uB9AC"
+      price: 1200
+      color: {r: 1, g: 0.8901961, b: 0.9411765, a: 1}
+      image: {fileID: 0}
+      barcode: 8801117
+    - name: "\uC0CC\uB4DC\uC704\uCE58"
+      price: 3200
+      color: {r: 1, g: 0.9411765, b: 0.87058824, a: 1}
+      image: {fileID: 0}
+      barcode: 8801128
+    - name: "\uCEE4\uD53C"
+      price: 2500
+      color: {r: 0.94509804, g: 0.9019608, b: 0.8627451, a: 1}
+      image: {fileID: 0}
+      barcode: 8801037
+    - name: "\uACFC\uC790"
+      price: 1600
+      color: {r: 1, g: 0.92156863, b: 0.81960785, a: 1}
+      image: {fileID: 0}
+      barcode: 8801019
+    - name: "\uC544\uC774\uC2A4\uD06C\uB9BC"
+      price: 2000
+      color: {r: 0.9019608, g: 0.9647059, b: 1, a: 1}
+      image: {fileID: 0}
+      barcode: 8801062
+    - name: "\uBCFC\uD39C"
+      price: 1000
+      color: {r: 0.93333334, g: 0.94509804, b: 0.9607843, a: 1}
+      image: {fileID: 0}
+      barcode: 8801099
+    payments:
+    - id: card
+      label: "\uCE74\uB4DC"
+      lines:
+      - "\uCE74\uB4DC\uB85C \uD560\uAC8C\uC694."
+      - "\uCE74\uB4DC\uC694."
+      - "\uC774\uAC78\uB85C \uACC4\uC0B0\uD574 \uC8FC\uC138\uC694."
+    - id: cash
+      label: "\uD604\uAE08"
+      lines:
+      - "\uD604\uAE08\uC774\uC694."
+      - "\uD604\uAE08\uC73C\uB85C \uB0BC\uAC8C\uC694."
+      - "\uC794\uB3C8 \uC788\uC5B4\uC694? \uD604\uAE08\uC774\uC694."
+    - id: mobile
+      label: "\uAC04\uD3B8\uACB0\uC81C"
+      lines:
+      - "\uD3F0\uC73C\uB85C \uACB0\uC81C\uD560\uAC8C\uC694."
+      - "\uBC14\uCF54\uB4DC \uACB0\uC81C \uB418\uC8E0?"
+      - "\uC571\uC73C\uB85C \uD560\uAC8C\uC694."
+    customers:
+    - name: "\uCD9C\uADFC\uAE38 \uC9C1\uC7A5\uC778"
+      image: {fileID: 0}
+    - name: "\uB4F1\uAD50\uD558\uB294 \uD559\uC0DD"
+      image: {fileID: 0}
+    - name: "\uC0B0\uCC45 \uB098\uC628 \uC5B4\uB974\uC2E0"
+      image: {fileID: 0}
+    - name: "\uC57C\uAC04 \uADFC\uBB34 \uB05D\uB09C \uC190\uB2D8"
+      image: {fileID: 0}
+    lines:
+      greetings:
+      - "\uC774\uAC70 \uACC4\uC0B0\uD574 \uC8FC\uC138\uC694."
+      - "\uC548\uB155\uD558\uC138\uC694, \uC774\uAC83\uB9CC\uC694."
+      - "\uBD09\uD22C\uB294 \uAD1C\uCC2E\uC544\uC694."
+      - "\uAE09\uD574\uC11C\uC694, \uBE68\uB9AC \uBD80\uD0C1\uD574\uC694!"
+      - "\uC801\uB9BD\uC740 \uC548 \uD574\uB3C4 \uB3FC\uC694."
+      thanks:
+      - "\uAC10\uC0AC\uD569\uB2C8\uB2E4! \uC548\uB155\uD788 \uAC00\uC138\uC694."
+      - "\uC801\uB9BD\uD558\uC2DC\uACA0\uC5B4\uC694? \u2026\uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+      - "\uC88B\uC740 \uD558\uB8E8 \uB418\uC138\uC694!"
+      wrongPayment:
+      - "\uC557, \uC190\uB2D8\uC774 \uB9D0\uD55C \uACB0\uC81C \uBC29\uBC95\uC774
+        \uC544\uB2C8\uC5D0\uC694."
+      - "\uACB0\uC81C \uBC29\uBC95\uC744 \uB2E4\uC2DC \uD655\uC778\uD574 \uC8FC\uC138\uC694."
+      wrongChange:
+      - "\uAC70\uC2A4\uB984\uB3C8\uC774 \uB9DE\uC9C0 \uC54A\uC544\uC694."
+      - "\uB2E4\uC2DC \uACC4\uC0B0\uD574 \uBCFC\uAE4C\uC694?"
+      customerLeft:
+      - "\uC190\uB2D8\uC774 \uAE30\uB2E4\uB9AC\uB2E4 \uB3CC\uC544\uAC14\uC5B4\uC694\u2026"
+      - "\uC557, \uB108\uBB34 \uC624\uB798 \uAC78\uB838\uB098 \uBD10\uC694."
+  cutscenes:
+    settings:
+      charsPerSecond: 28
+      cameraZoomPerSecond: 0.004
+    defaultScene:
+      id: CS_default_sleep
+      title: "\uC624\uB298\uB3C4 \uC218\uACE0\uD588\uC5B4"
+      category: "\uAE30\uD0C0"
+      priority: 0
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: 
+      conditionText: 
+      conditions:
+        mode: 0
+        items: []
+      lines:
+      - speaker: "\uC11C\uD558"
+        text: "\uC54C\uB78C \uB9DE\uCDC4\uACE0\u2026 \uB0B4\uC77C \uADFC\uBB34\uBCF5\uB3C4
+          \uAEBC\uB0B4 \uB480\uACE0."
+        expression: tired
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC798 \uC790, \uB098."
+        expression: normal
+        image: {fileID: 0}
+    scenes:
+    - id: CS_first_profit
+      title: "\uC624\uB298 \uB514\uC800\uD2B8\uB294 \uB450 \uAC1C"
+      category: "\uC131\uACF5"
+      priority: 30
+      repeatable: 0
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uCC98\uC74C\uC73C\uB85C \uC6C3\uC73C\uBA70 \uB05D\uB09C \uBC24"
+      conditionText: "\uAC70\uB798\uAC00 \uC788\uC5C8\uB358 \uBC24\uC5D0 \uC77C\uC77C
+        \uC2E4\uD604 \uC21C\uC190\uC775\uC774 \uCC98\uC74C\uC73C\uB85C \uD50C\uB7EC\uC2A4"
+      conditions:
+        mode: 0
+        items:
+        - stat: trades_today
+          op: 0
+          value: 1
+        - stat: realized_today
+          op: 1
+          value: 0
+      lines:
+      - speaker: "\uC11C\uD558"
+        text: "\uC624\uB298 \uC2E4\uD604 \uC190\uC775\u2026 \uD50C\uB7EC\uC2A4. \uC218\uC218\uB8CC\uAE4C\uC9C0
+          \uBE7C\uACE0\uB3C4."
+        expression: surprised
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uD3B8\uC758\uC810 \uB514\uC800\uD2B8 \uC9C4\uC5F4\uB300 \uC55E. \uC11C\uD558\uB294
+          \uB538\uAE30 \uB864\uCF00\uC774\uD06C\uC640 \uD478\uB529\uC744 \uBC88\uAC08\uC544
+          \uB4E0\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\u2026\uC624\uB298\uC740 \uB450 \uAC1C. \uB531 \uC624\uB298\uB9CC."
+        expression: happy
+        image: {fileID: 0}
+    - id: CS_big_win
+      title: "\uD45C\uC815 \uAD00\uB9AC \uC2E4\uD328"
+      category: "\uC131\uACF5"
+      priority: 50
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uCE68\uCC29\uD55C \uCC99\uC774 \uC5B4\uB824\uC6B4 \uBC24"
+      conditionText: "\uD558\uB8E8 \uC2E4\uD604 \uC21C\uC774\uC775 50,000\uC6D0 \uC774\uC0C1\uC774\uBA74\uC11C
+        \uAC70\uB798 \uC2DC\uC791 \uC790\uAE08 \uB300\uBE44 10% \uC774\uC0C1"
+      conditions:
+        mode: 0
+        items:
+        - stat: realized_today
+          op: 0
+          value: 50000
+        - stat: return_today
+          op: 0
+          value: 0.1
+      lines:
+      - speaker: "\uC11C\uD558"
+        text: "\uC74C. \uAD1C\uCC2E\uB124. \uACC4\uD68D\uB300\uB85C\uC600\uC5B4."
+        expression: focus
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uB178\uD2B8\uBD81\uC744 \uB36E\uACE0 \uCE68\uB300\uB85C \uBAB8\uC744
+          \uB358\uC9C4\uB2E4. \uBCA0\uAC1C\uC5D0 \uC5BC\uAD74\uC744 \uBB3B\uACE0
+          \uBC1C\uC744 \uB3D9\uB3D9."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\u2026\uACC4\uD68D\uB300\uB85C\uC600\uB2E4\uB2C8\uAE4C!"
+        expression: happy
+        image: {fileID: 0}
+    - id: CS_confidence
+      title: "\uC870\uAE08\uC529 \uC313\uC778 \uC790\uC2E0\uAC10"
+      category: "\uC131\uACF5"
+      priority: 45
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uAC70\uB798\uD55C \uBC24\uC774 \uC5EC\uB7EC \uBC88 \uC774\uC5B4\uC9C0\uBA74"
+      conditionText: "\uAC70\uB798\uAC00 \uC788\uC5C8\uB358 \uBC24\uC5D0 3\uBC88
+        \uC5F0\uC18D \uC2E4\uD604 \uC21C\uC774\uC775"
+      conditions:
+        mode: 0
+        items:
+        - stat: consecutive_profit_nights
+          op: 0
+          value: 3
+      lines:
+      - speaker: 
+        text: "\uB9E4\uC77C \uC801\uB358 \uAC00\uACC4\uBD80. \uCD5C\uADFC \uCE78\uC5D0\uB294
+          \uC791\uC740 \uD50C\uB7EC\uC2A4\uAC00 \uC774\uC5B4\uC838 \uC788\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC6B4\uC774\uC5C8\uC744 \uC218\uB3C4 \uC788\uC5B4. \uADF8\uB798\uB3C4
+          \uB0B4\uAC00 \uACE0\uB978 \uAC70\uC57C."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_nobody_believed
+      title: "\uC544\uBB34\uB3C4 \uC548 \uBBFF\uB358 \uAE00"
+      category: "\uC815\uBCF4"
+      priority: 55
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uBB3B\uD600 \uC788\uB358 \uAE00\uC744 \uB2E4\uC2DC \uCC3E\uC544\uBCF4\uAC8C
+        \uB418\uB294 \uBC24"
+      conditionText: "\uAD00\uB828 \uC18C\uBB38\uC744 \uC77D\uACE0 \uACF5\uC2DD \uD655\uC778
+        \uC804\uC5D0 \uB9E4\uC218, \uAC19\uC740 \uC0AC\uAC74\uC758 \uD638\uC7AC \uD655\uC778
+        \uB4A4 10,000\uC6D0 \uC774\uC0C1 \uC774\uC775 \uC2E4\uD604"
+      conditions:
+        mode: 0
+        items:
+        - stat: rumor_early_profit_today
+          op: 0
+          value: 10000
+      lines:
+      - speaker: 
+        text: "\uCD94\uCC9C 0, \uB313\uAE00 \uD558\uB098. \uC11C\uD558\uB294 \uC624\uB798\uC804
+          \uAE00\uC744 \uB2E4\uC2DC \uC5F4\uC5B4 \uBCF8\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC774 \uAE00 \uC4F4 \uC0AC\uB78C\uB3C4 \uC9C0\uAE08 \uC6C3\uACE0
+          \uC788\uC73C\uB824\uB098."
+        expression: happy
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\u2026\uB2E4\uC74C\uC5D4 \uC774\uB807\uAC8C \uC6B4 \uC88B\uC9C0 \uC54A\uC744
+          \uC218\uB3C4 \uC788\uC9C0\uB9CC."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_so_many_likes
+      title: "\uCD94\uCC9C\uC740 \uB9CE\uC558\uB294\uB370"
+      category: "\uC815\uBCF4"
+      priority: 52
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uCD94\uCC9C \uC218\uB97C \uB2E4\uC2DC \uC138\uC5B4 \uBCF4\uB294 \uBC24"
+      conditionText: "\uAD00\uB828 \uC18C\uBB38\uC744 \uC77D\uACE0 \uACF5\uC2DD \uBC1C\uD45C
+        \uC804\uC5D0 \uB9E4\uC218, \uAC19\uC740 \uC0AC\uAC74\uC774 \uC545\uC7AC\uB85C
+        \uD655\uC778\uB41C \uB4A4 10,000\uC6D0 \uC774\uC0C1 \uC190\uC2E4 \uD655\uC815"
+      conditions:
+        mode: 0
+        items:
+        - stat: false_rumor_loss_today
+          op: 0
+          value: 10000
+      lines:
+      - speaker: 
+        text: "\uC778\uAE30\uAE00 \uD45C\uC2DC\uAC00 \uBD99\uC5B4 \uC788\uB358 \uAE00.
+          \uCD94\uCC9C \uC218\uB294 \uADF8\uB300\uB85C\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC22B\uC790\uAC00 \uB9CE\uB2E4\uACE0 \uB9DE\uB294 \uAC74 \uC544\uB2C8\uC5C8\uB124."
+        expression: sad
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC11C\uD558\uB294 \uC870\uC6A9\uD788 \uBE0C\uB77C\uC6B0\uC800 \uD0ED\uC744
+          \uB2EB\uB294\uB2E4."
+        expression: 
+        image: {fileID: 0}
+    - id: CS_news_was_true
+      title: "\uAE30\uC0AC\uB294 \uC9C4\uC9DC\uC600\uC796\uC544"
+      category: "\uC815\uBCF4"
+      priority: 48
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC0AC\uC2E4\uACFC \uAC00\uACA9 \uC0AC\uC774\uC5D0\uC11C"
+      conditionText: "\uD655\uC778\uB41C \uD638\uC7AC \uB274\uC2A4\uB97C \uC77D\uC740
+        \uB4A4 \uC9C4\uC785\uD588\uC9C0\uB9CC \uADF8 \uC885\uBAA9\uC5D0\uC11C 5,000\uC6D0
+        \uC774\uC0C1 \uC190\uC2E4 \uD655\uC815"
+      conditions:
+        mode: 0
+        items:
+        - stat: news_chase_loss_today
+          op: 0
+          value: 5000
+      lines:
+      - speaker: "\uC11C\uD558"
+        text: "\uAE30\uC0AC\uB294 \uB9DE\uC558\uB294\uB370."
+        expression: sad
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uAE30\uC0AC \uAC8C\uC2DC \uC2DC\uAC01\uACFC \uCC28\uD2B8\uB97C \uBC88\uAC08\uC544
+          \uBCF8\uB2E4. \uADF8 \uC804\uC5D0 \uC774\uBBF8 \uC62C\uB77C \uC788\uB358
+          \uCE94\uB4E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uB0B4\uAC00 \uC0B0 \uAC00\uACA9\uC740\u2026\u2026."
+        expression: tired
+        image: {fileID: 0}
+    - id: CS_first_loan
+      title: "\uBE4C\uB9B0 \uB3C8\uC758 \uBB34\uAC8C"
+      category: "\uB300\uCD9C"
+      priority: 40
+      repeatable: 0
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uD3C9\uC18C\uBCF4\uB2E4 \uC8FC\uBB38 \uBC84\uD2BC\uC774 \uBB34\uAC70\uC6B4
+        \uBC24"
+      conditionText: "\uCC98\uC74C \uB300\uCD9C\uC744 \uBC1B\uC740 \uB0A0 \uD55C
+        \uBC88 \uC774\uC0C1 \uCCB4\uACB0"
+      conditions:
+        mode: 0
+        items:
+        - stat: took_loan_today
+          op: 4
+          value: 1
+        - stat: trades_today
+          op: 0
+          value: 1
+      lines:
+      - speaker: 
+        text: "\uD3C9\uC18C\uB77C\uBA74 \uC544\uBB34\uB807\uC9C0 \uC54A\uAC8C \uB20C\uB800\uC744
+          \uAE08\uC561. \uCEE4\uC11C\uAC00 \uB9E4\uC218 \uBC84\uD2BC \uC704\uC5D0\uC11C
+          \uBA48\uCD98\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC774\uAC74 \uB0B4 \uB3C8\uC774 \uC544\uB2C8\uC57C. \uAC1A\uC544\uC57C
+          \uD558\uB294 \uB3C8\uC774\uC57C."
+        expression: focus
+        image: {fileID: 0}
+    - id: CS_loan_cleared
+      title: "\uB0B4 \uB3C8\uC73C\uB85C \uB3CC\uC544\uC628 \uBC24"
+      category: "\uB300\uCD9C"
+      priority: 60
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uB0A8\uC544 \uC788\uB358 \uC22B\uC790\uAC00 0\uC774 \uB418\uB294 \uBC24"
+      conditionText: "\uC774\uC804 \uB0A0\uC9DC\uBD80\uD130 \uB0A8\uC544 \uC788\uB358
+        \uCD94\uAC00 \uB300\uCD9C\uACFC \uC774\uC790\uB97C \uC804\uC561 \uC0C1\uD658"
+      conditions:
+        mode: 0
+        items:
+        - stat: loan_cleared_today
+          op: 4
+          value: 1
+      lines:
+      - speaker: 
+        text: "\uC0C1\uD658 \uC644\uB8CC. \uC11C\uD558\uB294 \uD654\uBA74\uC744 \uD55C\uCC38
+          \uBCF8\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC624\uB298\uC740 \uD3B8\uC758\uC810 \uD478\uB529. \uB0B4 \uB3C8\uC73C\uB85C."
+        expression: happy
+        image: {fileID: 0}
+    - id: CS_first_repay
+      title: "\uC904\uC5B4\uB4E0 \uC22B\uC790"
+      category: "\uBD80\uCC44"
+      priority: 32
+      repeatable: 0
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC544\uC8FC \uC870\uAE08\uC774\uB77C\uB3C4"
+      conditionText: "\uC2DC\uC791 \uBD80\uCC44\uB97C \uCC98\uC74C\uC73C\uB85C \uC0C1\uD658"
+      conditions:
+        mode: 0
+        items:
+        - stat: repaid_starting_debt_today
+          op: 1
+          value: 0
+      lines:
+      - speaker: 
+        text: "\uC0C1\uD658 \uC548\uB0B4\uC11C\uC758 \uC22B\uC790\uAC00 \uC544\uC8FC
+          \uC870\uAE08 \uBC14\uB00C\uC5C8\uB2E4. \uB05D\uC790\uB9AC \uBA87 \uAC1C."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uD2F0\uB3C4 \uC548 \uB098\uB124. \u2026\uADF8\uB798\uB3C4 \uC904\uC5C8\uC5B4."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_still_working
+      title: "\uB0B4\uC77C\uB3C4 \uCD9C\uADFC"
+      category: "\uC0DD\uD65C"
+      priority: 35
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC54C\uB78C\uC744 \uD55C \uBC88 \uB354 \uD655\uC778\uD558\uB294 \uBC24"
+      conditionText: "\uAC70\uB798 \uC885\uB8CC \uC2DC \uD22C\uC790 \uAC00\uB2A5
+        \uC790\uC0B0 50,000\uC6D0 \uC774\uD558\uC774\uACE0 \uCD94\uAC00 \uB300\uCD9C\uC774
+        \uB0A8\uC544 \uC788\uC74C"
+      conditions:
+        mode: 0
+        items:
+        - stat: investable_assets
+          op: 2
+          value: 50000
+        - stat: loan_balance
+          op: 1
+          value: 0
+      lines:
+      - speaker: 
+        text: "\uC637\uAC78\uC774\uC758 \uD3B8\uC758\uC810 \uADFC\uBB34\uBCF5\uC744
+          \uAEBC\uB0B4 \uC758\uC790\uC5D0 \uAC78\uC5B4 \uB454\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC54C\uB78C \uB450 \uAC1C. \uC9C0\uAC01\uD558\uBA74 \uC548 \uB418\uB2C8\uAE4C."
+        expression: tired
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uB0B4\uC77C\uB3C4 \uB2E4\uB140\uC62C\uAC8C."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_no_trade
+      title: "\uC544\uBB34\uAC83\uB3C4 \uC548 \uD558\uB294 \uC6A9\uAE30"
+      category: "\uC0DD\uD65C"
+      priority: 10
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC9C0\uCF1C\uBCF4\uAE30\uB9CC \uD55C \uBC24"
+      conditionText: "\uAC70\uB798 \uC138\uC158\uC744 120\uBD84 \uC774\uC0C1 \uC9C0\uCF1C\uBCF4\uACE0
+        \uD55C \uBC88\uB3C4 \uB9E4\uB9E4\uD558\uC9C0 \uC54A\uC74C"
+      conditions:
+        mode: 0
+        items:
+        - stat: trades_today
+          op: 4
+          value: 0
+        - stat: session_ticks_watched
+          op: 0
+          value: 120
+      lines:
+      - speaker: 
+        text: "\uC8FC\uBB38\uCC3D\uC744 \uB2EB\uACE0 \uB530\uB73B\uD55C \uBCF4\uB9AC\uCC28\uB97C
+          \uB530\uB978\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC548 \uC0C0\uB2E4\uACE0 \uC9C4 \uAC74 \uC544\uB2C8\uC9C0."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_dozed
+      title: "\uCC28\uD2B8\uBCF4\uB2E4 \uBA3C\uC800 \uC878\uC558\uB2E4"
+      category: "\uCEE8\uB514\uC158"
+      priority: 25
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uB208\uAEBC\uD480\uC774 \uBB34\uAC70\uC6B4 \uBC24"
+      conditionText: "\uCEE8\uB514\uC158 20 \uBBF8\uB9CC \uC0C1\uD0DC\uB85C \uAC70\uB798\uB97C
+        \uB9C8\uCE68"
+      conditions:
+        mode: 0
+        items:
+        - stat: condition
+          op: 3
+          value: 20
+      lines:
+      - speaker: 
+        text: "\uBAA8\uB2C8\uD130 \uBD88\uBE5B \uC544\uB798, \uC11C\uD558\uAC00 \uCC45\uC0C1\uC5D0
+          \uC5CE\uB4DC\uB824 \uC788\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uD55C \uBC88\uB9CC\u2026 \uB354 \uBCF4\uACE0\u2026 \uC790\uC790\u2026"
+        expression: tired
+        image: {fileID: 0}
+    - id: CS_warm_meal
+      title: "\uC218\uC775\uBCF4\uB2E4 \uB530\uB73B\uD55C \uD55C \uB07C"
+      category: "\uCEE8\uB514\uC158"
+      priority: 28
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC18D\uC0C1\uD55C \uB0A0\uC758 \uBC25"
+      conditionText: "\uC190\uC2E4\uC774 \uB09C \uBC24\uC5D0 \uC2DD\uC0AC\uB85C \uCEE8\uB514\uC158\uC744
+        \uD68C\uBCF5"
+      conditions:
+        mode: 0
+        items:
+        - stat: meal_used_today
+          op: 0
+          value: 1
+        - stat: realized_today
+          op: 3
+          value: 0
+      lines:
+      - speaker: 
+        text: "\uAE40\uC774 \uC624\uB974\uB294 \uAD6D\uBB3C. \uC21F\uAC00\uB77D\uC744
+          \uB4E0 \uC190\uC774 \uC7A0\uAE50 \uBA48\uCD98\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uADF8\uB798\uB3C4 \uBC25\uC740 \uB9DB\uC788\uB2E4."
+        expression: normal
+        image: {fileID: 0}
+    - id: CS_enough_today
+      title: "\uC624\uB298\uC740 \uC5EC\uAE30\uAE4C\uC9C0"
+      category: "\uCEE8\uB514\uC158"
+      priority: 20
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC2A4\uC2A4\uB85C \uBA48\uCD98 \uBC24"
+      conditionText: "\uD53C\uACE4\uD55C \uC0C1\uD0DC(\uCEE8\uB514\uC158 45 \uBBF8\uB9CC)\uC5D0\uC11C
+        \uC7A5 \uB9C8\uAC10 \uC804\uC5D0 \uAC70\uB798\uB97C \uB9C8\uCE68"
+      conditions:
+        mode: 0
+        items:
+        - stat: ended_early
+          op: 4
+          value: 1
+        - stat: condition
+          op: 3
+          value: 45
+      lines:
+      - speaker: "\uC11C\uD558"
+        text: "\uB354 \uBCF4\uBA74 \uB354 \uC774\uC0C1\uD55C \uAC78 \uC0B4 \uAC83
+          \uAC19\uC544."
+        expression: tired
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uB178\uD2B8\uBD81\uC744 \uB36E\uB294\uB2E4. \uC624\uB298\uC740 \uC5EC\uAE30\uAE4C\uC9C0."
+        expression: 
+        image: {fileID: 0}
+    - id: CS_next_home
+      title: "\uB2E4\uC74C \uC9D1\uC5D0\uC11C\uB294"
+      category: "\uC0DD\uD65C"
+      priority: 58
+      repeatable: 0
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC9D1 \uC0AC\uC9C4 \uB300\uC2E0 \uACC4\uD68D\uC744 \uC801\uB294 \uBC24"
+      conditionText: "\uBC24 \uC885\uB8CC \uC2DC \uC2DC\uC791 \uBD80\uCC44\uB97C
+        \uC81C\uC678\uD55C \uC21C\uC790\uAE08 3,000,000\uC6D0 \uC774\uC0C1 (\uC774\uC0AC
+        \uBAA9\uD45C \uC784\uC2DC\uAC12)"
+      conditions:
+        mode: 0
+        items:
+        - stat: net_financial_assets_excluding_starting_debt
+          op: 0
+          value: 3000000
+      lines:
+      - speaker: 
+        text: "\uB298 \uC800\uC7A5\uB9CC \uD558\uB358 \uBC29 \uC0AC\uC9C4\uB4E4.
+          \uC624\uB298\uC740 \uBA54\uBAA8\uC7A5\uC744 \uC5F0\uB2E4."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uBCF4\uC99D\uAE08, \uC774\uC0AC \uB0A0\uC9DC, \uCC3D\uBB38 \uBC29\uD5A5\u2026
+          \uC9C4\uC9DC\uB85C \uC801\uC5B4 \uBCFC\uAE4C."
+        expression: happy
+        image: {fileID: 0}
+    - id: CS_liquidation
+      title: "\uD654\uBA74\uC740 \uAEBC\uB3C4 \uD604\uC2E4\uC740 \uB0A8\uB294\uB2E4"
+      category: "\uC120\uBB3C"
+      priority: 70
+      repeatable: 1
+      enabled: 0
+      countsForCollection: 0
+      secret: 0
+      image: {fileID: 0}
+      hint: "\uC120\uBB3C \uAC70\uB798 \uB3C4\uC785 \uD6C4"
+      conditionText: "\uCCAB \uC120\uBB3C \uAC15\uC81C \uCCAD\uC0B0 (\uC120\uBB3C
+        \uC2DC\uC2A4\uD15C \uB3C4\uC785 \uC804\uC774\uB77C \uBE44\uD65C\uC131)"
+      conditions:
+        mode: 0
+        items:
+        - stat: forced_liquidations_today
+          op: 0
+          value: 1
+      lines:
+      - speaker: 
+        text: "\uB178\uD2B8\uBD81\uC744 \uCC9C\uCC9C\uD788 \uB2EB\uC558\uB2E4\uAC00,
+          \uB2E4\uC2DC \uC5F0\uB2E4. \uC794\uC561\uC740 \uADF8\uB300\uB85C\uB2E4."
+        expression: 
+        image: {fileID: 0}
+  dialogue:
+    settings:
+      bubbleSeconds: 3.5
+      minIntervalSeconds: 5
+      priorityTriggers:
+      - condition_blink_warning
+      - condition_empty
+      - loan_taken
+      - loan_cleared
+      - session_end
+      - sell_big_profit
+      - sell_big_loss
+    expressions:
+    - key: normal
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    - key: happy
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    - key: sad
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    - key: surprised
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    - key: tired
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    - key: focus
+      portrait: {fileID: 0}
+      standing: {fileID: 0}
+    thresholds:
+      bigProfit: 50000
+      bigLoss: 50000
+    reactions:
+    - key: morning
+      lines:
+      - speaker: 
+        text: "\uC88B\uC740 \uC544\uCE68. \uC624\uB298\uB3C4 \uCD9C\uADFC."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC54C\uB78C \uB450 \uBC88 \uB9CC\uC5D0 \uC77C\uC5B4\uB0AC\uC5B4.
+          \uC7A5\uD558\uB2E4, \uB098."
+        expression: happy
+        image: {fileID: 0}
+    - key: job_start
+      lines:
+      - speaker: 
+        text: "\uC5B4\uC11C \uC624\uC138\uC694! \u2026\uC624\uB298\uB3C4 \uC798 \uD574
+          \uBCF4\uC790."
+        expression: happy
+        image: {fileID: 0}
+    - key: job_end
+      lines:
+      - speaker: 
+        text: "\uC624\uB298 \uBAAB\uC740 \uD588\uC5B4."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uD1F4\uADFC! \uC774\uAC74 \uB0B4\uAC00 \uC77C\uD574\uC11C \uBC88
+          \uB3C8."
+        expression: happy
+        image: {fileID: 0}
+    - key: buy
+      lines:
+      - speaker: 
+        text: "\uC0C0\uB2E4. \uC774\uC81C \uC22B\uC790\uAC00 \uC544\uB2C8\uB77C \uB0B4
+          \uB3C8\uC774\uC57C."
+        expression: focus
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uCCB4\uACB0 \uD655\uC778."
+        expression: focus
+        image: {fileID: 0}
+      - speaker: 
+        text: "\u2026\uB450 \uC2DC\uAC04 \uC77C\uD55C \uB3C8\uC774\uB124, \uC774\uAC70."
+        expression: normal
+        image: {fileID: 0}
+    - key: buy_with_loan
+      lines:
+      - speaker: 
+        text: "\uBE4C\uB9B0 \uB3C8\uC774 \uC11E\uC5EC \uC788\uB2E4\uB294 \uAC70,
+          \uC78A\uC9C0 \uB9D0\uC790."
+        expression: focus
+        image: {fileID: 0}
+    - key: sell_profit
+      lines:
+      - speaker: 
+        text: "\uC624\uB298 \uB514\uC800\uD2B8 \uAC12 \uD655\uBCF4."
+        expression: happy
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC791\uC544\uB3C4 \uC774\uC775\uC740 \uC774\uC775."
+        expression: happy
+        image: {fileID: 0}
+    - key: sell_big_profit
+      lines:
+      - speaker: 
+        text: "\uCE68\uCC29\uD558\uC790. \u2026\uCE68\uCC29\uD558\uC790\uACE0."
+        expression: surprised
+        image: {fileID: 0}
+    - key: sell_loss
+      lines:
+      - speaker: 
+        text: "\u2026\uC54C\uBC14 \uD55C \uC2DC\uAC04\uC5B4\uCE58."
+        expression: sad
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uAD1C\uCC2E\uC544. \uAE30\uB85D\uD574 \uB450\uC790."
+        expression: normal
+        image: {fileID: 0}
+    - key: sell_big_loss
+      lines:
+      - speaker: 
+        text: "\uB0B4\uC77C \uC54C\uBC14\uB294 \uC9C0\uAC01\uD558\uBA74 \uC548 \uB418\uACA0\uB2E4."
+        expression: sad
+        image: {fileID: 0}
+    - key: sell_flat
+      lines:
+      - speaker: 
+        text: "\uBCF8\uC804. \uC218\uC218\uB8CC\uB9CC \uB0C8\uB124."
+        expression: normal
+        image: {fileID: 0}
+    - key: loan_taken
+      lines:
+      - speaker: 
+        text: "\uBE4C\uB9B0 \uB3C8\uC740 \uAC1A\uC544\uC57C \uD558\uB294 \uB3C8.
+          \uC54C\uACE0 \uC788\uC5B4."
+        expression: focus
+        image: {fileID: 0}
+    - key: repay
+      lines:
+      - speaker: 
+        text: "\uC870\uAE08 \uAC1A\uC558\uB2E4."
+        expression: normal
+        image: {fileID: 0}
+    - key: loan_cleared
+      lines:
+      - speaker: 
+        text: "\uB2E4 \uAC1A\uC558\uB2E4\u2026!"
+        expression: happy
+        image: {fileID: 0}
+    - key: repay_starting_debt
+      lines:
+      - speaker: 
+        text: "\uB05D\uC790\uB9AC\uAC00 \uC870\uAE08 \uBC14\uB00C\uC5C8\uC5B4."
+        expression: normal
+        image: {fileID: 0}
+    - key: condition_tired
+      lines:
+      - speaker: 
+        text: "\uD558\uC554\u2026 \uC2AC\uC2AC \uD53C\uACE4\uD558\uB2E4."
+        expression: tired
+        image: {fileID: 0}
+    - key: condition_down
+      lines:
+      - speaker: 
+        text: "\uB208\uC774 \uBED1\uBED1\uD574."
+        expression: tired
+        image: {fileID: 0}
+    - key: condition_blink_warning
+      lines:
+      - speaker: 
+        text: "\uC878\uC74C \uB54C\uBB38\uC5D0 \uCC28\uD2B8\uB97C \uC7A0\uAE50 \uB193\uCE60
+          \uC218 \uC788\uC5B4."
+        expression: tired
+        image: {fileID: 0}
+    - key: condition_empty
+      lines:
+      - speaker: 
+        text: "\uB354\uB294\u2026 \uBABB \uBCF4\uACA0\uC5B4."
+        expression: tired
+        image: {fileID: 0}
+    - key: use_snack
+      lines:
+      - speaker: 
+        text: "\uB2F9 \uCDA9\uC804."
+        expression: happy
+        image: {fileID: 0}
+    - key: use_meal
+      lines:
+      - speaker: 
+        text: "\uBC25\uC740 \uC81C\uB300\uB85C \uBA39\uC790."
+        expression: normal
+        image: {fileID: 0}
+    - key: use_energy_drink
+      lines:
+      - speaker: 
+        text: "\uC774\uAC78\uB85C \uC870\uAE08\uB9CC \uB354 \uBC84\uD2F0\uC790."
+        expression: focus
+        image: {fileID: 0}
+    - key: session_end
+      lines:
+      - speaker: 
+        text: "\uC7A5 \uB9C8\uAC10. \uC624\uB298\uC740 \uC5EC\uAE30\uAE4C\uC9C0."
+        expression: normal
+        image: {fileID: 0}
+    - key: settle_profit
+      lines:
+      - speaker: 
+        text: "\uC624\uB298\uC740 \uC6C3\uC73C\uBA74\uC11C \uC798 \uC218 \uC788\uACA0\uB2E4."
+        expression: happy
+        image: {fileID: 0}
+    - key: settle_loss
+      lines:
+      - speaker: 
+        text: "\uC624\uB298\uC740 \uC774\uB7AC\uB124. \uB0B4\uC77C\uC740 \uB0B4\uC77C."
+        expression: sad
+        image: {fileID: 0}
+    - key: settle_flat
+      lines:
+      - speaker: 
+        text: "\uC81C\uC790\uB9AC. \uADF8\uAC83\uB3C4 \uB098\uC058\uC9C0 \uC54A\uC544."
+        expression: normal
+        image: {fileID: 0}
+    - key: settle_no_trade
+      lines:
+      - speaker: 
+        text: "\uC624\uB298\uC740 \uC9C0\uCF1C\uB9CC \uBD24\uC5B4."
+        expression: normal
+        image: {fileID: 0}
+    - key: buy_furniture
+      lines:
+      - speaker: 
+        text: "\uCC28\uD2B8\uB294 \uADF8\uB300\uB85C\uC778\uB370 \uD5C8\uB9AC\uB294
+          \uD589\uBCF5\uD558\uB124."
+        expression: happy
+        image: {fileID: 0}
+    tutorial:
+    - key: stock
+      lines:
+      - speaker: 
+        text: "\uC99D\uAD8C \uC571\uC774\uC57C. \uC67C\uCABD\uC740 \uAD00\uC2EC \uC885\uBAA9,
+          \uAC00\uC6B4\uB370\uB294 \uCE94\uB4E4 \uCC28\uD2B8, \uC544\uB798 \uB9C9\uB300\uB294
+          \uAC70\uB798\uB7C9\uC774\uC57C."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uBE68\uAC04 \uBD09\uC740 \uADF8 \uC2DC\uAC04\uC5D0 \uC62C\uB790\uACE0
+          \uD30C\uB780 \uBD09\uC740 \uB0B4\uB838\uB2E4\uB294 \uB73B\uC774\uC57C.
+          \uAE30\uD638(\u25B2\u25BC)\uB3C4 \uAC19\uC774 \uBCF4\uC5EC \uC904\uAC8C."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC624\uB978\uCABD\uC5D0\uC11C \uC218\uB7C9\uC744 \uC815\uD558\uACE0
+          \uC2DC\uC7A5\uAC00\uB85C \uC0AC\uACE0\uD314 \uC218 \uC788\uC5B4. \uC8FC\uBB38
+          \uC804 \uAE08\uC561\uACFC \uC218\uC218\uB8CC\uAC00 \uAC19\uC774 \uBCF4\uC5EC."
+        expression: focus
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC774 \uCC3D\uC774 \uC55E\uC5D0 \uC788\uC744 \uB54C\uB9CC \uC2DC\uC7A5
+          \uC2DC\uAC04\uC774 \uD758\uB7EC. \uBE0C\uB77C\uC6B0\uC800\uB098 \uBA54\uB274\uB97C
+          \uC5F4\uBA74 \uBAA8\uB4E0 \uC885\uBAA9\uC774 \uD568\uAED8 \uBA48\uCDB0."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uC5B4\uB5A4 \uCC28\uD2B8 \uBAA8\uC591\uB3C4 \uC218\uC775\uC744 \uBCF4\uC7A5\uD558\uC9C4
+          \uC54A\uC544. \uD310\uB2E8\uC740 \uB124 \uBAAB\uC774\uC57C."
+        expression: focus
+        image: {fileID: 0}
+    - key: browser
+      lines:
+      - speaker: 
+        text: "\uB274\uC2A4 \uC0AC\uC774\uD2B8\uC640 \uCEE4\uBBA4\uB2C8\uD2F0 \uC0AC\uC774\uD2B8\uAC00
+          \uC788\uC5B4. \uB458 \uB2E4 \uAC8C\uC784 \uC18D \uAC00\uC0C1 \uC0AC\uC774\uD2B8\uC57C."
+        expression: normal
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uB274\uC2A4\uB294 \uD655\uC778\uB41C \uC0AC\uC2E4\uC774\uC9C0\uB9CC,
+          \uAC00\uACA9\uC5D4 \uC774\uBBF8 \uBC18\uC601\uB410\uC744 \uC218\uB3C4 \uC788\uC5B4.
+          \uAE30\uC0AC \uC2DC\uAC01\uACFC \uCC28\uD2B8\uB97C \uAC19\uC774 \uBD10."
+        expression: focus
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uCEE4\uBBA4\uB2C8\uD2F0 \uAE00\uC740 \uBE60\uB974\uC9C0\uB9CC \uD2C0\uB9B4
+          \uC218 \uC788\uC5B4. \uCD94\uCC9C \uC218\uB098 \uB9D0\uD22C\uAC00 \uC9C4\uC2E4\uC744
+          \uC54C\uB824 \uC8FC\uC9C4 \uC54A\uC544."
+        expression: normal
+        image: {fileID: 0}
+    intro:
+      id: INTRO
+      title: "\uB0B4\uC77C\uB3C4, \uB2E4\uB140\uC624\uACA0\uC2B5\uB2C8\uB2E4"
+      category: "\uAE30\uD0C0"
+      priority: 0
+      repeatable: 1
+      enabled: 1
+      countsForCollection: 1
+      secret: 0
+      image: {fileID: 0}
+      hint: 
+      conditionText: 
+      conditions:
+        mode: 0
+        items: []
+      lines:
+      - speaker: 
+        text: "\uC0C8\uBCBD \uC54C\uB78C. \uC791\uC740 \uBC29, \uC791\uC740 \uB0C9\uC7A5\uACE0,
+          \uC758\uC790\uC5D0 \uAC78\uB9B0 \uD3B8\uC758\uC810 \uADFC\uBB34\uBCF5."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\u2026\uC77C\uC5B4\uB098\uC790."
+        expression: tired
+        image: {fileID: 0}
+      - speaker: 
+        text: "\uCC45\uC0C1 \uC704 \uC0C1\uD658 \uC548\uB0B4\uC11C. \uB0A8\uC740
+          \uAE08\uC561 1,000,000,000\uC6D0."
+        expression: 
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\uC624\uB298\uB3C4 \uBD84\uBA85 \uC77C\uD560 \uAC74\uB370. \uC65C
+          \uD558\uB098\uB3C4 \uAC00\uAE4C\uC6CC\uC9C0\uB294 \uAC83 \uAC19\uC9C0\uAC00
+          \uC54A\uC9C0."
+        expression: sad
+        image: {fileID: 0}
+      - speaker: "\uC11C\uD558"
+        text: "\u2026\uC77C\uB2E8 \uCD9C\uADFC. \uBC24\uC5D0\uB294 \uADF8 \uC571,
+          \uD55C\uBC88 \uC5F4\uC5B4 \uBCF4\uC790."
+        expression: normal
+        image: {fileID: 0}
+    system:
+      marketNote: "\uBAA8\uB4E0 \uC885\uBAA9\uC758 \uC2DC\uC7A5 \uC2DC\uAC04\uC774
+        \uD568\uAED8 \uD750\uB985\uB2C8\uB2E4. \uB2E4\uB978 \uC571\uC774\uB098 \uBA54\uB274\uB97C
+        \uC5F4\uBA74 \uC2DC\uC7A5\uC774 \uBA48\uCDA5\uB2C8\uB2E4. (Space: \uC77C\uC2DC\uC815\uC9C0)"
+      blinkWarning: "\uC878\uC74C \uB2E8\uACC4: \uAC00\uB054 \uB208\uC774 \uAC10\uACA8
+        \uCC28\uD2B8\uB97C \uC7A0\uAE50 \uB193\uCE60 \uC218 \uC788\uC5B4\uC694. \uC8FC\uBB38\xB7\uD604\uAE08\xB7\uD604\uC7AC\uAC00\uB294
+        \uADF8\uB300\uB85C\uC785\uB2C8\uB2E4."
+      browserHint: "\uB274\uC2A4\uB294 \uD655\uC778\uB41C \uC0AC\uC2E4\uC774\uC9C0\uB9CC
+        \uAC00\uACA9\uC5D0 \uBA3C\uC800 \uBC18\uC601\uB410\uC744 \uC218 \uC788\uACE0,
+        \uCEE4\uBBA4\uB2C8\uD2F0 \uAE00\uC740 \uBE60\uB974\uC9C0\uB9CC \uD2C0\uB9B4
+        \uC218 \uC788\uC5B4\uC694. \uAC8C\uC2DC \uC2DC\uAC01\uACFC \uCC28\uD2B8\uB97C
+        \uD568\uAED8 \uBCF4\uC138\uC694."
+      startingDebtTitle: "\uBD80\uBAA8\uB2D8\uC774 \uB0A8\uAE34 \uBE5A"
+      startingDebtNote: "\uC2DC\uC791 \uBD80\uCC44\uB294 \uC7A5\uAE30 \uBAA9\uD45C\uC785\uB2C8\uB2E4.
+        \uC2DC\uC81C\uD488\uC5D0\uC11C\uB294 \uC774\uC790\uB098 \uAC15\uC81C \uAE30\uD55C
+        \uC5C6\uC774 \uC6D0\uD560 \uB54C \uC6D0\uAE08\uB9CC \uAC1A\uC744 \uC218 \uC788\uC5B4\uC694."
+      storyPlaceholder: "\uBCF8\uD3B8 \uC7A5\uBA74\uC740 \uC544\uC9C1 \uC791\uC131
+        \uC804\uC785\uB2C8\uB2E4. \uC120\uD0DD\uC740 \uC774\uBC88 \uD68C\uCC28\uC5D0
+        \uAE30\uB85D\uB429\uB2C8\uB2E4."
+  shop:
+    slots:
+    - id: desk
+      name: "\uCC45\uC0C1"
+      showEmpty: 1
+    - id: pc
+      name: "\uCEF4\uD4E8\uD130"
+      showEmpty: 1
+    - id: chair
+      name: "\uC758\uC790"
+      showEmpty: 1
+    - id: light
+      name: "\uC870\uBA85"
+      showEmpty: 0
+    - id: deco
+      name: "\uC18C\uD488"
+      showEmpty: 0
+    startingItems:
+    - desk_old
+    - pc_old_laptop
+    items:
+    - id: desk_old
+      slot: desk
+      name: "\uB0A1\uC740 \uC811\uC774\uC2DD \uCC45\uC0C1"
+      price: 0
+      image: {fileID: 0}
+      description: "\uB2E4\uB9AC\uAC00 \uC870\uAE08 \uD754\uB4E4\uB9AC\uB294 \uCCAB
+        \uCC45\uC0C1."
+      purchaseLine: 
+    - id: desk_wood
+      slot: desk
+      name: "\uC6D0\uBAA9 \uCC45\uC0C1"
+      price: 90000
+      image: {fileID: 0}
+      description: "\uBAA8\uB2C8\uD130\uC640 \uB178\uD2B8\uB97C \uAC19\uC774 \uC62C\uB824\uB3C4
+        \uB109\uB109\uD55C \uCC45\uC0C1."
+      purchaseLine: "\uD754\uB4E4\uB9AC\uC9C0 \uC54A\uB294 \uCC45\uC0C1\uC774\uB77C\uB2C8."
+    - id: desk_l
+      slot: desk
+      name: "\u3131\uC790 \uC791\uC5C5 \uCC45\uC0C1"
+      price: 320000
+      image: {fileID: 0}
+      description: "\uC791\uC5C5 \uACF5\uAC04\uACFC \uC0DD\uD65C \uACF5\uAC04\uC774
+        \uB098\uB258\uB294 \uD070 \uCC45\uC0C1."
+      purchaseLine: "\uC5EC\uAE30\uC11C\uB294 \uC77C\uD558\uACE0, \uC800\uAE30\uC11C\uB294
+        \uC26C\uACE0."
+    - id: pc_old_laptop
+      slot: pc
+      name: "\uC624\uB798\uB41C \uB178\uD2B8\uBD81"
+      price: 0
+      image: {fileID: 0}
+      description: "\uD32C \uC18C\uB9AC\uAC00 \uC870\uAE08 \uD070 \uB178\uD2B8\uBD81."
+      purchaseLine: 
+    - id: pc_monitor
+      slot: pc
+      name: "\uB178\uD2B8\uBD81 + \uBAA8\uB2C8\uD130"
+      price: 150000
+      image: {fileID: 0}
+      description: "\uD654\uBA74\uC774 \uD558\uB098 \uB354. \uC815\uBCF4\uB7C9\uC740
+        \uAC19\uC9C0\uB9CC \uB208\uC774 \uD3B8\uD558\uB2E4."
+      purchaseLine: "\uD654\uBA74\uC774 \uCEE4\uC9C0\uB2C8 \uB9C8\uC74C\uB3C4 \uB113\uC5B4\uC9C0\uB294
+        \uAE30\uBD84."
+    - id: pc_dual
+      slot: pc
+      name: "\uB4C0\uC5BC \uBAA8\uB2C8\uD130 \uC138\uD2B8"
+      price: 450000
+      image: {fileID: 0}
+      description: "\uBC29\uC5D0\uC11C \uAC00\uC7A5 \uB208\uC5D0 \uB744\uB294 \uC7A5\uBE44."
+      purchaseLine: "\u2026\uC870\uAE08 \uD504\uB85C \uAC19\uC544 \uBCF4\uC774\uB098?"
+    - id: chair_cushion
+      slot: chair
+      name: "\uCFE0\uC158 \uC758\uC790"
+      price: 45000
+      image: {fileID: 0}
+      description: "\uC624\uB798 \uC549\uC544\uB3C4 \uB35C \uC544\uD508 \uC758\uC790."
+      purchaseLine: "\uCC28\uD2B8\uB294 \uADF8\uB300\uB85C\uC778\uB370 \uD5C8\uB9AC\uB294
+        \uD589\uBCF5\uD558\uB124."
+    - id: chair_ergonomic
+      slot: chair
+      name: "\uC778\uCCB4\uACF5\uD559 \uC758\uC790"
+      price: 260000
+      image: {fileID: 0}
+      description: "\uB4F1\uBC1B\uC774\uAC00 \uBAB8\uC744 \uBC1B\uCCD0 \uC8FC\uB294
+        \uC758\uC790."
+      purchaseLine: "\uC774\uAC8C \uC758\uC790\uC758 \uC138\uACC4\uAD6C\uB098."
+    - id: light_stand
+      slot: light
+      name: "\uC2A4\uD0E0\uB4DC \uC870\uBA85"
+      price: 25000
+      image: {fileID: 0}
+      description: "\uCC45\uC0C1 \uC704\uB97C \uB530\uB73B\uD558\uAC8C \uBE44\uCD94\uB294
+        \uC791\uC740 \uC870\uBA85."
+      purchaseLine: "\uBC29\uC774 \uC870\uAE08 \uB35C \uCC28\uAC00\uC6CC\uC84C\uC5B4."
+    - id: light_mood
+      slot: light
+      name: "\uBB34\uB4DC\uB4F1\uACFC \uC904\uC870\uBA85"
+      price: 70000
+      image: {fileID: 0}
+      description: "\uBC24 \uAC70\uB798\uAC00 \uB35C \uC678\uB85C\uC6CC\uC9C0\uB294
+        \uBD88\uBE5B."
+      purchaseLine: "\uC608\uC058\uB2E4\u2026 \uC774\uAC74 \uC0AC\uCE58 \uC544\uB2C8\uC57C.
+        \uC544\uB9C8\uB3C4."
+    - id: deco_plant
+      slot: deco
+      name: "\uC791\uC740 \uD654\uBD84"
+      price: 15000
+      image: {fileID: 0}
+      description: "\uBB3C\uB9CC \uC798 \uC8FC\uBA74 \uB9E4\uC77C \uC870\uAE08\uC529
+        \uC790\uB780\uB2E4."
+      purchaseLine: "\uB108\uB3C4 \uAC19\uC774 \uD06C\uC790."
+    - id: deco_plush
+      slot: deco
+      name: "\uD1A0\uB07C \uC778\uD615"
+      price: 30000
+      image: {fileID: 0}
+      description: "\uCC45\uC0C1 \uAD6C\uC11D\uC5D0\uC11C \uCC28\uD2B8\uB97C \uAC19\uC774
+        \uBD10 \uC8FC\uB294 \uC778\uD615."
+      purchaseLine: "\uC624\uB298\uBD80\uD130 \uC6B0\uB9AC \uD300\uC774\uC57C."
+  theme:
+    gameTitle: "\uB0B4\uC77C\uB3C4, \uB2E4\uB140\uC624\uACA0\uC2B5\uB2C8\uB2E4"
+    gameSubtitle: "\uD3B8\uC758\uC810 \uC54C\uBC14\uC640 \uBC24\uC758 \uD22C\uC790"
+    toastSeconds: 3.5
+    defaultTheme: pastel_day
+    themes:
+    - key: pastel_day
+      name: "\uAE30\uBCF8 \uD30C\uC2A4\uD154"
+      description: "\uC6B0\uC733\uBE5B \uD770\uC0C9\uACFC \uC605\uC740 \uD558\uB298\uC0C9,
+        \uBBFC\uD2B8\xB7\uC5F0\uBCF4\uB77C \uD3EC\uC778\uD2B8."
+      wallpaper: {fileID: 0}
+      unlock:
+        mode: 0
+        items: []
+      unlockHint: 
+      colors:
+      - key: letterbox
+        value: {r: 0.8627451, g: 0.9019608, b: 0.9411765, a: 1}
+      - key: shadow
+        value: {r: 0.3529412, g: 0.43137255, b: 0.5411765, a: 0.12156863}
+      - key: dim
+        value: {r: 0.16862746, g: 0.22745098, b: 0.32156864, a: 0.4}
+      - key: panel
+        value: {r: 1, g: 1, b: 1, a: 0.9607843}
+      - key: panel_alt
+        value: {r: 0.9490196, g: 0.96862745, b: 0.9882353, a: 1}
+      - key: panel_border
+        value: {r: 0.83137256, g: 0.8784314, b: 0.9254902, a: 1}
+      - key: text
+        value: {r: 0.18431373, g: 0.24313726, b: 0.32156864, a: 1}
+      - key: text_dim
+        value: {r: 0.43137255, g: 0.49803922, b: 0.5803922, a: 1}
+      - key: text_on_accent
+        value: {r: 1, g: 1, b: 1, a: 1}
+      - key: accent
+        value: {r: 0.47058824, g: 0.68235296, b: 0.8901961, a: 1}
+      - key: accent_dark
+        value: {r: 0.30980393, g: 0.5254902, b: 0.7607843, a: 1}
+      - key: button
+        value: {r: 0.9098039, g: 0.94509804, b: 0.98039216, a: 1}
+      - key: button_hover
+        value: {r: 0.8392157, g: 0.90588236, b: 0.972549, a: 1}
+      - key: hover_tint
+        value: {r: 1, g: 1, b: 1, a: 1}
+      - key: transparent
+        value: {r: 0, g: 0, b: 0, a: 0}
+      - key: tab
+        value: {r: 0.93333334, g: 0.95686275, b: 0.98039216, a: 1}
+      - key: tab_active
+        value: {r: 0.8117647, g: 0.8901961, b: 0.96862745, a: 1}
+      - key: selected
+        value: {r: 0.8627451, g: 0.92156863, b: 0.98039216, a: 1}
+      - key: up
+        value: {r: 0.9254902, g: 0.41568628, b: 0.4862745, a: 1}
+      - key: down
+        value: {r: 0.29803923, g: 0.56078434, b: 0.8784314, a: 1}
+      - key: danger
+        value: {r: 0.9098039, g: 0.5137255, b: 0.54901963, a: 1}
+      - key: warning
+        value: {r: 0.8509804, g: 0.58431375, b: 0.23137255, a: 1}
+      - key: mint
+        value: {r: 0.61960787, g: 0.8627451, b: 0.77254903, a: 1}
+      - key: mint_text
+        value: {r: 0.18431373, g: 0.6117647, b: 0.47058824, a: 1}
+      - key: pink
+        value: {r: 0.972549, g: 0.827451, b: 0.87058824, a: 1}
+      - key: grid
+        value: {r: 0.8901961, g: 0.91764706, b: 0.9490196, a: 1}
+      - key: avg_line
+        value: {r: 0.54901963, g: 0.48235294, b: 0.7882353, a: 1}
+      - key: news_marker
+        value: {r: 0.7176471, g: 0.60784316, b: 0.9098039, a: 1}
+      - key: locked
+        value: {r: 0.72156864, g: 0.76862746, b: 0.827451, a: 1}
+      - key: chip
+        value: {r: 1, g: 1, b: 1, a: 0.8509804}
+      - key: topbar
+        value: {r: 1, g: 1, b: 1, a: 0.72156864}
+      - key: taskbar
+        value: {r: 1, g: 1, b: 1, a: 0.78039217}
+      - key: window_bg
+        value: {r: 0.9843137, g: 0.99215686, b: 1, a: 1}
+      - key: window_title
+        value: {r: 0.8862745, g: 0.93333334, b: 0.98039216, a: 1}
+      - key: desktop_top
+        value: {r: 0.7490196, g: 0.84705883, b: 0.9490196, a: 1}
+      - key: desktop_bottom
+        value: {r: 0.95686275, g: 0.8509804, b: 0.9098039, a: 1}
+      - key: desktop_icon_text
+        value: {r: 0.18431373, g: 0.24313726, b: 0.32156864, a: 1}
+      - key: toast_bg
+        value: {r: 0.23137255, g: 0.29803923, b: 0.3882353, a: 0.9019608}
+      - key: toast_text
+        value: {r: 1, g: 1, b: 1, a: 1}
+      - key: bubble
+        value: {r: 1, g: 1, b: 1, a: 0.9490196}
+      - key: vignette
+        value: {r: 0.29411766, g: 0.3647059, b: 0.47843137, a: 1}
+      - key: eyelid
+        value: {r: 0.18039216, g: 0.20392157, b: 0.27450982, a: 0.9490196}
+      - key: cutscene_bg
+        value: {r: 0.12156863, g: 0.14509805, b: 0.2, a: 1}
+      - key: cutscene_top
+        value: {r: 0.7882353, g: 0.8666667, b: 0.9529412, a: 1}
+      - key: cutscene_bottom
+        value: {r: 0.9529412, g: 0.84705883, b: 0.9019608, a: 1}
+      - key: room_wall
+        value: {r: 0.9647059, g: 0.94509804, b: 0.91764706, a: 1}
+      - key: room_wall2
+        value: {r: 0.91764706, g: 0.9411765, b: 0.96862745, a: 1}
+      - key: room_wall_night
+        value: {r: 0.7882353, g: 0.8117647, b: 0.9019608, a: 1}
+      - key: room_wall_night2
+        value: {r: 0.9019608, g: 0.84313726, b: 0.9019608, a: 1}
+      - key: room_floor
+        value: {r: 0.8862745, g: 0.827451, b: 0.7647059, a: 1}
+      - key: room_frame
+        value: {r: 1, g: 1, b: 1, a: 1}
+      - key: sky_day_top
+        value: {r: 0.6627451, g: 0.827451, b: 0.9607843, a: 1}
+      - key: sky_day_bottom
+        value: {r: 0.9098039, g: 0.95686275, b: 0.99215686, a: 1}
+      - key: sky_night_top
+        value: {r: 0.36862746, g: 0.43529412, b: 0.65882355, a: 1}
+      - key: sky_night_bottom
+        value: {r: 0.78039217, g: 0.6627451, b: 0.8117647, a: 1}
+      - key: store_top
+        value: {r: 0.91764706, g: 0.9647059, b: 0.9529412, a: 1}
+      - key: store_bottom
+        value: {r: 0.972549, g: 0.9490196, b: 0.9098039, a: 1}
+      - key: store_counter
+        value: {r: 0.8901961, g: 0.8392157, b: 0.7764706, a: 1}
+    - key: sakura_night
+      name: "\uBC9A\uAF43 \uBC24"
+      description: "\uBD84\uD64D \uB178\uC744\uACFC \uC5F0\uBCF4\uB77C \uCC3D. \uCCAB
+        \uBC88\uC9F8 \uAC70\uB798 \uC131\uACFC \uBCF4\uC0C1."
+      wallpaper: {fileID: 0}
+      unlock:
+        mode: 0
+        items:
+        - stat: cumulative_realized_profit
+          op: 0
+          value: 100000
+      unlockHint: "\uB204\uC801 \uC2E4\uD604 \uC21C\uC218\uC775 100,000\uC6D0"
+      colors:
+      - key: letterbox
+        value: {r: 0.91764706, g: 0.8627451, b: 0.9098039, a: 1}
+      - key: panel_alt
+        value: {r: 0.9843137, g: 0.9529412, b: 0.972549, a: 1}
+      - key: panel_border
+        value: {r: 0.92156863, g: 0.8352941, b: 0.8901961, a: 1}
+      - key: accent
+        value: {r: 0.8509804, g: 0.56078434, b: 0.70980394, a: 1}
+      - key: accent_dark
+        value: {r: 0.72156864, g: 0.41568628, b: 0.5803922, a: 1}
+      - key: button
+        value: {r: 0.972549, g: 0.9254902, b: 0.9529412, a: 1}
+      - key: button_hover
+        value: {r: 0.94509804, g: 0.8627451, b: 0.91764706, a: 1}
+      - key: tab
+        value: {r: 0.9764706, g: 0.93333334, b: 0.9607843, a: 1}
+      - key: tab_active
+        value: {r: 0.9372549, g: 0.8235294, b: 0.89411765, a: 1}
+      - key: selected
+        value: {r: 0.9607843, g: 0.8745098, b: 0.9254902, a: 1}
+      - key: window_title
+        value: {r: 0.95686275, g: 0.88235295, b: 0.93333334, a: 1}
+      - key: desktop_top
+        value: {r: 0.9137255, g: 0.7647059, b: 0.8627451, a: 1}
+      - key: desktop_bottom
+        value: {r: 0.7882353, g: 0.7607843, b: 0.9254902, a: 1}
+      - key: news_marker
+        value: {r: 0.56078434, g: 0.6627451, b: 0.9098039, a: 1}
+    chart:
+      defaultVisibleCandles: 60
+      minVisibleCandles: 20
+      maxVisibleCandles: 300
+    apps:
+    - key: stock
+      name: "\uC99D\uAD8C"
+      icon: {fileID: 0}
+    - key: browser
+      name: "\uC778\uD130\uB137"
+      icon: {fileID: 0}
+    - key: finance
+      name: "\uAE08\uC735"
+      icon: {fileID: 0}
+    - key: album
+      name: "\uBC24\uC758 \uAE30\uB85D"
+      icon: {fileID: 0}
+    - key: settings
+      name: "\uC124\uC815"
+      icon: {fileID: 0}
+  names:
+    sites:
+      news:
+        name: "\uD30C\uC2A4\uD154\uACBD\uC81C"
+        url: news.pastel-econ.example
+        tagline: "\uAE30\uC5C5 \uBC1C\uD45C\xB7\uC2E4\uC801\xB7\uACC4\uC57D \uB4F1
+          \uD655\uC778\uB41C \uC18C\uC2DD"
+      community:
+        name: "\uAC1C\uBBF8\uAD11\uC7A5"
+        url: ant-square.example
+        tagline: "\uC885\uBAA9 \uC774\uC57C\uAE30, \uC18C\uBB38, \uC77C\uC0C1, \uC720\uBA38\uAC00
+          \uC11E\uC778 \uCEE4\uBBA4\uB2C8\uD2F0"
+    newsOutlets:
+    - "\uD30C\uC2A4\uD154\uACBD\uC81C"
+    - "\uC624\uB298\uC758\uC2DC\uC7A5"
+    - "\uC0C8\uBCBD\uACBD\uC81C\uC2E0\uBB38"
+    - "\uAD6C\uB984\uC77C\uBCF4 \uACBD\uC81C\uBD80"
+    - "\uBAA8\uB2DD\uB9C8\uCF13"
+    nicknames:
+    - "\uC57C\uAC04\uADFC\uBB34\uACF0"
+    - "\uB2E8\uD0C0\uB294\uBB34\uC11C\uC6CC"
+    - "\uB77C\uBA74\uB450\uAC1C"
+    - "\uCD9C\uADFC\uC2EB\uC740\uC0AC\uB78C"
+    - "\uCC28\uD2B8\uBCF4\uB294\uACE0\uC591\uC774"
+    - "\uC801\uAE08\uC774\uCD5C\uACE0"
+    - "\uBCF8\uC804\uB9CC\uC624\uC790"
+    - "\uC0C8\uBCBD\uC138\uC2DC"
+    - "\uCEE4\uD53C\uC138\uC794\uC9F8"
+    - "\uBB3C\uD0C0\uAE30\uC7A5\uC778"
+    - "\uC870\uC6A9\uD55C\uAD00\uB9DD\uB7EC"
+    - "\uC18C\uBB38\uC218\uC9D1\uAC00"
+    - "\uD1F4\uADFC\uAE38\uAC1C\uBBF8"
+    - "\uD3B8\uC758\uC810\uB2E8\uACE8"
+    - "\uBAA8\uB2C8\uD130\uB450\uB300"
+    - "\uC810\uC2EC\uC740\uAE40\uBC25"
+    - "\uC775\uBA85\uC758\uC9C1\uC7A5\uC778"
+    - "\uC8FC\uB9D0\uC5D4\uB4F1\uC0B0"
+    - "\uC22B\uC790\uC5D0\uC57D\uD568"
+    - "\uAE30\uB85D\uD558\uB294\uC0AC\uB78C"
+    - "\uC624\uB298\uB3C4\uC190\uC808"
+    - "\uC7A5\uAE30\uD22C\uC790\uC911"
+    - "\uD638\uC7AC\uB97C\uCC3E\uC544\uC11C"
+    - "\uAC10\uC790\uD280\uAE40\uB7EC\uBC84"
+    - "\uC878\uB9B0\uB208"
+    - "\uC6D4\uAE09\uB0A0\uB9CC\uAE30\uB2E4\uB9BC"
+    - "\uC791\uC740\uC774\uC775"
+    - "\uD754\uB4E4\uB9AC\uB294\uBA58\uD0C8"
+    - "\uCC28\uBD84\uD55C\uD310\uB2E4"
+    - "\uADE4\uC88B\uC544"
+    - "\uC544\uCE68\uD615\uC778\uAC04"
+    - "\uC57C\uC2DD\uAE08\uC9C0\uC911"
+    - "\uACE0\uC591\uC774\uC9D1\uC0AC"
+    - "\uBCF5\uC2B5\uD558\uB294\uAC1C\uBBF8"
+    - "\uADF8\uB798\uD504\uB355\uD6C4"
+    - "\uD3C9\uB2E8\uAD00\uB9AC\uC911"
