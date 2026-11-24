@@ -1,0 +1,37 @@
+Use case: compositing / game UI concept revision.
+Produce ONE polished complete 16:9 landscape Korean 2D stock-trading game screenshot, target 2560x1440. Recompose the existing screenshot to show a real illustrated room and its player character OUTSIDE the computer screen, with the virtual OS displayed INSIDE a physical monitor on a desk.
+
+INPUTS, in order:
+1. Image 1 (investment-screen-v3.png): the CURRENT pastel virtual OS and stock application to preserve as the computer's screen content. Remove its little character avatar entirely from the OS.
+2. Image 2 (기초 컨셉 이미지.jpg): the authoritative CHARACTER IDENTITY AND DRAWING STYLE. Faithfully match her original face, linework, hair, expression, clothing and blue cel shading.
+3. Image 3 (investment-screen-v1.png): reference ONLY for room/character/monitor arrangement: a large upper-body character on the left in a bedroom and a large front-facing monitor on the right. Do NOT restore its dark navy UI, integrated news/loan panels, big recovery buttons or furniture-goal widgets.
+
+PRIMARY CHANGE, very important:
+The character is a large physical illustrated figure seated in her room on the LEFT, separate from the computer. The OS and trading app are contained in the physical monitor on the RIGHT. There is NO character portrait, avatar, photo or wallpaper character anywhere inside the monitor. These are two visually separate elements within one cohesive room scene, not separate files, not a split-screen collage. The left character has no portrait card or rectangular border.
+
+COMPOSITION:
+- Left approximately 32%: large adult heroine bust/upper torso, seated at the desk, visible from head to around waist, facing right toward the monitor, occupying about 75% of the image height. Her head, hands, hair and shoulders are clearly visible; no need to show legs. Match the emotionally expressive upper-body scale of Image 3.
+- Right approximately 67%: a LARGE real slim-bezel pale-grey desktop monitor sitting on a wooden desk, screen facing the viewer almost perfectly square-on with negligible perspective, so text is readable. The screen must be visibly bounded by the physical bezel; a sturdy monitor stand and its foot are visible below. The monitor is the main interactive game area, not a small distant prop. Its content follows Image 1.
+- Bedroom is continuous across the whole scene, visible behind the woman and around the monitor. Cozy modest one-room apartment: soft cream walls, pale lilac curtains, a simple bed with pastel blue blanket, small shelf, warm desk lamp, nighttime window with faint city lights, pale maple desk. A simple drink can and snack packet on the desk are optional subtle continuations of the reference. No luxury apartment, no extra people.
+- High-quality anime illustration; bright soft pastels for room and UI, warm indoor light with soft lavender-blue evening shadows. Do not flood the room in dark navy. Monitor glow adds the original cool blue edge light and shading to the character, whose own drawing style retains its original stronger contrast.
+- One thin unobtrusive full-width game HUD at very top, OUTSIDE the monitor: "7일차 · 밤", "22:40", compact leaf icon with "컨디션 72 · 양호", and a mint-dot "거래 진행 중" with pause icon. Keep this tidy and much smaller than the scene. Do not duplicate that same full game HUD inside the computer.
+- No permanent food buttons, furniture goals, album counters or long dialogue across the room. Prioritize room, heroine and monitor.
+
+CHARACTER FIDELITY:
+Use Image 2 faithfully, not a generic soft pastel reimagining. Same adult woman, messy shoulder-length blue-black hair with stray strands, layered irregular bangs, angular glossy blue highlights, fine dark contours, golden-brown eyes, original jaw/chin and face construction, crisp layered cel shading, subtle detailed shirt folds, light-blue casual T-shirt. Recreate her startled trading reaction with wide eyes, small open mouth, rosy flushed cheeks, sweat drops, and hands against the sides of her head. Same natural anatomy and proportions. She looks toward the computer. The original's expressive anxious face and stronger blue shaded art must survive at this large scale. Her hair/hands must not obscure chart or order controls.
+
+MONITOR SCREEN:
+Keep Image 1's airy milky-white/powder-blue/lilac original virtual OS design. Inside the monitor, show pastel sky-cloud wallpaper at margins, desktop app shortcuts down the left labeled "증권", "인터넷", "금융", "밤의 기록", plus a bottom OS taskbar. The desktop remains a computer, not a game dashboard.
+Only ONE foreground app window: "증권". Minimize/maximize/close glyphs, app tabs "거래", "보유", "내역".
+Remove the small avatar from the desktop entirely and fill that freed area naturally with the same wallpaper.
+The separate browser, finance and album are launchable icons only. Do not put news stories, community feeds, loans, repayment controls, food buttons, achievements or home goals into the stock app.
+The securities window shows:
+- "거래 가능 현금 1,284,000원"
+- slim watchlist: "모모바이오" selected, "별빛음료", "새봄테크", same prices and appearance as Image 1 where possible.
+- central dominant candlestick chart titled "모모바이오", "1,350원", "▼ 60 (-4.26%)". Preserve natural climb, sideways fluctuation, then recent decline to 1,350. Coral up candles, blue down candles, accurate thin wicks, volume below. Ticks 1,500 / 1,450 / 1,400 / 1,350 / 1,300. Average price dashed line "평균 1,410"; current price tag "1,350". Clean readable dark blue-grey typography and light grid.
+- right order panel "시장가 주문", "보유 120주", "평균 매입가 1,410원", "평가손익 -7,200원", quantity "- 10주 +", "주문 금액 13,500원", "수수료 14원", "합계 13,514원", clear coral "매수" and blue "매도" buttons.
+Use concise typography and adequate spacing so it stays readable when embedded in the monitor. All money uses "원", not a currency glyph. No floating stock panels outside the screen, no external oversized buy/sell controls.
+The taskbar may show "증권", "인터넷", small settings and "집으로" as Image 1. There is no real OS logo.
+
+FINAL CHECK:
+This should feel like the INITIAL room-plus-character-plus-monitor concept in composition, but with the UPDATED pastel OS and separated apps inside the monitor and the ORIGINAL supplied character art style. Large heroine physically in the room, never imprisoned in an OS portrait box. Large crisp computer screen physically on the desk. Single cohesive gameplay image. No watermark, no labels explaining the design, no montage.

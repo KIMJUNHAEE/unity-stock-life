@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "status": "planning_draft",
+  "kind": "company_catalog",
+  "authored_date": "2026-11-25",
+  "items": [
+    {
+      "id": "momo_bio",
+      "symbol": "STK001",
+      "company_name": "모모바이오",
+      "stock_name": "모모바이오",
+      "sector": "healthcare",
+      "business": "신약 후보 연구와 진단 기술",
+      "product_name": "진단 시약",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "starlight_drink",
+      "symbol": "STK002",
+      "company_name": "별빛음료",
+      "stock_name": "별빛음료",
+      "sector": "consumer",
+      "business": "음료 개발과 유통",
+      "product_name": "별빛소다",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "dawn_tech",
+      "symbol": "STK003",
+      "company_name": "새봄테크",
+      "stock_name": "새봄테크",
+      "sector": "semiconductor",
+      "business": "산업용 반도체 설계",
+      "product_name": "제어 칩",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "cotton_games",
+      "symbol": "STK004",
+      "company_name": "솜구름게임즈",
+      "stock_name": "솜구름게임즈",
+      "sector": "games",
+      "business": "모바일 게임 개발과 서비스",
+      "product_name": "별구름 원정대",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "moonwave_media",
+      "symbol": "STK005",
+      "company_name": "달결미디어",
+      "stock_name": "달결미디어",
+      "sector": "entertainment",
+      "business": "콘텐츠 제작과 배급",
+      "product_name": "영상 플랫폼",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "mint_cart",
+      "symbol": "STK006",
+      "company_name": "민트바구니",
+      "stock_name": "민트바구니",
+      "sector": "commerce",
+      "business": "생활용품 온라인 유통",
+      "product_name": "정기배송 서비스",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "blueleaf_energy",
+      "symbol": "STK007",
+      "company_name": "푸른잎에너지",
+      "stock_name": "푸른잎에너지",
+      "sector": "energy",
+      "business": "에너지 저장 장치 개발",
+      "product_name": "저장 모듈",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "cloudline_logistics",
+      "symbol": "STK008",
+      "company_name": "구름길물류",
+      "stock_name": "구름길물류",
+      "sector": "logistics",
+      "business": "지역 배송과 물류 관리",
+      "product_name": "배송 관리 서비스",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "spring_robotics",
+      "symbol": "STK009",
+      "company_name": "봄결로보틱스",
+      "stock_name": "봄결로보틱스",
+      "sector": "robotics",
+      "business": "매장과 창고용 로봇 개발",
+      "product_name": "운반 로봇",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "silverlink",
+      "symbol": "STK010",
+      "company_name": "은빛링크",
+      "stock_name": "은빛링크",
+      "sector": "telecom",
+      "business": "통신 장비와 네트워크 운영",
+      "product_name": "통신 중계 장비",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "peach_mobility",
+      "symbol": "STK011",
+      "company_name": "복숭아모빌리티",
+      "stock_name": "복숭아모빌리티",
+      "sector": "mobility",
+      "business": "이동 서비스와 차량 부품",
+      "product_name": "이동 관리 서비스",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    },
+    {
+      "id": "cozy_living",
+      "symbol": "STK012",
+      "company_name": "포근리빙",
+      "stock_name": "포근리빙",
+      "sector": "consumer",
+      "business": "가구와 생활용품 제작",
+      "product_name": "모듈 책상",
+      "fictional": true,
+      "initial_price": null,
+      "always_rises": false
+    }
+  ]
+}

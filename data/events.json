@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "status": "planning_draft",
+  "kind": "event_outcome_catalog",
+  "authored_date": "2026-11-25",
+  "items": [
+    {
+      "id": "development_success",
+      "topic": "development",
+      "label": "개발 성과 확인",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_001_1",
+        "NEWS_001_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_001_1",
+        "COMMENT_EVENT_001_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "development_delay",
+      "topic": "development",
+      "label": "개발 일정 지연",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_002_1",
+        "NEWS_002_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_002_1",
+        "COMMENT_EVENT_002_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "development_failure",
+      "topic": "development",
+      "label": "개발 목표 미달",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_003_1",
+        "NEWS_003_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_003_1",
+        "COMMENT_EVENT_003_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "launch_strong",
+      "topic": "launch",
+      "label": "초기 판매 호조",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_004_1",
+        "NEWS_004_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_004_1",
+        "COMMENT_EVENT_004_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "launch_mixed",
+      "topic": "launch",
+      "label": "초기 판매 혼조",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_005_1",
+        "NEWS_005_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_005_1",
+        "COMMENT_EVENT_005_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "launch_weak",
+      "topic": "launch",
+      "label": "초기 판매 부진",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_006_1",
+        "NEWS_006_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_006_1",
+        "COMMENT_EVENT_006_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "contract_signed",
+      "topic": "contract",
+      "label": "공급 계약 체결",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_007_1",
+        "NEWS_007_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_007_1",
+        "COMMENT_EVENT_007_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "contract_negotiating",
+      "topic": "contract",
+      "label": "계약 협의 진행",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_008_1",
+        "NEWS_008_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_008_1",
+        "COMMENT_EVENT_008_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "contract_cancelled",
+      "topic": "contract",
+      "label": "계약 협의 종료",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_009_1",
+        "NEWS_009_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_009_1",
+        "COMMENT_EVENT_009_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "earnings_above",
+      "topic": "earnings",
+      "label": "실적 계획 상회",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_010_1",
+        "NEWS_010_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_010_1",
+        "COMMENT_EVENT_010_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "earnings_mixed",
+      "topic": "earnings",
+      "label": "매출과 이익 엇갈림",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_011_1",
+        "NEWS_011_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_011_1",
+        "COMMENT_EVENT_011_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "earnings_below",
+      "topic": "earnings",
+      "label": "실적 계획 하회",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_012_1",
+        "NEWS_012_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_012_1",
+        "COMMENT_EVENT_012_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "expansion_ready",
+      "topic": "expansion",
+      "label": "거점 확대 준비 완료",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_013_1",
+        "NEWS_013_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_013_1",
+        "COMMENT_EVENT_013_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "expansion_delayed",
+      "topic": "expansion",
+      "label": "거점 운영 일정 조정",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_014_1",
+        "NEWS_014_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_014_1",
+        "COMMENT_EVENT_014_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "expansion_reduced",
+      "topic": "expansion",
+      "label": "확대 계획 축소",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_015_1",
+        "NEWS_015_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_015_1",
+        "COMMENT_EVENT_015_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "review_passed",
+      "topic": "review",
+      "label": "외부 심사 기준 충족",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_016_1",
+        "NEWS_016_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_016_1",
+        "COMMENT_EVENT_016_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "review_pending",
+      "topic": "review",
+      "label": "심사 보완 요청",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_017_1",
+        "NEWS_017_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_017_1",
+        "COMMENT_EVENT_017_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "review_failed",
+      "topic": "review",
+      "label": "심사 기준 미충족",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "dawn_tech",
+        "blueleaf_energy",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility"
+      ],
+      "news_ids": [
+        "NEWS_018_1",
+        "NEWS_018_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_018_1",
+        "COMMENT_EVENT_018_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "supply_improved",
+      "topic": "supply",
+      "label": "조달 여건 개선",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_019_1",
+        "NEWS_019_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_019_1",
+        "COMMENT_EVENT_019_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "supply_stable",
+      "topic": "supply",
+      "label": "조달 여건 유지",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_020_1",
+        "NEWS_020_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_020_1",
+        "COMMENT_EVENT_020_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "supply_disrupted",
+      "topic": "supply",
+      "label": "조달 차질 발생",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_021_1",
+        "NEWS_021_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_021_1",
+        "COMMENT_EVENT_021_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "partner_signed",
+      "topic": "partnership",
+      "label": "협력 계약 체결",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_022_1",
+        "NEWS_022_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_022_1",
+        "COMMENT_EVENT_022_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "partner_discussing",
+      "topic": "partnership",
+      "label": "협력 논의 진행",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_023_1",
+        "NEWS_023_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_023_1",
+        "COMMENT_EVENT_023_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    },
+    {
+      "id": "partner_ended",
+      "topic": "partnership",
+      "label": "협력 논의 종료",
+      "selection_weight": null,
+      "company_ids": [
+        "momo_bio",
+        "starlight_drink",
+        "dawn_tech",
+        "cotton_games",
+        "moonwave_media",
+        "mint_cart",
+        "blueleaf_energy",
+        "cloudline_logistics",
+        "spring_robotics",
+        "silverlink",
+        "peach_mobility",
+        "cozy_living"
+      ],
+      "news_ids": [
+        "NEWS_024_1",
+        "NEWS_024_2"
+      ],
+      "comment_ids": [
+        "COMMENT_EVENT_024_1",
+        "COMMENT_EVENT_024_2"
+      ],
+      "return_direction": "sample_from_context",
+      "return_magnitude": null
+    }
+  ]
+}

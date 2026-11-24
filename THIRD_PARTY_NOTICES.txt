@@ -1,0 +1,72 @@
+Third-party resource notices — development list
+Updated: 2026-11-25
+
+Font: 경기천년제목 / GyeonggiTitle (Light, Medium, Bold)
+Provided by: 경기도 / Gyeonggi Province
+Copyright (C) 2017 Gyeonggi and PYJ&TYPOLAB Inc. All rights reserved.
+Official source: https://www.gg.go.kr/contents/contents.do?ciIdx=679&menuId=2457
+
+This project includes the unmodified font bytes distributed by Gyeonggi Province.
+The official usage notice permits free use and distribution embedded in software.
+The font itself must not be sold or transferred for a fee.
+See ThirdParty/Fonts/Gyeonggi/LICENSE-source-extract.txt for the archived usage notice.
+The official source page also carries a Korea Open Government License Type 1
+attribution notice. Font credit: 이 게임에는 경기도에서 제공한 경기천년제목체가 사용되었습니다.
+
+Release packaging note:
+Include this notice and the font copyright/usage notice with the final game build.
+Keep the official source attribution in the game credits. This development file
+is not automatically included in Unity builds.
+
+Development-only concept reference REF-003:
+docs/concepts/investment-screen-v2.png
+Generated on 2026-11-25 using Codex's built-in image_gen tool, with the
+user-provided 기초 컨셉 이미지.jpg (REF-001) as the character reference.
+The supplied reference's creator and release-use permissions remain unverified.
+This concept is not registered as a release asset or a confirmed licensed asset.
+The generated raster lettering does not embed the GyeonggiTitle font files.
+Original output, reference hashes, and prompt location:
+ThirdParty/Concepts/InvestmentScreenV2/PROVENANCE.txt
+
+Development-only concept reference REF-004:
+docs/concepts/investment-screen-v3.png
+Generated on 2026-11-25 using the built-in image_gen edit tool.
+Edits REF-003's character portrait to follow REF-001's original drawing style.
+The reference rights status and development-only scope noted above also apply.
+Original output and edit provenance:
+ThirdParty/Concepts/InvestmentScreenV3/PROVENANCE.txt
+
+Development-only concept reference REF-005:
+docs/concepts/investment-screen-v4.png
+Generated on 2026-11-25 using the built-in image_gen edit tool.
+References: REF-004 for the pastel OS, REF-001 for the character illustration,
+and REF-002 for the room/character/monitor composition.
+The reference rights status and development-only scope noted above also apply.
+Original output and edit provenance:
+ThirdParty/Concepts/InvestmentScreenV4/PROVENANCE.txt
+
+Development-only sheet layout reference REF-006:
+ThirdParty/References/REF-006/character_sheet_layout_reference.png
+User-supplied image bearing a 2023 100JU credit. Original publication and
+release-use permissions are unverified. Used only for the general idea of
+body views, facial expressions, clothing details and a color palette.
+The depicted character, costume, weapon, logos and signature are not reused
+as project assets. Keep the preserved reference outside release builds.
+Source filename, hash and scope:
+ThirdParty/References/REF-006/provenance.txt
+
+Development-only character sheet ART-0001:
+docs/concepts/chr_yoon_seoha_sheet_v001.png
+윤서하 / YOON SEOHA — character design proposal v001.
+Generated on 2026-11-25 using Codex's built-in image_gen tool.
+REF-001 supplies character identity/style; REF-006 supplies general sheet
+organization only. Reference-rights clearance remains unverified.
+Actual native output: 1672 x 941 opaque RGB PNG, not a 4K or runtime sprite.
+Original and review copy are byte-identical; no upscaling or profile changes.
+No additional font files were used; generated lettering is raster text.
+Original output, exact prompt, reference hashes and archived official terms:
+ThirdParty/Generated/ART-0001/provenance.json
+ThirdParty/Generated/ART-0001/prompt.txt
+ThirdParty/Generated/ART-0001/terms/terms_review.txt
+This provenance entry is not a statement that the supplied references or
+resulting sheet have been cleared for a commercial release.

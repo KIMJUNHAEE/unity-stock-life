@@ -1,0 +1,820 @@
+{
+  "schema_version": 1,
+  "status": "planning_draft",
+  "kind": "prewritten_community_posts",
+  "authored_date": "2026-11-25",
+  "items": [
+    {
+      "id": "POST_DEVELOPMENT_01",
+      "kind": "rumor_or_discussion",
+      "topic": "development",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "개발 끝났다는 얘기 들은 사람?",
+      "body": "{company_name} 새 기술 개발이 끝났다는 말이 있던데 공식 자료 찾은 사람 있어?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_DEVELOPMENT_02",
+      "kind": "rumor_or_discussion",
+      "topic": "development",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "발표만 남은 거 아니냐",
+      "body": "{company_name} 연구 관련 글이 늘었는데 다 같은 출처인지 모르겠음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_DEVELOPMENT_03",
+      "kind": "rumor_or_discussion",
+      "topic": "development",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "여기 기술 잘 나왔다던데",
+      "body": "{company_name} 이번 결과 좋다는 얘기를 들었어. 내가 직접 본 자료는 없음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_DEVELOPMENT_04",
+      "kind": "rumor_or_discussion",
+      "topic": "development",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "완료라고 하기엔 자료가 부족한 듯",
+      "body": "{company_name} 성공설 첨부 자료에 날짜가 없네. 확인하고 판단하려고.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_LAUNCH_01",
+      "kind": "rumor_or_discussion",
+      "topic": "launch",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "신제품 요즘 많이 보이지 않음?",
+      "body": "{company_name}의 {product_name}, 주변에서 찾는 사람이 늘어난 느낌이야. 내 주변만 그런가?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_LAUNCH_02",
+      "kind": "rumor_or_discussion",
+      "topic": "launch",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "품절 사진 계속 올라오네",
+      "body": "{company_name} 제품 사진이 여기저기 도는데 같은 매장 사진 재업인지 먼저 확인해 봐.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_LAUNCH_03",
+      "kind": "rumor_or_discussion",
+      "topic": "launch",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "초기 주문 잘 들어온다던데",
+      "body": "{company_name} 신제품 주문이 좋다는 말이 있어. 판매 집계는 아직 못 찾았어.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_LAUNCH_04",
+      "kind": "rumor_or_discussion",
+      "topic": "launch",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "내 동네만 조용한가",
+      "body": "{company_name} 신제품 잘 팔린다던데 우리 동네는 평소랑 비슷하네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_CONTRACT_01",
+      "kind": "rumor_or_discussion",
+      "topic": "contract",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "계약 도장 찍었다는 말 있던데",
+      "body": "{company_name} 큰 계약 잡았다는 소문 들음. 회사 발표는 아직 안 보인다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_CONTRACT_02",
+      "kind": "rumor_or_discussion",
+      "topic": "contract",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "협의랑 체결을 구분해야 하지 않나",
+      "body": "{company_name} 계약 글마다 표현이 다르네. 원문 가진 사람?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_CONTRACT_03",
+      "kind": "rumor_or_discussion",
+      "topic": "contract",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "납품 물량 늘어날 거래",
+      "body": "{company_name} 새 거래처 생긴다는 얘기가 도네. 물량은 누가 확인했지?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_CONTRACT_04",
+      "kind": "rumor_or_discussion",
+      "topic": "contract",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "계약 공지 기다리는 중",
+      "body": "{company_name} 얘기는 많은데 확정 자료 나오기 전까지는 소문으로 보려고.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EARNINGS_01",
+      "kind": "rumor_or_discussion",
+      "topic": "earnings",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "이번 숫자 잘 나온다던데",
+      "body": "{company_name} 실적 좋다는 글을 봤어. 매출 얘긴지 이익 얘긴지는 안 적혀 있더라.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EARNINGS_02",
+      "kind": "rumor_or_discussion",
+      "topic": "earnings",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "매출만 보면 되는 건 아니지?",
+      "body": "{company_name} 잘 팔린다는 얘기가 많은데 비용 쪽 자료는 안 보이네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EARNINGS_03",
+      "kind": "rumor_or_discussion",
+      "topic": "earnings",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "실적 발표 전에 다들 너무 확신하네",
+      "body": "{company_name} 예상이 글마다 다름. 어느 기대가 가격에 들어갔는지 궁금하다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EARNINGS_04",
+      "kind": "rumor_or_discussion",
+      "topic": "earnings",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "좋다는 소문은 일단 메모해 둠",
+      "body": "{company_name} 이번 실적 기대 글이 늘었네. 확인된 수치는 아직 못 봤어.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EXPANSION_01",
+      "kind": "rumor_or_discussion",
+      "topic": "expansion",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "새 거점 거의 다 됐다던데",
+      "body": "{company_name} 새 시설 사진을 봤어. 촬영 날짜와 실제 운영 시작일은 모르겠음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EXPANSION_02",
+      "kind": "rumor_or_discussion",
+      "topic": "expansion",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "확장 소식 조용히 돌고 있네",
+      "body": "{company_name} 거점 늘린다는 글이 보여. 기존 계획 재탕인지 확인 중.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EXPANSION_03",
+      "kind": "rumor_or_discussion",
+      "topic": "expansion",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "공사 끝나면 바로 매출 나는 거야?",
+      "body": "{company_name} 시설 완공설이 있던데 가동 준비 기간도 필요한 거 아님?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_EXPANSION_04",
+      "kind": "rumor_or_discussion",
+      "topic": "expansion",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "사진은 있는데 날짜가 없네",
+      "body": "{company_name} 신규 거점 사진, 최신인지부터 확인해야겠다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_REVIEW_01",
+      "kind": "rumor_or_discussion",
+      "topic": "review",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "심사 통과했다는 소문",
+      "body": "{company_name} 외부 심사 통과 얘기를 들었어. 결과 공지는 아직 못 찾음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_REVIEW_02",
+      "kind": "rumor_or_discussion",
+      "topic": "review",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "보완 끝났으면 되는 거 아냐?",
+      "body": "{company_name} 서류 준비 끝났다는 글이 있네. 그게 결과 확정인지는 모르겠다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_REVIEW_03",
+      "kind": "rumor_or_discussion",
+      "topic": "review",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "심사 글 출처 아는 사람",
+      "body": "{company_name} 관련 글이 계속 올라오는데 공식 링크가 전부 없네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_REVIEW_04",
+      "kind": "rumor_or_discussion",
+      "topic": "review",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "완료랑 통과를 섞어 쓰는 듯",
+      "body": "{company_name} 심사 얘기는 표현을 잘 봐야 할 것 같아. 검토 완료가 통과라는 뜻인가?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_SUPPLY_01",
+      "kind": "rumor_or_discussion",
+      "topic": "supply",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "조달 여건 좋아졌다던데",
+      "body": "{company_name} 운영 비용 낮아질 거라는 얘기 있음. 실제 계약 조건은 못 봤어.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_SUPPLY_02",
+      "kind": "rumor_or_discussion",
+      "topic": "supply",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "비용 줄면 실적 좋아지는 거 아님?",
+      "body": "{company_name} 조달 개선 소문을 봤는데 얼마나 줄어드는지는 안 적혀 있네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_SUPPLY_03",
+      "kind": "rumor_or_discussion",
+      "topic": "supply",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "공급 관련 글 서로 반대네",
+      "body": "{company_name} 공급 좋아졌다와 문제 있다는 글이 같이 올라오네. 원출처 확인 중.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_SUPPLY_04",
+      "kind": "rumor_or_discussion",
+      "topic": "supply",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "대체 조달처 이미 찾았다던데",
+      "body": "{company_name} 새 조달처 확보했다는 말이 돌고 있어. 공식 발표는 기다려 봐야지.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_PARTNERSHIP_01",
+      "kind": "rumor_or_discussion",
+      "topic": "partnership",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "협력 발표 곧 한다는 소문",
+      "body": "{company_name} 다른 회사랑 뭔가 같이 한다더라. 협력 범위는 못 들었음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_PARTNERSHIP_02",
+      "kind": "rumor_or_discussion",
+      "topic": "partnership",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "만났다고 계약한 건 아니잖아",
+      "body": "{company_name} 협력 글들 보니 미팅 얘기에서 점점 내용이 커지는 것 같음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_PARTNERSHIP_03",
+      "kind": "rumor_or_discussion",
+      "topic": "partnership",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "공동 사업 기대하는 사람 있냐",
+      "body": "{company_name} 협력 소문 보고 찾아보는 중인데 확정된 내용은 안 보인다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_PARTNERSHIP_04",
+      "kind": "rumor_or_discussion",
+      "topic": "partnership",
+      "allowed_phases": [
+        "rumor"
+      ],
+      "title": "협력설이 인수설로 바뀌었네",
+      "body": "{company_name} 글이 퍼질수록 말이 커지는데 처음 출처 아는 사람?",
+      "selection_weight": 1,
+      "cooldown_sessions": 6,
+      "fact_claim": "unverified",
+      "truth_not_encoded_in_wording": true
+    },
+    {
+      "id": "POST_GENERAL_001",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "알바 끝나고 차트 켰다",
+      "body": "오늘은 손님보다 주문창을 더 많이 볼 것 같다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_002",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "컵라면 물 올려 놓고 왔음",
+      "body": "면 익는 동안 차트가 더 많이 움직였네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_003",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "첫 의자 바꿨다",
+      "body": "수익률보다 허리 만족도가 먼저 올랐다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_004",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "오늘은 일찍 자려고",
+      "body": "관심 종목은 남겨 두고 컴퓨터 끌까 고민 중.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_005",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "간식 예산 따로 잡는 사람?",
+      "body": "이익 나면 간식 산다고 했다가 늘 예산 초과함.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_006",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "급여 들어오는 날이 제일 든든함",
+      "body": "계좌에서 이유를 정확히 아는 입금이라 좋다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_007",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "책상 정리하니까 기분 좋네",
+      "body": "정리한 건 책상인데 괜히 판단도 잘할 것 같은 느낌.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_008",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "쉬는 날엔 뭐 함?",
+      "body": "주식 안 보겠다고 해 놓고 여기 게시판에 와 버림.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_009",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "야식 메뉴 추천 좀",
+      "body": "오늘의 가장 어려운 선택은 매수가 아니라 메뉴였다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_010",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "편의점 신상 간식 먹어봄",
+      "body": "맛있다는 말이 투자 정보로 읽히면 잠깐 쉬어야겠지.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_011",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "모니터 밝기 줄였다",
+      "body": "밤에 화면만 보고 있으니 눈이 피곤하더라.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_012",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "일상",
+      "title": "벽지 바꾸고 싶다",
+      "body": "회사 차트보다 방 사진을 더 오래 보는 중.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_013",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "내가 사면 마음만 바빠짐",
+      "body": "가격은 천천히 움직여도 새로고침은 빨라진다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_014",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "오늘 주문창 앞에서 결심했다",
+      "body": "결심만 세 번 하고 아직 아무것도 안 샀다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_015",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "수익 자랑 글 보고 왔는데",
+      "body": "계산기부터 켰다가 조용히 닫음.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_016",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "한 주만 사도 긴장되네",
+      "body": "관심만 있을 때는 그렇게 침착했는데.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_017",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "차트에게 저녁 인사함",
+      "body": "답장은 없고 캔들만 하나 더 생겼다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_018",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "유머",
+      "title": "게시판 닉네임 바꾸고 싶다",
+      "body": "평생상승으로 지었는데 부담이 너무 크다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_019",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "기사 제목만 보면 놓치는 게 많네",
+      "body": "본문에 남은 조건이 제목보다 더 중요할 때가 있더라.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_020",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "같은 소문 링크가 계속 돌아다님",
+      "body": "서로 다른 사람이 올렸어도 원문은 하나일 수 있네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_021",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "관망도 매일 어렵다",
+      "body": "아무것도 안 했다는 사실이 자꾸 신경 쓰여.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_022",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "거래 내역 돌아보는 사람?",
+      "body": "왜 샀는지 메모해 두면 다음에 돌아보기는 편하네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_023",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "오래된 글 날짜 확인하자",
+      "body": "최신 글인 줄 알았는데 인용한 기사가 예전 거였어.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_024",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "추천 수와 근거는 다르더라",
+      "body": "인기글이 될수록 내용이 정확해지는 건 아니네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_025",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "한 종목만 보면 시야가 좁아짐",
+      "body": "다른 회사도 보고 싶은데 읽을 거리가 많다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_026",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "매출 증가만 보고 좋아했는데",
+      "body": "이익과 비용도 따로 읽어야 하는 거였네.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_027",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "좋은 소식인데 가격은 왜 이러지",
+      "body": "다들 이미 그보다 더 좋은 결과를 기대했을 수도 있겠다.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    },
+    {
+      "id": "POST_GENERAL_028",
+      "kind": "daily_or_general",
+      "topic": "general",
+      "allowed_phases": [
+        "any"
+      ],
+      "category": "토론",
+      "title": "댓글에 확신이 넘쳐서 무섭다",
+      "body": "근거 링크보다 느낌표가 훨씬 많아.",
+      "selection_weight": 1,
+      "cooldown_sessions": 6
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+ART-0001 — generation terms and reference-rights review
+Checked: 2026-11-25 (Asia/Seoul)
+Tool: Codex built-in image_gen; no CLI/API fallback.
+
+Official pages inspected and archived:
+https://openai.com/policies/terms-of-use/
+Page effective date: January 1, 2026.
+Archive: openai_terms_of_use_20261125.html
+https://openai.com/policies/service-terms/
+Page updated date: November 13, 2026.
+Archive: openai_service_terms_20261125.html
+
+Paraphrased review of Terms of Use, Content and Using our Services:
+The user is responsible for necessary input rights. OpenAI assigns its rights,
+if any, in generated output to the user to the extent allowed by law. Output
+may be nonunique; this does not grant rights in third-party material. The
+service may not be used to infringe others' rights, and generated output must
+not be misrepresented as human-generated.
+
+The Service Terms were reviewed as supplemental terms. This archive does not
+determine the user's account-specific governing agreement or establish the
+copyright status of an AI-generated image. No separate image-output credit
+requirement was identified in the inspected sections. Record this asset's AI
+origin; do not interpret that observation as a release-clearance guarantee.
+
+Project status: concept review only. REF-001's creator and release permissions
+remain unverified. REF-006 was used only for general sheet organization and
+is retained as a development reference with its visible credit intact.
+Commercial game use, inclusion in a released build, modification permissions
+and required notices for the supplied references remain unverified.
+
+No downloaded commercial art or additional font files were added. The new
+sheet's lettering is generated raster text, not an application of GyeonggiTitle.
+Keep this record and source archives for development provenance. Recheck the
+actual inputs, adopted output and applicable agreement before release use.

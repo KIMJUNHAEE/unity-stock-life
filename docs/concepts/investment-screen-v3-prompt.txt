@@ -1,0 +1,15 @@
+Use case: identity-preserve / precise image edit.
+Edit Image 1, the pastel virtual-OS stock-trading game screenshot. Image 2 is the EXACT CHARACTER DRAWING-STYLE AND IDENTITY REFERENCE supplied by the user.
+
+Make ONE localized change: replace ONLY the small lower-left character portrait in Image 1 with a faithful upper-body depiction of the woman from Image 2. Preserve the size and placement of that portrait widget. Preserve everything outside the portrait region as faithfully as possible: full screen layout, all app icons, pastel wallpaper, top status bar, stock window, Korean text, numerals, stock chart, labels, buttons and bottom taskbar. Do not redesign or repaint the whole screen.
+
+The previous character portrait was too soft and prettified. The user's correction is to preserve the original reference illustration's drawing style, not merely similar hair and eye colors. Match Image 2 very closely:
+- Same face silhouette, chin and jaw proportions, original eye shape and large golden-brown irises, fine eyebrows, small nose, open startled mouth.
+- Same messy shoulder-length blue-black hair with irregular flyaway strands, the original parted bangs and crisp angular glossy blue highlights.
+- Original fine dark ink contours, confident anime linework, sharply separated cool blue cel-shaded planes and subtle painterly detail in hair and shirt folds. Keep the reference's stronger local contrast and cool monitor illumination on the character.
+- Same light-blue casual T-shirt and adult woman's natural head/shoulder proportions, no chibi or childlike redesign, no exaggerated glossy doll face.
+- Recreate the reference's anxious trading reaction: widened eyes looking screen-right, flushed cheeks, a few sweat drops, hands touching the sides of her head/temples. Closely reframe the reference's head, shoulders and raised hands into the existing portrait area. A faithful cropped recreation of that reference pose is preferable to inventing a new one.
+- No airbrushed pastel reinterpretation of the character; the original linework, facial construction and layered blue cel shading are the priority. The REST of the interface stays bright pastel unchanged.
+- Keep all anatomy clear at portrait size. Keep hair, hands and expression comfortably inside the existing lower-left portrait region without covering desktop icons, taskbar or trading app.
+
+Output the same complete landscape gameplay screenshot as Image 1, same composition/aspect ratio and no added inset, enlarged character panel, labels, watermark or comparison montage. Only the character drawing style is revised to faithfully match Image 2.

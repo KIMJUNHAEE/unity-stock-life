@@ -1,0 +1,30 @@
+Investment screen concept v2 — REF-003
+Created: 2026-11-25 (Asia/Seoul)
+Purpose: concept review for game plan version 0.7; not a release asset.
+Generator: Codex built-in image_gen tool (no CLI/API fallback).
+
+Project-relative files:
+Original generated raster: ThirdParty/Concepts/InvestmentScreenV2/generated-original.png
+Review copy: docs/concepts/investment-screen-v2.png
+Exact generation prompt: docs/concepts/investment-screen-v2-prompt.txt
+Input image: 기초 컨셉 이미지.jpg (REF-001)
+Design source: docs/게임 기획서.md (version 0.7)
+
+The input image supplied the protagonist's appearance. The generated scene
+uses a pastel virtual desktop with one foreground securities app, separate
+browser/finance/album launchers, a small character portrait, and compact
+condition status. No existing game's character or UI asset was imported.
+No font file was embedded or composited; all lettering is generated raster art.
+Output was copied without retouching, resizing, or other image edits.
+
+SHA256:
+Output and original: 6c9590ecbb8f92c85488f7a0da131c914aae5bc53cc535541c33d73aa0673fd1
+Input image: bfc5f0664308088e58b9902d1178c79c5d720949a5d12820ecb9e603740f0a15
+Prompt: a07700927af531b13fcab83ab0fac7a289c4414a45a4051db9a25cab4c9cd136
+Design source at generation: f320f3a39ad0ed4ae13b76e4bddcd35c1329b9723466e3c9c9988e62571c2347
+
+Rights status:
+The input reference is user-provided and its creator and usage conditions
+have not been verified. This provenance record documents generation only;
+it does not establish commercial-use or game-distribution clearance.
+Keep this concept outside release assets until release-use rights are resolved.

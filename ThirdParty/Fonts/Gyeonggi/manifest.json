@@ -1,0 +1,124 @@
+{
+  "retrieved_date": "2026-11-25",
+  "source_page": "https://www.gg.go.kr/contents/contents.do?ciIdx=679&menuId=2457",
+  "download_url": "https://www.gg.go.kr/uploads/CONTENTS/site/gg/경기천년체_260917.zip",
+  "fonts": [
+    {
+      "path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Bold.ttf",
+      "sha256": "f490194d9bf161f70076d01c9fb0a24d0019a324102de46c5fef579188ee96e6",
+      "bytes": 3118992,
+      "names": {
+        "0": "Copyright (C) 2017 Gyeonggi and PYJ&TYPOLAB Inc. All rights reserved.",
+        "1": "GyeonggiTitle Bold",
+        "2": "Bold",
+        "3": "SejongFonts_GyeonggiTitleB",
+        "4": "GyeonggiTitle Bold",
+        "5": "Version 1.100 2017 Hancom release",
+        "6": "GyeonggiTitleB",
+        "7": "GyeonggiTitle, Gyeonggi is a trademark of Gyeonggi.",
+        "8": "PYJ&TYPOLAB Inc.",
+        "9": "PYJ&TYPOLAB Inc.",
+        "10": "PYJ&TYPOLAB Inc.",
+        "11": "http://www.typolab.co.kr",
+        "12": "http://www.typolab.co.kr",
+        "13": "http://www.typolab.co.kr/license",
+        "14": "http://www.typolab.co.kr",
+        "16": "GyeonggiTitle",
+        "17": "Bold",
+        "18": "GyeonggiTitle Bold"
+      },
+      "hangul_syllables": 11172,
+      "missing_sample_characters": [
+        "₩"
+      ],
+      "unmodified_archive_bytes": true
+    },
+    {
+      "path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Light.ttf",
+      "sha256": "7b6e388d92d1ba8a146d4124d8e2ba2728ca8810979c128c275ac1b85df2f41d",
+      "bytes": 2971856,
+      "names": {
+        "0": "Copyright (C) 2017 Gyeonggi and PYJ&TYPOLAB Inc. All rights reserved.",
+        "1": "GyeonggiTitle Light",
+        "2": "Light",
+        "3": "SejongFonts_GyeonggiTitleL",
+        "4": "GyeonggiTitle Light",
+        "5": "Version 1.100 2017 Hancom release",
+        "6": "GyeonggiTitleL",
+        "7": "GyeonggiTitle, Gyeonggi is a trademark of Gyeonggi.",
+        "8": "PYJ&TYPOLAB Inc.",
+        "9": "PYJ&TYPOLAB Inc.",
+        "10": "PYJ&TYPOLAB Inc.",
+        "11": "http://www.typolab.co.kr",
+        "12": "http://www.typolab.co.kr",
+        "13": "http://www.typolab.co.kr/license",
+        "14": "http://www.typolab.co.kr",
+        "16": "GyeonggiTitle",
+        "17": "Light",
+        "18": "GyeonggiTitle Light"
+      },
+      "hangul_syllables": 11172,
+      "missing_sample_characters": [
+        "₩"
+      ],
+      "unmodified_archive_bytes": true
+    },
+    {
+      "path": "Assets/Art/Fonts/GyeonggiTitle/GyeonggiTitle-Medium.ttf",
+      "sha256": "da6fc2e29f3fdc1f25a1f94e18549040acef06ac8d7d9dc373e0f6eabbcae8da",
+      "bytes": 2968964,
+      "names": {
+        "0": "Copyright (C) 2017 Gyeonggi and PYJ&TYPOLAB Inc. All rights reserved.",
+        "1": "GyeonggiTitle Medium",
+        "2": "Medium",
+        "3": "SejongFonts_GyeonggiTitleM",
+        "4": "GyeonggiTitle Medium",
+        "5": "Version 1.000 2017 initial release",
+        "6": "GyeonggiTitleM",
+        "7": "GyeonggiTitle, Gyeonggi is a trademark of Gyeonggi.",
+        "8": "PYJ&TYPOLAB Inc.",
+        "9": "PYJ&TYPOLAB Inc.",
+        "10": "PYJ&TYPOLAB Inc.",
+        "11": "http://www.typolab.co.kr",
+        "12": "http://www.typolab.co.kr",
+        "13": "http://www.typolab.co.kr/license",
+        "14": "http://www.typolab.co.kr",
+        "16": "GyeonggiTitle",
+        "17": "Medium",
+        "18": "GyeonggiTitle Medium"
+      },
+      "hangul_syllables": 11172,
+      "missing_sample_characters": [
+        "₩"
+      ],
+      "unmodified_archive_bytes": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "ThirdParty/Fonts/Gyeonggi/Gyeonggi-official-260917.zip",
+      "sha256": "cc4013dca2626f380f6b4e5fb70ca7c59f41c04b10c456a1224b4c0ca195e3c3",
+      "bytes": 18202918
+    },
+    {
+      "path": "ThirdParty/Fonts/Gyeonggi/Gyeonggi_Font_Guide.zip",
+      "sha256": "bfcb89c5f1c856dfa5f2be59d35f6f35c38d97bedf43fe91f3a154c29ab6385a",
+      "bytes": 2786872
+    },
+    {
+      "path": "ThirdParty/Fonts/Gyeonggi/LICENSE-source-extract.txt",
+      "sha256": "8a33b6178536fc7b7d1299e333e34be6a96dbe7627b22c8c0747983298986374",
+      "bytes": 633
+    },
+    {
+      "path": "ThirdParty/Fonts/Gyeonggi/official-source-page.html",
+      "sha256": "8e3004c21af22cc63e8f364355e30ca84cefd18cef60f492e5e783a0b1bbf2be",
+      "bytes": 629034
+    },
+    {
+      "path": "ThirdParty/Fonts/Gyeonggi/README.md",
+      "sha256": "179e9854bed6b50ace343805df440d1057c74451888820a2961692fb128a1f03",
+      "bytes": 3943
+    }
+  ]
+}

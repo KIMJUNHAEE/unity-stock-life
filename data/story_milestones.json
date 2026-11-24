@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "status": "planning_draft",
+  "kind": "story_milestone_proposals",
+  "authored_date": "2026-11-25",
+  "items": [
+    {
+      "id": "STORY_01_first_goal",
+      "order": 1,
+      "title": "처음 생긴 여유",
+      "status": "proposal",
+      "trigger_phase": "night_settlement_after_interest_and_repayment",
+      "requires_previous_milestone": null,
+      "requirements": {
+        "net_financial_assets_min": null,
+        "cumulative_realized_net_profit_min": null
+      },
+      "unconfigured_requirements_block_trigger": true,
+      "unlock_once_per_run": true,
+      "retain_unlock_after_loss": true,
+      "choices": [
+        {
+          "id": "first_goal_a",
+          "label": "작은 생활 개선",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        },
+        {
+          "id": "first_goal_b",
+          "label": "다음 목표를 위한 준비",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        }
+      ],
+      "rejoin_next_main_milestone": true,
+      "priority_over_generic_night_cutscene": true
+    },
+    {
+      "id": "STORY_02_settled_life",
+      "order": 2,
+      "title": "자리를 잡은 일상",
+      "status": "proposal",
+      "trigger_phase": "night_settlement_after_interest_and_repayment",
+      "requires_previous_milestone": "STORY_01_first_goal",
+      "requirements": {
+        "net_financial_assets_min": null,
+        "cumulative_realized_net_profit_min": null
+      },
+      "unconfigured_requirements_block_trigger": true,
+      "unlock_once_per_run": true,
+      "retain_unlock_after_loss": true,
+      "choices": [
+        {
+          "id": "settled_life_a",
+          "label": "익숙한 일상 지키기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        },
+        {
+          "id": "settled_life_b",
+          "label": "새로운 생활에 도전하기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        }
+      ],
+      "rejoin_next_main_milestone": true,
+      "priority_over_generic_night_cutscene": true
+    },
+    {
+      "id": "STORY_03_wider_world",
+      "order": 3,
+      "title": "넓어진 선택지",
+      "status": "proposal",
+      "trigger_phase": "night_settlement_after_interest_and_repayment",
+      "requires_previous_milestone": "STORY_02_settled_life",
+      "requirements": {
+        "net_financial_assets_min": null,
+        "cumulative_realized_net_profit_min": null
+      },
+      "unconfigured_requirements_block_trigger": true,
+      "unlock_once_per_run": true,
+      "retain_unlock_after_loss": true,
+      "choices": [
+        {
+          "id": "wider_world_a",
+          "label": "주변 사람과 시간 보내기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        },
+        {
+          "id": "wider_world_b",
+          "label": "더 큰 투자 목표 세우기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        }
+      ],
+      "rejoin_next_main_milestone": true,
+      "priority_over_generic_night_cutscene": true
+    },
+    {
+      "id": "STORY_04_personal_ending",
+      "order": 4,
+      "title": "내가 선택한 성공",
+      "status": "proposal",
+      "trigger_phase": "night_settlement_after_interest_and_repayment",
+      "requires_previous_milestone": "STORY_03_wider_world",
+      "requirements": {
+        "net_financial_assets_min": null,
+        "cumulative_realized_net_profit_min": null
+      },
+      "unconfigured_requirements_block_trigger": true,
+      "unlock_once_per_run": true,
+      "retain_unlock_after_loss": true,
+      "choices": [
+        {
+          "id": "personal_ending_a",
+          "label": "생활 목표 완성하기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        },
+        {
+          "id": "personal_ending_b",
+          "label": "투자 여정 계속하기",
+          "scene_id": null,
+          "effect": {
+            "kind": "pending_design"
+          }
+        }
+      ],
+      "rejoin_next_main_milestone": false,
+      "priority_over_generic_night_cutscene": true
+    }
+  ]
+}

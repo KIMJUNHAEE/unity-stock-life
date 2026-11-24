@@ -1,0 +1,28 @@
+* text=auto eol=lf
+
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.meta text eol=lf
+
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text
+*.psd -text
+*.ttf -text
+*.otf -text
+*.zip -text
+*.pdf -text
+*.wav -text
+*.ogg -text
+*.mp3 -text
+*.mp4 -text
+
+# Preserve archived sources and generation evidence byte-for-byte.
+ThirdParty/** -text -whitespace
+docs/concepts/*-prompt.txt -text -whitespace

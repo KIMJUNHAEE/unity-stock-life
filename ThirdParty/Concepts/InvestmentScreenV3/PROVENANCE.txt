@@ -1,0 +1,26 @@
+Investment screen concept v3 — REF-004
+Created: 2026-11-25 (Asia/Seoul)
+Generator: Codex built-in image_gen, image editing; no CLI/API fallback.
+Purpose: character drawing-style comparison, not a release asset.
+
+User direction: preserve the character drawing style of 기초 컨셉 이미지.jpg.
+Edit target: docs/concepts/investment-screen-v2.png (REF-003).
+Character style and identity reference: 기초 컨셉 이미지.jpg (REF-001).
+Change: the lower-left portrait follows the original fine outlines, face and
+eye proportions, tousled dark hair, startled expression, raised hands and
+contrasting blue cel shading. Pastel desktop and stock app layout retained.
+No font files or additional downloaded third-party assets were introduced.
+
+Original output: ThirdParty/Concepts/InvestmentScreenV3/generated-original.png
+Review copy: docs/concepts/investment-screen-v3.png
+Exact prompt: docs/concepts/investment-screen-v3-prompt.txt
+Original output was copied without additional retouching or resizing.
+
+SHA256:
+Output: 4ab1033062011854b7de10b1c49c41ceaba1cdbb688504b21ff428f6d8f33f6c
+Edit target: 6c9590ecbb8f92c85488f7a0da131c914aae5bc53cc535541c33d73aa0673fd1
+Character reference: bfc5f0664308088e58b9902d1178c79c5d720949a5d12820ecb9e603740f0a15
+Prompt: c3abd406e117bcb2e4ded9ca7dbe2b91d6895155dc9f0abee9577eb3fbc3b9a8
+
+Rights status: REF-001's creator and release-use permissions remain unverified.
+This record documents the edit and does not establish release-use clearance.

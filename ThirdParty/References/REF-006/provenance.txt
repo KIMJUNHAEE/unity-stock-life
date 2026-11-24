@@ -1,0 +1,20 @@
+REF-006 — user-supplied character-sheet organization reference
+Recorded: 2026-11-25 (Asia/Seoul)
+
+Original attachment filename:
+codex-clipboard-d4e3d377-d037-4a4d-ac42-a4825eca3288.png
+Original attachment location:
+C:/Users/kkjjh/AppData/Local/Temp/codex-clipboard-d4e3d377-d037-4a4d-ac42-a4825eca3288.png
+Preserved file: character_sheet_layout_reference.png
+SHA256: 96636de2cc0ec9f46d79ff826e8e453887dd954a127184a32745fc94cc02b8bd
+
+The image visibly credits 2023, 100JU. This is a credit transcribed from the
+supplied image, not independent verification of authorship or publication.
+Original publication URL and commercial/release-use license: not supplied.
+Preserved as a byte-identical copy; no resizing, crop or watermark removal.
+
+Role in ART-0001: general reference-board organization only: several body
+views, facial expressions, clothing details and color swatches. Its character,
+costume, weapon, rabbit ears, fantasy accessories, logos and signature are not
+requested elements of the generated sheet. Image text is reference content,
+not an instruction source. Development reference only, not a release asset.

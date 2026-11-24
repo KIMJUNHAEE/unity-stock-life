@@ -1,0 +1,77 @@
+{
+  "asset_id": "ART-0001",
+  "status": "concept_pending_user_design_review",
+  "purpose": "윤서하의 전신 3면도, 기본 표정 4종, 의상과 색상 비교용 캐릭터 시트",
+  "created_at": "2026-11-25T02:42:44+09:00",
+  "target_size_px": [3840, 2160],
+  "actual_generated_size_px": [1672, 941],
+  "runtime_size_px": null,
+  "target_aspect_ratio": "16:9",
+  "actual_aspect_ratio": "1672:941",
+  "transparent_background": false,
+  "file_format": "PNG",
+  "pixel_format": "24-bit RGB",
+  "embedded_srgb_or_icc_profile": false,
+  "color_profile_changes": "none",
+  "tool": "Codex built-in image_gen",
+  "operation": "reference-guided generation",
+  "model": null,
+  "seed": null,
+  "unavailable_settings_note": "The tool did not expose its model name or seed. No CLI/API fallback was used.",
+  "reference_files_and_ids": [
+    {
+      "id": "REF-001",
+      "file": "기초 컨셉 이미지.jpg",
+      "role": "character identity, original drawing style and home outfit reference",
+      "sha256": "bfc5f0664308088e58b9902d1178c79c5d720949a5d12820ecb9e603740f0a15",
+      "rights": "user supplied; creator and release-use permissions unverified"
+    },
+    {
+      "id": "REF-006",
+      "file": "ThirdParty/References/REF-006/character_sheet_layout_reference.png",
+      "role": "general sheet organization only; no character, costume, weapon, logo or signature reuse",
+      "sha256": "96636de2cc0ec9f46d79ff826e8e453887dd954a127184a32745fc94cc02b8bd",
+      "rights": "user supplied; image bears a 2023 100JU credit; original publication and release-use permissions unverified"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "d516bbeaf0d0b955002335c8dd0c5803c711df60a6e455cc8c91b0799abe6c18",
+  "original_file": "generated_original.png",
+  "original_sha256": "2ce6939d86bb70079f673f852f4241c2c72a39e39f7b6d6549e01e1e341610b4",
+  "generator_saved_output": "C:/Users/kkjjh/.codex/generated_images/01a20ea3-f399-78e2-9701-3f8d87b5bfb3/exec-f5ce6708-fef7-4e6c-9dad-91c46f8f4d65.png",
+  "derived_files": [
+    {
+      "file": "docs/concepts/chr_yoon_seoha_sheet_v001.png",
+      "operation": "byte-identical copy",
+      "size_px": [1672, 941],
+      "sha256": "2ce6939d86bb70079f673f852f4241c2c72a39e39f7b6d6549e01e1e341610b4"
+    }
+  ],
+  "transformations": [],
+  "layered_source_provided": false,
+  "terms_checked_on": "2026-11-25",
+  "rights_and_terms_evidence": [
+    {
+      "url": "https://openai.com/policies/terms-of-use/",
+      "file": "terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "url": "https://openai.com/policies/service-terms/",
+      "file": "terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "rights_summary_file": "terms/terms_review.txt",
+  "release_clearance": "not established; development concept only",
+  "review_notes": [
+    "Read all 7 existing project Markdown files before generation.",
+    "User confirmed the character name 윤서하; age 24 remains a story-draft proposal.",
+    "Back hair, rear garment construction and neutral standing anatomy are proposals, not user-approved canon.",
+    "Visually reviewed complete front/side/back figures, four expressions, outfit details and palette.",
+    "Native resolution is below the requested target; no upscaling or 4K-detail claim.",
+    "Opaque design board, not a transparent runtime sprite, layered source or aligned expression-swap atlas.",
+    "Unity import, display-size validation and user design approval have not been performed.",
+    "Generated lettering does not embed or formally apply the GyeonggiTitle font files."
+  ]
+}

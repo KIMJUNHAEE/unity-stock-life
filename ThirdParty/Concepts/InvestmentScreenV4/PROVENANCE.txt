@@ -1,0 +1,34 @@
+Investment screen concept v4 — REF-005
+Created: 2026-11-25 (Asia/Seoul)
+Generator: Codex built-in image_gen, image editing; no CLI/API fallback.
+Purpose: room, character and physical-monitor composition review.
+
+User direction: separate the character illustration from the computer screen.
+Place a large character in the room, and the computer UI on a physical monitor,
+as in the initial concept's spatial composition.
+
+Input 1: docs/concepts/investment-screen-v3.png (REF-004), updated pastel OS.
+Input 2: 기초 컨셉 이미지.jpg (REF-001), character identity and drawing style.
+Input 3: docs/concepts/investment-screen-v1.png (REF-002), composition only.
+Changes: remove the in-OS portrait; show the heroine at large upper-body scale
+beside the desk; show the OS and securities app inside a physical monitor.
+Keep separate browser, finance and album app icons. Use warm room lighting
+and a pastel UI while retaining the original character's fine lines and blue
+cel shading. Compact global date, condition and trading status sit above
+the room scene. No additional downloaded assets or font files were used.
+
+Original output: ThirdParty/Concepts/InvestmentScreenV4/generated-original.png
+Review copy: docs/concepts/investment-screen-v4.png
+Exact prompt: docs/concepts/investment-screen-v4-prompt.txt
+Output copied without additional retouching or resizing.
+
+SHA256:
+Output: 3fa6ee00097d8a169efad976bc641f96a1fe4fe9a0bba1bc0b33f135f561cd42
+Input 1: 4ab1033062011854b7de10b1c49c41ceaba1cdbb688504b21ff428f6d8f33f6c
+Input 2: bfc5f0664308088e58b9902d1178c79c5d720949a5d12820ecb9e603740f0a15
+Input 3: fa199354e1d79745c68414874e9d7f19b2e798c94fe4b008833bd02d1a8b96b2
+Prompt: 1a6b9c0fbecb5fc9fd9ed48380cdbedbfc0862f858dff65e6d34868e1bfa7eac
+
+Rights status: REF-001's creator and release-use permissions remain unverified.
+This record documents generation and does not establish release-use clearance.
+This image is a development concept, not a registered release asset.
