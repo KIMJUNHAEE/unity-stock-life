@@ -95,6 +95,33 @@ namespace StockGame
             return S != null && S.Phase == "evening" && !S.Today.Settled && S.CurrentTick < S.SessionEnd && S.Condition > 0;
         }
 
+        // ───────────────────────── 연장 거래 ─────────────────────────
+
+        /// <summary>기본 마감 직전에 연장을 제안할 때인지. 이미 고른 날은 다시 묻지 않는다.</summary>
+        public bool ExtensionOfferDue()
+        {
+            if (S == null || S.ExtensionTicks <= 0 || S.Phase != "evening" || S.Today.Settled) return false;
+            if (S.Today.Extended || S.Today.ExtensionDeclined || !S.Today.TradingStarted) return false;
+            int before = Math.Max(0, Cfg.I("balance", "market.extension_offer_before_ticks", 10));
+            return S.CurrentTick >= S.BaseSessionEnd - before && S.Condition > 0;
+        }
+
+        /// <summary>연장 신청. 이미 배정된 사건과 가격 흐름을 그대로 이어서 보여준다 (새로 추첨하지 않음).</summary>
+        public void AcceptExtension()
+        {
+            if (S == null || S.Today.Extended || S.ExtensionTicks <= 0) return;
+            S.Today.Extended = true;
+            S.Today.ExtensionDeclined = false;
+            Save();
+        }
+
+        public void DeclineExtension()
+        {
+            if (S == null || S.Today.Extended) return;
+            S.Today.ExtensionDeclined = true;
+            Save();
+        }
+
         /// <summary>실시간 진행. UI 가 '시장 진행 가능' 조건을 판단해 호출한다.</summary>
         public void Advance(float dt, float speed)
         {

@@ -12,8 +12,8 @@
       "trigger_phase": "night_settlement_after_interest_and_repayment",
       "requires_previous_milestone": null,
       "requirements": {
-        "net_financial_assets_min": null,
-        "cumulative_realized_net_profit_min": null
+        "life_progress_min": 60000,
+        "cumulative_realized_net_profit_min": 10000
       },
       "unconfigured_requirements_block_trigger": true,
       "unlock_once_per_run": true,
@@ -37,7 +37,12 @@
         }
       ],
       "rejoin_next_main_milestone": true,
-      "priority_over_generic_night_cutscene": true
+      "priority_over_generic_night_cutscene": true,
+      "draft_requirements": {
+        "life_progress_min": 60000,
+        "cumulative_realized_net_profit_min": 10000
+      },
+      "requirements_note": "생활 진척액과 누적 거래 실현 순손익 기준. 1구간만 적용, 나머지는 플레이 검증 후 적용"
     },
     {
       "id": "STORY_02_settled_life",
@@ -47,7 +52,7 @@
       "trigger_phase": "night_settlement_after_interest_and_repayment",
       "requires_previous_milestone": "STORY_01_first_goal",
       "requirements": {
-        "net_financial_assets_min": null,
+        "life_progress_min": null,
         "cumulative_realized_net_profit_min": null
       },
       "unconfigured_requirements_block_trigger": true,
@@ -72,7 +77,12 @@
         }
       ],
       "rejoin_next_main_milestone": true,
-      "priority_over_generic_night_cutscene": true
+      "priority_over_generic_night_cutscene": true,
+      "draft_requirements": {
+        "life_progress_min": 250000,
+        "cumulative_realized_net_profit_min": 50000
+      },
+      "requirements_note": "생활 진척액과 누적 거래 실현 순손익 기준. 1구간만 적용, 나머지는 플레이 검증 후 적용"
     },
     {
       "id": "STORY_03_wider_world",
@@ -82,7 +92,7 @@
       "trigger_phase": "night_settlement_after_interest_and_repayment",
       "requires_previous_milestone": "STORY_02_settled_life",
       "requirements": {
-        "net_financial_assets_min": null,
+        "life_progress_min": null,
         "cumulative_realized_net_profit_min": null
       },
       "unconfigured_requirements_block_trigger": true,
@@ -107,7 +117,12 @@
         }
       ],
       "rejoin_next_main_milestone": true,
-      "priority_over_generic_night_cutscene": true
+      "priority_over_generic_night_cutscene": true,
+      "draft_requirements": {
+        "life_progress_min": 1000000,
+        "cumulative_realized_net_profit_min": 300000
+      },
+      "requirements_note": "생활 진척액과 누적 거래 실현 순손익 기준. 1구간만 적용, 나머지는 플레이 검증 후 적용"
     },
     {
       "id": "STORY_04_personal_ending",
@@ -117,7 +132,7 @@
       "trigger_phase": "night_settlement_after_interest_and_repayment",
       "requires_previous_milestone": "STORY_03_wider_world",
       "requirements": {
-        "net_financial_assets_min": null,
+        "life_progress_min": null,
         "cumulative_realized_net_profit_min": null
       },
       "unconfigured_requirements_block_trigger": true,
@@ -142,7 +157,13 @@
         }
       ],
       "rejoin_next_main_milestone": false,
-      "priority_over_generic_night_cutscene": true
+      "priority_over_generic_night_cutscene": true,
+      "draft_requirements": {
+        "life_progress_min": 3000000,
+        "cumulative_realized_net_profit_min": 1000000
+      },
+      "requirements_note": "생활 진척액과 누적 거래 실현 순손익 기준. 1구간만 적용, 나머지는 플레이 검증 후 적용"
     }
-  ]
+  ],
+  "requirements_definition": "life_progress = 현금 + 보유 현물 평가액 − 추가 대출(원금·이자) + 누적 가구 구매액 + 시작 부채 누적 상환액 − 회차 시작 현금"
 }

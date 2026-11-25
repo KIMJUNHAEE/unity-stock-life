@@ -4,17 +4,23 @@
     "chars_per_second": 28,
     "camera_zoom_per_second": 0.004
   },
-
   "default_scene": {
     "id": "CS_default_sleep",
     "title": "오늘도 수고했어",
     "image": "cs_default_sleep",
     "lines": [
-      { "speaker": "서하", "text": "알람 맞췄고… 내일 근무복도 꺼내 뒀고.", "expression": "tired" },
-      { "speaker": "서하", "text": "잘 자, 나.", "expression": "normal" }
+      {
+        "speaker": "서하",
+        "text": "알람 맞췄고… 내일 근무복도 꺼내 뒀고.",
+        "expression": "tired"
+      },
+      {
+        "speaker": "서하",
+        "text": "잘 자, 나.",
+        "expression": "normal"
+      }
     ]
   },
-
   "scenes": [
     {
       "id": "CS_first_profit",
@@ -25,14 +31,35 @@
       "image": "cs_first_profit",
       "hint": "처음으로 웃으며 끝난 밤",
       "condition_text": "거래가 있었던 밤에 일일 실현 순손익이 처음으로 플러스",
-      "conditions": { "all": [
-        { "stat": "trades_today", "op": ">=", "value": 1 },
-        { "stat": "realized_today", "op": ">", "value": 0 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "trades_today",
+            "op": ">=",
+            "value": 1
+          },
+          {
+            "stat": "realized_today",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "서하", "text": "오늘 실현 손익… 플러스. 수수료까지 빼고도.", "expression": "surprised" },
-        { "speaker": "", "text": "편의점 디저트 진열대 앞. 서하는 딸기 롤케이크와 푸딩을 번갈아 든다." },
-        { "speaker": "서하", "text": "…오늘은 두 개. 딱 오늘만.", "expression": "happy" }
+        {
+          "speaker": "서하",
+          "text": "오늘 실현 손익… 플러스. 수수료까지 빼고도.",
+          "expression": "surprised"
+        },
+        {
+          "speaker": "",
+          "text": "편의점 디저트 진열대 앞. 서하는 딸기 롤케이크와 푸딩을 번갈아 든다."
+        },
+        {
+          "speaker": "서하",
+          "text": "…오늘은 두 개. 딱 오늘만.",
+          "expression": "happy"
+        }
       ]
     },
     {
@@ -43,14 +70,35 @@
       "image": "cs_big_win",
       "hint": "침착한 척이 어려운 밤",
       "condition_text": "하루 실현 순이익 50,000원 이상이면서 거래 시작 자금 대비 10% 이상",
-      "conditions": { "all": [
-        { "stat": "realized_today", "op": ">=", "value": 50000 },
-        { "stat": "return_today", "op": ">=", "value": 0.1 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "realized_today",
+            "op": ">=",
+            "value": 50000
+          },
+          {
+            "stat": "return_today",
+            "op": ">=",
+            "value": 0.1
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "서하", "text": "음. 괜찮네. 계획대로였어.", "expression": "focus" },
-        { "speaker": "", "text": "노트북을 덮고 침대로 몸을 던진다. 베개에 얼굴을 묻고 발을 동동." },
-        { "speaker": "서하", "text": "…계획대로였다니까!", "expression": "happy" }
+        {
+          "speaker": "서하",
+          "text": "음. 괜찮네. 계획대로였어.",
+          "expression": "focus"
+        },
+        {
+          "speaker": "",
+          "text": "노트북을 덮고 침대로 몸을 던진다. 베개에 얼굴을 묻고 발을 동동."
+        },
+        {
+          "speaker": "서하",
+          "text": "…계획대로였다니까!",
+          "expression": "happy"
+        }
       ]
     },
     {
@@ -61,10 +109,21 @@
       "image": "cs_confidence",
       "hint": "거래한 밤이 여러 번 이어지면",
       "condition_text": "거래가 있었던 밤에 3번 연속 실현 순이익",
-      "conditions": { "stat": "consecutive_profit_nights", "op": ">=", "value": 3 },
+      "conditions": {
+        "stat": "consecutive_profit_nights",
+        "op": ">=",
+        "value": 3
+      },
       "lines": [
-        { "speaker": "", "text": "매일 적던 가계부. 최근 칸에는 작은 플러스가 이어져 있다." },
-        { "speaker": "서하", "text": "운이었을 수도 있어. 그래도 내가 고른 거야.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "매일 적던 가계부. 최근 칸에는 작은 플러스가 이어져 있다."
+        },
+        {
+          "speaker": "서하",
+          "text": "운이었을 수도 있어. 그래도 내가 고른 거야.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -75,11 +134,26 @@
       "image": "cs_nobody_believed",
       "hint": "묻혀 있던 글을 다시 찾아보게 되는 밤",
       "condition_text": "관련 소문을 읽고 공식 확인 전에 매수, 같은 사건의 호재 확인 뒤 10,000원 이상 이익 실현",
-      "conditions": { "stat": "rumor_early_profit_today", "op": ">=", "value": 10000 },
+      "conditions": {
+        "stat": "rumor_early_profit_today",
+        "op": ">=",
+        "value": 10000
+      },
       "lines": [
-        { "speaker": "", "text": "추천 0, 댓글 하나. 서하는 오래전 글을 다시 열어 본다." },
-        { "speaker": "서하", "text": "이 글 쓴 사람도 지금 웃고 있으려나.", "expression": "happy" },
-        { "speaker": "서하", "text": "…다음엔 이렇게 운 좋지 않을 수도 있지만.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "추천 0, 댓글 하나. 서하는 오래전 글을 다시 열어 본다."
+        },
+        {
+          "speaker": "서하",
+          "text": "이 글 쓴 사람도 지금 웃고 있으려나.",
+          "expression": "happy"
+        },
+        {
+          "speaker": "서하",
+          "text": "…다음엔 이렇게 운 좋지 않을 수도 있지만.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -90,11 +164,25 @@
       "image": "cs_so_many_likes",
       "hint": "추천 수를 다시 세어 보는 밤",
       "condition_text": "관련 소문을 읽고 공식 발표 전에 매수, 같은 사건이 악재로 확인된 뒤 10,000원 이상 손실 확정",
-      "conditions": { "stat": "false_rumor_loss_today", "op": ">=", "value": 10000 },
+      "conditions": {
+        "stat": "false_rumor_loss_today",
+        "op": ">=",
+        "value": 10000
+      },
       "lines": [
-        { "speaker": "", "text": "인기글 표시가 붙어 있던 글. 추천 수는 그대로다." },
-        { "speaker": "서하", "text": "숫자가 많다고 맞는 건 아니었네.", "expression": "sad" },
-        { "speaker": "", "text": "서하는 조용히 브라우저 탭을 닫는다." }
+        {
+          "speaker": "",
+          "text": "인기글 표시가 붙어 있던 글. 추천 수는 그대로다."
+        },
+        {
+          "speaker": "서하",
+          "text": "숫자가 많다고 맞는 건 아니었네.",
+          "expression": "sad"
+        },
+        {
+          "speaker": "",
+          "text": "서하는 조용히 브라우저 탭을 닫는다."
+        }
       ]
     },
     {
@@ -105,11 +193,26 @@
       "image": "cs_news_was_true",
       "hint": "사실과 가격 사이에서",
       "condition_text": "확인된 호재 뉴스를 읽은 뒤 진입했지만 그 종목에서 5,000원 이상 손실 확정",
-      "conditions": { "stat": "news_chase_loss_today", "op": ">=", "value": 5000 },
+      "conditions": {
+        "stat": "news_chase_loss_today",
+        "op": ">=",
+        "value": 5000
+      },
       "lines": [
-        { "speaker": "서하", "text": "기사는 맞았는데.", "expression": "sad" },
-        { "speaker": "", "text": "기사 게시 시각과 차트를 번갈아 본다. 그 전에 이미 올라 있던 캔들." },
-        { "speaker": "서하", "text": "내가 산 가격은…….", "expression": "tired" }
+        {
+          "speaker": "서하",
+          "text": "기사는 맞았는데.",
+          "expression": "sad"
+        },
+        {
+          "speaker": "",
+          "text": "기사 게시 시각과 차트를 번갈아 본다. 그 전에 이미 올라 있던 캔들."
+        },
+        {
+          "speaker": "서하",
+          "text": "내가 산 가격은…….",
+          "expression": "tired"
+        }
       ]
     },
     {
@@ -121,13 +224,30 @@
       "image": "cs_first_loan",
       "hint": "평소보다 주문 버튼이 무거운 밤",
       "condition_text": "처음 대출을 받은 날 한 번 이상 체결",
-      "conditions": { "all": [
-        { "stat": "took_loan_today", "op": "==", "value": 1 },
-        { "stat": "trades_today", "op": ">=", "value": 1 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "took_loan_today",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "stat": "trades_today",
+            "op": ">=",
+            "value": 1
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "", "text": "평소라면 아무렇지 않게 눌렀을 금액. 커서가 매수 버튼 위에서 멈춘다." },
-        { "speaker": "서하", "text": "이건 내 돈이 아니야. 갚아야 하는 돈이야.", "expression": "focus" }
+        {
+          "speaker": "",
+          "text": "평소라면 아무렇지 않게 눌렀을 금액. 커서가 매수 버튼 위에서 멈춘다."
+        },
+        {
+          "speaker": "서하",
+          "text": "이건 내 돈이 아니야. 갚아야 하는 돈이야.",
+          "expression": "focus"
+        }
       ]
     },
     {
@@ -138,10 +258,21 @@
       "image": "cs_loan_cleared",
       "hint": "남아 있던 숫자가 0이 되는 밤",
       "condition_text": "이전 날짜부터 남아 있던 추가 대출과 이자를 전액 상환",
-      "conditions": { "stat": "loan_cleared_today", "op": "==", "value": 1 },
+      "conditions": {
+        "stat": "loan_cleared_today",
+        "op": "==",
+        "value": 1
+      },
       "lines": [
-        { "speaker": "", "text": "상환 완료. 서하는 화면을 한참 본다." },
-        { "speaker": "서하", "text": "오늘은 편의점 푸딩. 내 돈으로.", "expression": "happy" }
+        {
+          "speaker": "",
+          "text": "상환 완료. 서하는 화면을 한참 본다."
+        },
+        {
+          "speaker": "서하",
+          "text": "오늘은 편의점 푸딩. 내 돈으로.",
+          "expression": "happy"
+        }
       ]
     },
     {
@@ -153,10 +284,21 @@
       "image": "cs_first_repay",
       "hint": "아주 조금이라도",
       "condition_text": "시작 부채를 처음으로 상환",
-      "conditions": { "stat": "repaid_starting_debt_today", "op": ">", "value": 0 },
+      "conditions": {
+        "stat": "repaid_starting_debt_today",
+        "op": ">",
+        "value": 0
+      },
       "lines": [
-        { "speaker": "", "text": "상환 안내서의 숫자가 아주 조금 바뀌었다. 끝자리 몇 개." },
-        { "speaker": "서하", "text": "티도 안 나네. …그래도 줄었어.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "상환 안내서의 숫자가 아주 조금 바뀌었다. 끝자리 몇 개."
+        },
+        {
+          "speaker": "서하",
+          "text": "티도 안 나네. …그래도 줄었어.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -167,14 +309,35 @@
       "image": "cs_still_working",
       "hint": "알람을 한 번 더 확인하는 밤",
       "condition_text": "거래 종료 시 투자 가능 자산 50,000원 이하이고 추가 대출이 남아 있음",
-      "conditions": { "all": [
-        { "stat": "investable_assets", "op": "<=", "value": 50000 },
-        { "stat": "loan_balance", "op": ">", "value": 0 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "investable_assets",
+            "op": "<=",
+            "value": 50000
+          },
+          {
+            "stat": "loan_balance",
+            "op": ">",
+            "value": 0
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "", "text": "옷걸이의 편의점 근무복을 꺼내 의자에 걸어 둔다." },
-        { "speaker": "서하", "text": "알람 두 개. 지각하면 안 되니까.", "expression": "tired" },
-        { "speaker": "서하", "text": "내일도 다녀올게.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "옷걸이의 편의점 근무복을 꺼내 의자에 걸어 둔다."
+        },
+        {
+          "speaker": "서하",
+          "text": "알람 두 개. 지각하면 안 되니까.",
+          "expression": "tired"
+        },
+        {
+          "speaker": "서하",
+          "text": "내일도 다녀올게.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -185,13 +348,30 @@
       "image": "cs_no_trade",
       "hint": "지켜보기만 한 밤",
       "condition_text": "거래 세션을 120분 이상 지켜보고 한 번도 매매하지 않음",
-      "conditions": { "all": [
-        { "stat": "trades_today", "op": "==", "value": 0 },
-        { "stat": "session_ticks_watched", "op": ">=", "value": 120 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "trades_today",
+            "op": "==",
+            "value": 0
+          },
+          {
+            "stat": "session_ticks_watched",
+            "op": ">=",
+            "value": 120
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "", "text": "주문창을 닫고 따뜻한 보리차를 따른다." },
-        { "speaker": "서하", "text": "안 샀다고 진 건 아니지.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "주문창을 닫고 따뜻한 보리차를 따른다."
+        },
+        {
+          "speaker": "서하",
+          "text": "안 샀다고 진 건 아니지.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -202,10 +382,21 @@
       "image": "cs_dozed",
       "hint": "눈꺼풀이 무거운 밤",
       "condition_text": "컨디션 20 미만 상태로 거래를 마침",
-      "conditions": { "stat": "condition", "op": "<", "value": 20 },
+      "conditions": {
+        "stat": "condition",
+        "op": "<",
+        "value": 20
+      },
       "lines": [
-        { "speaker": "", "text": "모니터 불빛 아래, 서하가 책상에 엎드려 있다." },
-        { "speaker": "서하", "text": "한 번만… 더 보고… 자자…", "expression": "tired" }
+        {
+          "speaker": "",
+          "text": "모니터 불빛 아래, 서하가 책상에 엎드려 있다."
+        },
+        {
+          "speaker": "서하",
+          "text": "한 번만… 더 보고… 자자…",
+          "expression": "tired"
+        }
       ]
     },
     {
@@ -216,13 +407,30 @@
       "image": "cs_warm_meal",
       "hint": "속상한 날의 밥",
       "condition_text": "손실이 난 밤에 식사로 컨디션을 회복",
-      "conditions": { "all": [
-        { "stat": "meal_used_today", "op": ">=", "value": 1 },
-        { "stat": "realized_today", "op": "<", "value": 0 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "meal_used_today",
+            "op": ">=",
+            "value": 1
+          },
+          {
+            "stat": "realized_today",
+            "op": "<",
+            "value": 0
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "", "text": "김이 오르는 국물. 숟가락을 든 손이 잠깐 멈춘다." },
-        { "speaker": "서하", "text": "그래도 밥은 맛있다.", "expression": "normal" }
+        {
+          "speaker": "",
+          "text": "김이 오르는 국물. 숟가락을 든 손이 잠깐 멈춘다."
+        },
+        {
+          "speaker": "서하",
+          "text": "그래도 밥은 맛있다.",
+          "expression": "normal"
+        }
       ]
     },
     {
@@ -233,13 +441,30 @@
       "image": "cs_enough_today",
       "hint": "스스로 멈춘 밤",
       "condition_text": "피곤한 상태(컨디션 45 미만)에서 장 마감 전에 거래를 마침",
-      "conditions": { "all": [
-        { "stat": "ended_early", "op": "==", "value": 1 },
-        { "stat": "condition", "op": "<", "value": 45 }
-      ] },
+      "conditions": {
+        "all": [
+          {
+            "stat": "ended_early",
+            "op": "==",
+            "value": 1
+          },
+          {
+            "stat": "condition",
+            "op": "<",
+            "value": 45
+          }
+        ]
+      },
       "lines": [
-        { "speaker": "서하", "text": "더 보면 더 이상한 걸 살 것 같아.", "expression": "tired" },
-        { "speaker": "", "text": "노트북을 덮는다. 오늘은 여기까지." }
+        {
+          "speaker": "서하",
+          "text": "더 보면 더 이상한 걸 살 것 같아.",
+          "expression": "tired"
+        },
+        {
+          "speaker": "",
+          "text": "노트북을 덮는다. 오늘은 여기까지."
+        }
       ]
     },
     {
@@ -251,10 +476,21 @@
       "image": "cs_next_home",
       "hint": "집 사진 대신 계획을 적는 밤",
       "condition_text": "밤 종료 시 시작 부채를 제외한 순자금 3,000,000원 이상 (이사 목표 임시값)",
-      "conditions": { "stat": "net_financial_assets_excluding_starting_debt", "op": ">=", "value": 3000000 },
+      "conditions": {
+        "stat": "net_financial_assets_excluding_starting_debt",
+        "op": ">=",
+        "value": 3000000
+      },
       "lines": [
-        { "speaker": "", "text": "늘 저장만 하던 방 사진들. 오늘은 메모장을 연다." },
-        { "speaker": "서하", "text": "보증금, 이사 날짜, 창문 방향… 진짜로 적어 볼까.", "expression": "happy" }
+        {
+          "speaker": "",
+          "text": "늘 저장만 하던 방 사진들. 오늘은 메모장을 연다."
+        },
+        {
+          "speaker": "서하",
+          "text": "보증금, 이사 날짜, 창문 방향… 진짜로 적어 볼까.",
+          "expression": "happy"
+        }
       ]
     },
     {
@@ -267,10 +503,121 @@
       "image": "cs_liquidation",
       "hint": "선물 거래 도입 후",
       "condition_text": "첫 선물 강제 청산 (선물 시스템 도입 전이라 비활성)",
-      "conditions": { "stat": "forced_liquidations_today", "op": ">=", "value": 1 },
+      "conditions": {
+        "stat": "forced_liquidations_today",
+        "op": ">=",
+        "value": 1
+      },
       "lines": [
-        { "speaker": "", "text": "노트북을 천천히 닫았다가, 다시 연다. 잔액은 그대로다." }
+        {
+          "speaker": "",
+          "text": "노트북을 천천히 닫았다가, 다시 연다. 잔액은 그대로다."
+        }
       ]
+    },
+    {
+      "id": "CS_daily_first_night",
+      "title": "첫날의 끝",
+      "category": "일상",
+      "priority": 40,
+      "repeatable": false,
+      "use_character_layer": true,
+      "hint": "처음으로 하루를 마친 밤",
+      "condition_text": "첫 결산을 마친 밤 (투자 결과와 상관없음)",
+      "conditions": {
+        "all": [
+          {
+            "stat": "nights_played",
+            "op": "==",
+            "value": 1
+          }
+        ]
+      },
+      "lines": [
+        {
+          "speaker": "서하",
+          "text": "첫날이 끝났다. 알바하고, 차트 보고… 생각보다 하루가 길었어.",
+          "expression": "tired"
+        },
+        {
+          "speaker": "",
+          "text": "책상 위에는 오늘 받은 영수증과, 아직 그대로인 10억이라는 숫자."
+        },
+        {
+          "speaker": "서하",
+          "text": "숫자는 그대로인데, 오늘 한 일은 하나씩 남아 있네.",
+          "expression": "normal"
+        },
+        {
+          "speaker": "서하",
+          "text": "무엇을 봤는지, 왜 그렇게 했는지. 내일은 그걸 기억하면서 해 보자.",
+          "expression": "focus"
+        },
+        {
+          "speaker": "서하",
+          "text": "…일단 씻고 자자. 내일도, 다녀오겠습니다.",
+          "expression": "happy"
+        }
+      ]
+    },
+    {
+      "id": "MT_manager_first_visit",
+      "title": "점장님의 아침",
+      "category": "만남",
+      "priority": 0,
+      "repeatable": false,
+      "use_character_layer": false,
+      "hint": "근무 없는 아침, 편의점 앞에서",
+      "condition_text": "3일차 이후 아침에 출근 대신 만남을 고르면",
+      "conditions": null,
+      "lines": [
+        {
+          "speaker": "",
+          "text": "근무가 없는 아침. 편의점 앞을 지나는데 유리문이 열린다."
+        },
+        {
+          "speaker": "문채린",
+          "text": "서하 씨, 오늘 쉬는 날이죠? 얼굴 보러 잠깐 나왔어요."
+        },
+        {
+          "speaker": "서하",
+          "text": "점장님… 네, 오늘은 출근 안 하는 날이라서요.",
+          "expression": "surprised"
+        },
+        {
+          "speaker": "문채린",
+          "text": "요즘 밤에 뭘 그렇게 열심히 봐요? 출근할 때마다 눈이 빨개요."
+        },
+        {
+          "speaker": "서하",
+          "text": "아, 그게… 공부 비슷한 거예요.",
+          "expression": "tired"
+        },
+        {
+          "speaker": "문채린",
+          "text": "뭘 하든 밥은 챙겨 먹어요. 끼니 거르면 계산도 틀려요. 가게에서도, 다른 데서도."
+        },
+        {
+          "speaker": "서하",
+          "text": "…네. 명심할게요.",
+          "expression": "happy"
+        },
+        {
+          "speaker": "문채린",
+          "text": "다음 근무 때 봐요. 늦지 말고."
+        }
+      ]
+    }
+  ],
+  "meetings": [
+    {
+      "id": "manager_first_visit",
+      "enabled": true,
+      "button_label": "점장님 만나러 가기 (근무 없음)",
+      "scene_id": "MT_manager_first_visit",
+      "min_day": 3,
+      "requires_seen_scene": "CS_daily_first_night",
+      "conditions": null
     }
   ]
 }

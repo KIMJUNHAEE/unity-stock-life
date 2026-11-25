@@ -141,6 +141,8 @@ namespace StockGame
         [Label("모두 만족 / 하나라도")] public MatchMode mode = MatchMode.All;
         [Label("조건")] public List<StatCond> items = new List<StatCond>();
 
+        public int Count() { return items == null ? 0 : items.Count; }
+
         public object ToTree()
         {
             if (items == null || items.Count == 0) return null;
@@ -214,6 +216,8 @@ namespace StockGame
         [Label("캔들 내부 단계 수", "새 게임부터")] public int substepsPerTick = 5;
         [Label("시장 1분 = 실제 몇 초", "작을수록 빠름"), Range(0.05f, 10f)] public float secondsPerTick = 1.2f;
         [Label("배속 버튼")] public List<float> speedOptions = new List<float> { 1, 2, 4 };
+        [Label("선택형 연장 거래 (분)", "0 = 연장 없음. 새 게임부터")] public int extensionTicks = 60;
+        [Label("연장 제안 시점 (기본 마감 몇 분 전)")] public int extensionOfferBeforeTicks = 10;
         [Label("시작가 범위")] public Vector2 initialPriceRange = new Vector2(1000, 8000);
         [AsDict, Label("종목별 설정")] public List<CompanyOverride> companyOverrides = new List<CompanyOverride>();
         [Label("회차별 변동성 차이")] public float volatilityRunSpread = 0.25f;
@@ -345,6 +349,7 @@ namespace StockGame
         [Label("시작 컨디션")] public float startValue = 100;
         [Label("최대 컨디션")] public float maxValue = 100;
         [Label("시장 1분당 소모"), Range(0, 2)] public float drainPerTick = 0.3f;
+        [Label("연장 거래 1분당 소모"), Range(0, 2)] public float extensionDrainPerTick = 0.45f;
         [Label("수면 후 컨디션")] public float sleepRestore = 100;
         [Label("첫 눈 감김까지 (분)")] public int firstBlinkDelayTicks = 6;
         [Label("눈 감고 뜨는 속도")] public float blinkCloseFraction = 0.18f;
@@ -432,6 +437,7 @@ namespace StockGame
         [Label("수집률에 포함")] public bool countsForCollection = true;
         [Label("비밀 장면")] public bool secret;
         [Label("일러스트")] public Sprite image;
+        [Label("공용 배경 위 서하 입상 사용")] public bool useCharacterLayer;
         [Label("미해금 힌트")] public string hint;
         [Label("조건 설명 문구")] public string conditionText;
         [Label("해금 조건")] public ConditionSet conditions = new ConditionSet();
@@ -449,6 +455,18 @@ namespace StockGame
         [Label("재생 설정")] public CutsceneSettingsCfg settings = new CutsceneSettingsCfg();
         [Label("기본 취침 장면")] public SceneCfg defaultScene = new SceneCfg();
         [Label("컷신 목록")] public List<SceneCfg> scenes = new List<SceneCfg>();
+        [Label("아침 만남", "출근 대신 고르는 짧은 대화. 장면은 컷신 목록에 넣고 해금 조건은 비워 둔다")] public List<MeetingCfg> meetings = new List<MeetingCfg>();
+    }
+
+    [Serializable] public class MeetingCfg
+    {
+        [Label("id")] public string id;
+        [Label("사용")] public bool enabled = true;
+        [Label("버튼 문구")] public string buttonLabel;
+        [Label("재생할 장면 id", "컷신 목록의 id")] public string sceneId;
+        [Label("최소 일차")] public int minDay = 3;
+        [Label("먼저 본 장면 id (선택)")] public string requiresSeenScene;
+        [Label("추가 조건 (선택)")] public ConditionSet conditions = new ConditionSet();
     }
 
     [Serializable] public class ExpressionCfg
@@ -560,8 +578,8 @@ namespace StockGame
 
     [Serializable] public class ThemeConfig
     {
-        [Label("게임 제목")] public string gameTitle = "내일도, 다녀오겠습니다";
-        [Label("부제")] public string gameSubtitle = "편의점 알바와 밤의 투자";
+        [Label("게임 제목")] public string gameTitle = "두근두근 트레이딩";
+        [Label("부제")] public string gameSubtitle = "";
         [Label("알림 표시 시간 (초)")] public float toastSeconds = 3.5f;
         [Label("기본 테마 키")] public string defaultTheme = "pastel_day";
         [AsDict, Label("테마")] public List<ThemeCfg> themes = new List<ThemeCfg>();

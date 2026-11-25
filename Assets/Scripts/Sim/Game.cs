@@ -37,6 +37,13 @@ namespace StockGame
 
         public void Toast(string msg) { if (OnToast != null && !HiddenSim) OnToast(msg); }
         public void React(string trigger) { if (OnReaction != null && !HiddenSim) OnReaction(trigger); }
+        public static bool HasReaction(string trigger)
+        {
+            var cfg = GameConfig.Instance;
+            if (cfg == null) return false;
+            foreach (var r in cfg.dialogue.reactions) if (r != null && r.key == trigger && r.lines.Count > 0) return true;
+            return false;
+        }
 
         // ───────────────────────── 새 게임 / 저장 ─────────────────────────
 
@@ -49,6 +56,8 @@ namespace StockGame
             S.Substeps = Mathf.Clamp(Cfg.I("balance", "market.substeps_per_tick", 5), 1, 20);
             S.SessionStartMinute = Cfg.I("balance", "market.session_start_minute", 1260);
             S.Cash = Cfg.L("balance", "economy.starting_cash", 300000);
+            S.RunStartCash = S.Cash;
+            S.ExtensionTicks = Math.Max(0, Cfg.I("balance", "market.extension_ticks", 60));
             S.StartingDebt = Cfg.L("balance", "debt.starting_debt", 1000000000);
             S.Condition = Cfg.D("balance", "condition.start_value", 100);
             S.ActiveTheme = Cfg.S("theme", "default_theme", "pastel_day");
@@ -73,6 +82,7 @@ namespace StockGame
             S.Today = new DayRecord { Day = 0 };
             GenerateEvents(0, S.TicksPerDay, 0);
             GenerateEvents(S.TicksPerDay, S.TicksPerDay * 2, 0);
+            S.EventsGeneratedUntil = S.TicksPerDay * 2;
             ScheduleGeneralPosts(0, S.TicksPerDay);
             HiddenSim = true;
             int guard = 0;
@@ -108,7 +118,10 @@ namespace StockGame
             S.Today = new DayRecord { Day = day, HadLoanBefore = S.Loan != null && S.Loan.Owed > 0 };
             int start = S.CurrentTick;
             ScheduleGeneralPosts(start, start + S.TicksPerDay);
-            GenerateEvents(start + S.TicksPerDay, start + S.TicksPerDay * 2, start);
+            // 다음 날 사건을 미리 배정한다. 전날 연장 거래로 세션이 밀렸다면 비어 있는 구간부터 이어서 배정한다.
+            int from = S.EventsGeneratedUntil > 0 ? Math.Min(S.EventsGeneratedUntil, start + S.TicksPerDay) : start + S.TicksPerDay;
+            GenerateEvents(from, start + S.TicksPerDay * 2, start);
+            S.EventsGeneratedUntil = start + S.TicksPerDay * 2;
             S.Phase = "morning";
             S.NextBlinkTick = 0;
             UserPaused = false;
@@ -164,6 +177,7 @@ namespace StockGame
                 S = JsonMapper.FromTree<GameState>(tree);
                 if (S == null) return false;
                 if (S.Today == null) S.Today = new DayRecord { Day = S.Day };
+                MigrateSave();
                 AttachRng();
                 UserPaused = true;
                 subAccum = 0;
@@ -175,6 +189,21 @@ namespace StockGame
                 Toast("불러오기 실패: " + ex.Message);
                 return false;
             }
+        }
+
+        /// <summary>예전 저장(버전 1)에 없던 값을 채운다.</summary>
+        void MigrateSave()
+        {
+            if (S.SaveVersion >= 2) return;
+            if (S.RunStartCash == 0) S.RunStartCash = Cfg.L("balance", "economy.starting_cash", 300000);
+            S.CumulativeFurnitureSpent = 0;
+            S.CumulativeStartingDebtRepaid = 0;
+            foreach (var d in S.History) { S.CumulativeFurnitureSpent += d.FurnitureSpent; S.CumulativeStartingDebtRepaid += d.RepaidStartingDebt; }
+            S.CumulativeFurnitureSpent += S.Today.FurnitureSpent;
+            S.CumulativeStartingDebtRepaid += S.Today.RepaidStartingDebt;
+            if (S.EventsGeneratedUntil == 0) S.EventsGeneratedUntil = S.SessionStart + S.TicksPerDay * 2;
+            S.ExtensionTicks = Math.Max(0, Cfg.I("balance", "market.extension_ticks", 60));
+            S.SaveVersion = 2;
         }
 
         public void DeleteRun()
@@ -229,6 +258,15 @@ namespace StockGame
         public long LoanOwed() { return S.Loan == null ? 0 : S.Loan.Owed; }
         public long TotalDebt() { return LoanOwed() + S.StartingDebt; }
         public long NetFinancialAssets() { return InvestableAssets() - TotalDebt(); }
+
+        /// <summary>생활 순자금 = 현금 + 보유 현물 평가액 − 추가 투자 대출(원금·이자). 시작 부채는 빼지 않는다.</summary>
+        public long LifeNetFunds() { return InvestableAssets() - LoanOwed(); }
+
+        /// <summary>
+        /// 생활 진척액 = 생활 순자금 + 누적 가구 구매액 + 시작 부채 누적 상환액 − 회차 시작 현금.
+        /// 대출 입금만으로는 늘지 않고, 가구 구매·시작 부채 상환은 쌓아 온 진척을 지우지 않는다.
+        /// </summary>
+        public long LifeProgress() { return LifeNetFunds() + S.CumulativeFurnitureSpent + S.CumulativeStartingDebtRepaid - S.RunStartCash; }
 
         public int MinuteOfTick(int tick)
         {

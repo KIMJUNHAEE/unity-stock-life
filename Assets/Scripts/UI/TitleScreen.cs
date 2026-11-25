@@ -19,8 +19,11 @@ namespace StockGame
             {
                 case "title": return cfg != null ? cfg.theme.gameTitle : "";
                 case "subtitle": return cfg != null ? cfg.theme.gameSubtitle : "";
-                case "new_label": return Game.I.HasSave() ? "새 게임 (기존 진행 덮어쓰기)" : "새 게임";
-                case "root": return "MVP 시제품 · data 폴더: " + ContentPaths.Root + "   ·   F1 상태  F5 다시 읽기  F12 디버그";
+                case "new_label": return "새 게임";
+                case "root":
+                    return Application.isEditor
+                        ? "MVP 시제품 · data 폴더: " + ContentPaths.Root + "   ·   F1 상태  F5 다시 읽기  F12 디버그"
+                        : "버전 " + Application.version;
             }
             return null;
         }

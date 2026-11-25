@@ -8,7 +8,11 @@
   },
   "debt": {
     "starting_debt": 1000000000,
-    "repay_options": [10000, 50000, 100000]
+    "repay_options": [
+      10000,
+      50000,
+      100000
+    ]
   },
   "trading": {
     "fee_rate": 0.001,
@@ -16,14 +20,27 @@
     "sell_tax_rate": 0
   },
   "market": {
-    "tradable_company_ids": ["momo_bio", "starlight_drink", "dawn_tech"],
+    "tradable_company_ids": [
+      "momo_bio",
+      "starlight_drink",
+      "dawn_tech"
+    ],
     "tradable_company_count": 3,
     "session_start_minute": 1260,
     "session_length_ticks": 180,
     "substeps_per_tick": 5,
     "seconds_per_tick": 1.2,
-    "speed_options": [1, 2, 4],
-    "initial_price_range": [1000, 8000],
+    "speed_options": [
+      1,
+      2,
+      4
+    ],
+    "extension_ticks": 60,
+    "extension_offer_before_ticks": 10,
+    "initial_price_range": [
+      1000,
+      8000
+    ],
     "company_overrides": {
       "momo_bio": {
         "initial_price": 1000,
@@ -48,29 +65,77 @@
     "volume_return_sensitivity": 60,
     "min_price": 100,
     "tick_sizes": [
-      [2000, 1],
-      [5000, 5],
-      [20000, 10],
-      [50000, 50],
-      [200000, 100],
-      [500000, 500],
-      [1000000000000, 1000]
+      [
+        2000,
+        1
+      ],
+      [
+        5000,
+        5
+      ],
+      [
+        20000,
+        10
+      ],
+      [
+        50000,
+        50
+      ],
+      [
+        200000,
+        100
+      ],
+      [
+        500000,
+        500
+      ],
+      [
+        1000000000000,
+        1000
+      ]
     ]
   },
   "events": {
     "per_day_min": 1,
     "per_day_max": 2,
-    "official_offset_ticks": [20, 165],
+    "official_offset_ticks": [
+      20,
+      165
+    ],
     "rumor_chance": 0.65,
-    "rumor_lead_ticks": [25, 200],
-    "leak_window_ticks": [5, 25],
-    "follow_up_delay_ticks": [20, 90],
-    "priced_in_with_rumor": [0.35, 0.85],
-    "priced_in_without_rumor": [0, 0.4],
+    "rumor_lead_ticks": [
+      25,
+      200
+    ],
+    "leak_window_ticks": [
+      5,
+      25
+    ],
+    "follow_up_delay_ticks": [
+      20,
+      90
+    ],
+    "priced_in_with_rumor": [
+      0.35,
+      0.85
+    ],
+    "priced_in_without_rumor": [
+      0,
+      0.4
+    ],
     "rumor_hype_chance": 0.6,
-    "rumor_hype": [0.01, 0.06],
-    "sell_the_news_ratio": [0, 0.6],
-    "official_jump_share": [0.4, 0.8],
+    "rumor_hype": [
+      0.01,
+      0.06
+    ],
+    "sell_the_news_ratio": [
+      0,
+      0.6
+    ],
+    "official_jump_share": [
+      0.4,
+      0.8
+    ],
     "attention_per_impact": 12,
     "min_gap_between_company_events": 10
   },
@@ -79,122 +144,194 @@
     "development_success": {
       "tone": "positive",
       "weight": 0.7,
-      "impact": [0.07, 0.2]
+      "impact": [
+        0.07,
+        0.2
+      ]
     },
     "development_delay": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.05, 0.01]
+      "impact": [
+        -0.05,
+        0.01
+      ]
     },
     "development_failure": {
       "tone": "negative",
       "weight": 1,
-      "impact": [-0.18, -0.06]
+      "impact": [
+        -0.18,
+        -0.06
+      ]
     },
     "launch_strong": {
       "tone": "positive",
       "weight": 0.8,
-      "impact": [0.05, 0.15]
+      "impact": [
+        0.05,
+        0.15
+      ]
     },
     "launch_mixed": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.03, 0.03]
+      "impact": [
+        -0.03,
+        0.03
+      ]
     },
     "launch_weak": {
       "tone": "negative",
       "weight": 1,
-      "impact": [-0.12, -0.04]
+      "impact": [
+        -0.12,
+        -0.04
+      ]
     },
     "contract_signed": {
       "tone": "positive",
       "weight": 0.7,
-      "impact": [0.06, 0.16]
+      "impact": [
+        0.06,
+        0.16
+      ]
     },
     "contract_negotiating": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.03, 0.03]
+      "impact": [
+        -0.03,
+        0.03
+      ]
     },
     "contract_cancelled": {
       "tone": "negative",
       "weight": 0.9,
-      "impact": [-0.15, -0.05]
+      "impact": [
+        -0.15,
+        -0.05
+      ]
     },
     "earnings_above": {
       "tone": "positive",
       "weight": 0.8,
-      "impact": [0.04, 0.12]
+      "impact": [
+        0.04,
+        0.12
+      ]
     },
     "earnings_mixed": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.03, 0.03]
+      "impact": [
+        -0.03,
+        0.03
+      ]
     },
     "earnings_below": {
       "tone": "negative",
       "weight": 1,
-      "impact": [-0.12, -0.04]
+      "impact": [
+        -0.12,
+        -0.04
+      ]
     },
     "expansion_ready": {
       "tone": "positive",
       "weight": 0.7,
-      "impact": [0.03, 0.1]
+      "impact": [
+        0.03,
+        0.1
+      ]
     },
     "expansion_delayed": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.04, 0.01]
+      "impact": [
+        -0.04,
+        0.01
+      ]
     },
     "expansion_reduced": {
       "tone": "negative",
       "weight": 0.9,
-      "impact": [-0.1, -0.03]
+      "impact": [
+        -0.1,
+        -0.03
+      ]
     },
     "review_passed": {
       "tone": "positive",
       "weight": 0.7,
-      "impact": [0.06, 0.18]
+      "impact": [
+        0.06,
+        0.18
+      ]
     },
     "review_pending": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.04, 0.02]
+      "impact": [
+        -0.04,
+        0.02
+      ]
     },
     "review_failed": {
       "tone": "negative",
       "weight": 0.9,
-      "impact": [-0.18, -0.06]
+      "impact": [
+        -0.18,
+        -0.06
+      ]
     },
     "supply_improved": {
       "tone": "positive",
       "weight": 0.8,
-      "impact": [0.03, 0.09]
+      "impact": [
+        0.03,
+        0.09
+      ]
     },
     "supply_stable": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.02, 0.02]
+      "impact": [
+        -0.02,
+        0.02
+      ]
     },
     "supply_disrupted": {
       "tone": "negative",
       "weight": 0.9,
-      "impact": [-0.1, -0.03]
+      "impact": [
+        -0.1,
+        -0.03
+      ]
     },
     "partner_signed": {
       "tone": "positive",
       "weight": 0.7,
-      "impact": [0.05, 0.14]
+      "impact": [
+        0.05,
+        0.14
+      ]
     },
     "partner_discussing": {
       "tone": "neutral",
       "weight": 1,
-      "impact": [-0.03, 0.03]
+      "impact": [
+        -0.03,
+        0.03
+      ]
     },
     "partner_ended": {
       "tone": "negative",
       "weight": 0.9,
-      "impact": [-0.12, -0.04]
+      "impact": [
+        -0.12,
+        -0.04
+      ]
     }
   },
   "feed": {
@@ -204,14 +341,28 @@
     "general_posts_per_day_max": 7,
     "general_comments_per_post_min": 1,
     "general_comments_per_post_max": 3,
-    "post_views": [30, 1500],
-    "news_views": [300, 8000]
+    "post_views": [
+      30,
+      1500
+    ],
+    "news_views": [
+      300,
+      8000
+    ]
   },
   "loan": {
     "enabled": true,
     "limit": 500000,
-    "amount_options": [100000, 300000, 500000],
-    "repay_options": [10000, 50000, 100000],
+    "amount_options": [
+      100000,
+      300000,
+      500000
+    ],
+    "repay_options": [
+      10000,
+      50000,
+      100000
+    ],
     "daily_interest_rate": 0.01,
     "daily_interest_cap": 10000,
     "max_accumulated_interest": 100000,
@@ -224,6 +375,7 @@
     "start_value": 100,
     "max_value": 100,
     "drain_per_tick": 0.3,
+    "extension_drain_per_tick": 0.45,
     "sleep_restore": 100,
     "first_blink_delay_ticks": 6,
     "blink_close_fraction": 0.18,
@@ -245,8 +397,14 @@
         "min": 20,
         "vignette": 0.5,
         "blink": {
-          "interval_ticks": [18, 30],
-          "duration_seconds": [0.5, 1]
+          "interval_ticks": [
+            18,
+            30
+          ],
+          "duration_seconds": [
+            0.5,
+            1
+          ]
         },
         "effect_text": "가끔 짧게 눈이 감겨 차트 일부를 실시간으로 놓칠 수 있어요."
       },
@@ -255,8 +413,14 @@
         "min": 0.01,
         "vignette": 0.65,
         "blink": {
-          "interval_ticks": [8, 16],
-          "duration_seconds": [1, 2]
+          "interval_ticks": [
+            8,
+            16
+          ],
+          "duration_seconds": [
+            1,
+            2
+          ]
         },
         "effect_text": "눈 감김이 더 길고 잦아져요. 회복이나 휴식이 필요해요."
       },

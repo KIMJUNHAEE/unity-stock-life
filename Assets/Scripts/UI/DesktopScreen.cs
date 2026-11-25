@@ -6,11 +6,11 @@ namespace StockGame
     /// <summary>
     /// 가상 OS 바탕화면. 앱 창은 Window/Content 아래 App_* 오브젝트 (한 번에 하나 전면).
     /// 글자: topleft, condition_chip, market_status, pause_label, window_title, appname:&lt;앱&gt;, bubble_text,
-    ///       cp_value, cp_now, cp_next, cp_cash, tut_text, tut_step, tut_next_label
-    /// 참거짓: window_open, can_pause, bubble, ov_condition, ov_menu, ov_tutorial, can_end_day
+    ///       cp_value, cp_now, cp_next, cp_cash, tut_text, tut_step, tut_next_label, guide_title, guide_list
+    /// 참거짓: window_open, can_pause, bubble, ov_condition, ov_menu, ov_tutorial, can_end_day, guide_visible
     /// 값: cp_frac / 색: status_dot / 스프라이트: portrait, window_icon, icon:&lt;앱&gt;, tut_portrait
     /// 목록 running: run_name, run_active / 행동 run · 목록 items: it_name, it_desc, it_can / 행동 it_use
-    /// 행동: open:&lt;앱&gt;, minimize, close, menu, settings, home, condition, pause, cp_close, end_day, go_home, menu_close, tut_next, tut_skip
+    /// 행동: open:&lt;앱&gt;, minimize, close, menu, settings, home, condition, pause, cp_close, end_day, go_home, menu_close, tut_next, tut_skip, guide_hide
     /// </summary>
     public class DesktopScreen : UISource
     {
@@ -31,7 +31,7 @@ namespace StockGame
 
         int tutorialStep;
         string tutorialKey;
-        int conditionPromptDay = -1, sessionEndPromptDay = -1;
+        int conditionPromptDay = -1, sessionEndPromptDay = -1, extensionPromptDay = -1;
         readonly List<string> itemKeys = new List<string>();
 
         public bool StockInFront { get { return Active == "stock" && !Minimized && Running.Contains("stock"); } }
@@ -42,7 +42,12 @@ namespace StockGame
             return a != null ? a.name : id;
         }
 
-        public void OnEnter() { Overlay = null; }
+        public void OnEnter()
+        {
+            Overlay = null;
+            var s = Game.I.S;
+            if (s != null && !s.HasFlag("guide_computer")) s.SetFlag("guide_computer");
+        }
 
         public void Open(string app)
         {
@@ -101,18 +106,42 @@ namespace StockGame
                     new ModalButton("회복하기", false, () => { Overlay = "condition"; conditionPromptDay = -1; }),
                     new ModalButton("오늘 거래 종료", true, () => root.settlement.Open()));
             }
+            if (g.ExtensionOfferDue() && extensionPromptDay != s.Day && !root.HasModal && Overlay == null)
+            {
+                extensionPromptDay = s.Day;
+                bool wasPaused = g.UserPaused;
+                int ext = s.ExtensionTicks;
+                string endClock = Fmt.Clock(s.SessionStartMinute + s.TicksPerDay + ext);
+                double drain = Cfg.D("balance", "condition.extension_drain_per_tick", 0.45);
+                root.ShowModal("연장 거래",
+                    "곧 오늘 장이 마감돼요 (" + (s.SessionStartMinute + s.TicksPerDay == 1440 ? "24:00" : Fmt.Clock(s.SessionStartMinute + s.TicksPerDay)) + ").\n" +
+                    "원하면 " + endClock + "까지 " + ext + "분 더 거래할 수 있어요. 연장 구간은 컨디션이 분당 " + drain.ToString("0.##") + "씩 줄어요.\n" +
+                    "연장하지 않아도 보유 주식은 다음 날로 넘어가고, 연장 중에도 언제든 결산할 수 있어요.",
+                    new ModalButton("기본 마감대로", false, () => { g.DeclineExtension(); g.UserPaused = wasPaused; }),
+                    new ModalButton("연장 신청", true, () => { g.AcceptExtension(); g.UserPaused = wasPaused; root.Toast(endClock + "까지 연장 거래"); }));
+            }
             if (s.Phase == "evening" && !s.Today.Settled && s.CurrentTick >= s.SessionEnd && sessionEndPromptDay != s.Day && !root.HasModal)
             {
                 sessionEndPromptDay = s.Day;
                 g.React("session_end");
-                root.ShowModal("장 마감", "오늘의 거래 세션이 끝났습니다. 보유 주식은 다음 날로 넘어갑니다.",
+                root.ShowModal(s.Today.Extended ? "연장 거래 마감" : "장 마감", "오늘의 거래 세션이 끝났습니다. 보유 주식은 다음 날로 넘어갑니다.",
                     new ModalButton("조금 더 둘러보기", false, null),
                     new ModalButton("결산하기", true, () => root.settlement.Open()));
             }
             if (Overlay == "tutorial")
             {
                 var lines = Tutorial(tutorialKey);
-                if (lines == null || tutorialStep >= lines.Count) { s.SetFlag("tutorial_" + tutorialKey); Overlay = null; }
+                if (lines == null || tutorialStep >= lines.Count)
+                {
+                    s.SetFlag("tutorial_" + tutorialKey);
+                    Overlay = null;
+                    // 처음 보는 거래 안내가 끝나면 바로 시장을 돌리지 않고, 플레이어가 직접 재개하게 한다.
+                    if (tutorialKey == "stock" && g.MarketOpenNow())
+                    {
+                        g.UserPaused = true;
+                        root.Toast("준비되면 위쪽 ▶ 재개 (또는 Space)로 시장을 움직이세요.");
+                    }
+                }
             }
         }
 
@@ -138,7 +167,8 @@ namespace StockGame
                 case "market_status":
                     if (s.Phase == "morning") return "장 시작 전";
                     if (s.Today.Settled || s.Phase == "night") return "오늘 거래 종료";
-                    if (s.CurrentTick >= s.SessionEnd) return "장 마감";
+                    if (s.CurrentTick >= s.SessionEnd) return s.Today.Extended ? "연장 거래 마감" : "장 마감";
+                    if (s.InExtension && GameRoot.I.MarketShouldRun()) return "연장 거래 중";
                     if (GameRoot.I.MarketShouldRun()) return "거래 진행 중";
                     if (g.UserPaused) return "일시정지 (Space)";
                     return "시장 정지 (증권 앱 밖)";
@@ -167,6 +197,20 @@ namespace StockGame
                 case "tut_text": { var l = TutLine(); return l != null ? l.text : ""; }
                 case "tut_step": { var lines = Tutorial(tutorialKey); return lines != null ? "안내 " + (tutorialStep + 1) + " / " + lines.Count + "  (시장 정지 중)" : ""; }
                 case "tut_next_label": { var lines = Tutorial(tutorialKey); return lines != null && tutorialStep + 1 >= lines.Count ? "시작하기" : "다음"; }
+                case "guide_title": return "오늘 할 일  " + g.GuideDoneCount() + "/" + g.GuideSteps().Count;
+                case "guide_list":
+                    {
+                        var sb = new System.Text.StringBuilder();
+                        bool current = false;
+                        foreach (var st in g.GuideSteps())
+                        {
+                            if (sb.Length > 0) sb.Append('\n');
+                            if (st.Done) sb.Append("<color=#9AA3B2>●  " + st.Label + "</color>");
+                            else if (!current) { current = true; sb.Append("<b>▶  " + st.Label + "</b>"); }
+                            else sb.Append("○  " + st.Label);
+                        }
+                        return sb.ToString();
+                    }
             }
             return null;
         }
@@ -190,13 +234,14 @@ namespace StockGame
             if (s == null) return false;
             switch (key)
             {
-                case "window_open": return Active != null && !Minimized;
+                case "window_open": return !string.IsNullOrEmpty(Active) && !Minimized && Running.Contains(Active);
                 case "can_pause": return g.MarketOpenNow();
                 case "bubble": return GameRoot.I.BubbleVisible;
                 case "ov_condition": return Overlay == "condition";
                 case "ov_menu": return Overlay == "menu";
                 case "ov_tutorial": return Overlay == "tutorial";
                 case "can_end_day": return s.Phase != "night" && !s.Today.Settled;
+                case "guide_visible": return g.GuideVisible;
                 case "run_active": return c.Index < Running.Count && Running[c.Index] == Active && !Minimized;
                 case "it_can":
                     {
@@ -279,6 +324,7 @@ namespace StockGame
                     break;
                 case "go_home": Overlay = null; root.Go(ScreenId.Home); break;
                 case "tut_next": tutorialStep++; break;
+                case "guide_hide": g.HideGuide(); break;
                 case "tut_skip": { var lines = Tutorial(tutorialKey); tutorialStep = lines != null ? lines.Count : 0; break; }
             }
         }

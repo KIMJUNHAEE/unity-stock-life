@@ -6,10 +6,10 @@ namespace StockGame
     /// <summary>
     /// 집. 방 오브젝트·버튼 위치는 씬에서 바꾼다. 가구 슬롯은 Room/Slot_&lt;id&gt; 에 BindImage(slot:&lt;id&gt;).
     /// 글자: day_phase, cash, holdings, investable, loan_label, loan, starting_debt, condition_text, goal, standing_label, bubble_text,
-    ///       shop_cash, slotname:&lt;id&gt;
-    /// 참거짓: morning, evening, night, has_loan, has_goal, bubble, shop_open, slot_visible:&lt;id&gt;
+    ///       shop_cash, slotname:&lt;id&gt;, meet_label, guide_title, guide_now, guide_next, life_progress
+    /// 참거짓: morning, evening, night, has_loan, has_goal, bubble, shop_open, slot_visible:&lt;id&gt;, has_meeting, guide_visible
     /// 값: condition / 스프라이트: standing, slot:&lt;id&gt;
-    /// 행동: go_job, skip_job, computer, end_day, sleep, open_shop, close_shop, save_title, hot_computer, hot_door, hot_bed
+    /// 행동: go_job, skip_job, meet, computer, end_day, sleep, open_shop, close_shop, save_title, hot_computer, hot_door, hot_bed, guide_hide
     /// 목록 slots: slot_name, slot_selected / 행동 slot_tab
     /// 목록 items: i_name, i_desc, i_price, i_image, i_buyable, i_can_buy, i_owned, i_equipped / 행동 i_buy, i_equip
     /// </summary>
@@ -75,6 +75,21 @@ namespace StockGame
                 case "door_label": return S.Phase == "morning" ? "편의점 출근" : "문";
                 case "bed_label": return S.Phase == "night" ? "잠자기" : "침대";
                 case "sleep_label": return "잠자기 → " + (S.Day + 1) + "일차";
+                case "meet_label": { var m = g.AvailableMeeting(); return m != null ? m.buttonLabel : ""; }
+                case "guide_title": return "오늘 할 일  " + g.GuideDoneCount() + "/" + g.GuideSteps().Count;
+                case "guide_now": { var st = g.CurrentGuideStep(); return st != null ? "▶ " + st.Label : "오늘 할 일을 모두 마쳤어요."; }
+                case "guide_next":
+                    {
+                        bool found = false;
+                        foreach (var st in g.GuideSteps())
+                        {
+                            if (st.Done) continue;
+                            if (found) return "다음: " + st.Label;
+                            found = true;
+                        }
+                        return "";
+                    }
+                case "life_progress": return "생활 진척 " + Fmt.SignedWon(g.LifeProgress());
                 case "slot_name": return Cfgx != null && c.Index < Cfgx.shop.slots.Count ? Cfgx.shop.slots[c.Index].name : "";
                 case "i_name": { var it = ItemAt(c); return it != null ? it.name : ""; }
                 case "i_desc": { var it = ItemAt(c); return it != null ? it.description : ""; }
@@ -104,6 +119,8 @@ namespace StockGame
                 case "evening": return S.Phase == "evening";
                 case "night": return S.Phase == "night";
                 case "not_morning": return S.Phase != "morning";
+                case "has_meeting": return Game.I.AvailableMeeting() != null;
+                case "guide_visible": return Game.I.GuideVisible;
                 case "has_loan": return S.Loan != null;
                 case "has_goal": return Game.I.NextGoalItem() != null;
                 case "bubble": return GameRoot.I.BubbleVisible;
@@ -157,7 +174,9 @@ namespace StockGame
                 case "hot_door":
                     if (S.Phase == "morning") GoJob(); else root.Toast("오늘 알바는 이미 지나갔어요.");
                     break;
-                case "skip_job": root.Confirm("알바 쉬기", "오늘은 알바 수입 없이 저녁 거래로 넘어갑니다.", "쉬기", () => g.SkipJob()); break;
+                case "skip_job": root.Confirm("오늘은 쉬기", "알바 수입 없이 저녁으로 넘어갑니다.\n근무 피로가 없어 수면으로 회복한 컨디션을 그대로 유지해요.", "쉬기", () => g.SkipJob()); break;
+                case "meet": Meet(); break;
+                case "guide_hide": g.HideGuide(); break;
                 case "computer":
                 case "hot_computer": root.Go(ScreenId.Desktop); break;
                 case "end_day":
@@ -178,6 +197,21 @@ namespace StockGame
                     }
                 case "i_equip": { var it = ItemAt(c); if (it != null) g.EquipItem(it.id); break; }
             }
+        }
+
+        void Meet()
+        {
+            var g = Game.I;
+            var root = GameRoot.I;
+            var m = g.AvailableMeeting();
+            var scene = m != null && Cfgx != null ? Cfgx.Scene(m.sceneId) : null;
+            if (scene == null) return;
+            root.Confirm(m.buttonLabel, "오늘은 출근하지 않고 짧게 만나고 옵니다.\n수입은 없고 근무 피로도 없어요.", "다녀오기", () =>
+            {
+                g.ChooseMeeting(m);
+                root.Go(ScreenId.Cutscene);
+                root.cutscene.Play(scene, false, () => root.Go(ScreenId.Home));
+            });
         }
 
         void GoJob()

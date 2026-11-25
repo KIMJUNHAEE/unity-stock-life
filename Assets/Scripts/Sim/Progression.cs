@@ -26,7 +26,9 @@ namespace StockGame
             "meal_used_today", "snack_used_today", "drinks_used_today", "ended_early", "session_ticks_watched", "session_length",
             "rumor_early_profit_today", "false_rumor_loss_today", "news_chase_loss_today", "articles_read_today", "posts_read_today",
             "job_done_today", "job_pay_today", "furniture_owned", "furniture_spent_today", "day", "nights_played",
-            "story_milestones_unlocked", "forced_liquidations_today"
+            "story_milestones_unlocked", "forced_liquidations_today",
+            "life_net_funds", "life_progress", "cumulative_furniture_spent", "cumulative_starting_debt_repaid",
+            "extended_today", "rested_today", "met_today", "meetings_done", "review_opened_today"
         };
 
         // ───────────────────────── 알바 ─────────────────────────
@@ -44,10 +46,45 @@ namespace StockGame
             return garnish;
         }
 
+        /// <summary>휴식: 수입 없이 근무 피로도 없이 저녁으로 넘어간다 (기본 수면 회복 상태 유지).</summary>
         public void SkipJob()
         {
             S.Today.JobSkipped = true;
+            S.Today.MorningChoice = "rest";
             StartEvening();
+        }
+
+        // ───────────────────────── 아침 만남 ─────────────────────────
+
+        /// <summary>오늘 아침에 고를 수 있는 만남 (없으면 null). 조건이 맞을 때만 보인다.</summary>
+        public MeetingCfg AvailableMeeting()
+        {
+            var cfg = GameConfig.Instance;
+            if (cfg == null || S == null || S.Phase != "morning" || S.Today.JobDone || S.Today.JobSkipped) return null;
+            var stats = ComputeStats();
+            foreach (var m in cfg.cutscenes.meetings)
+            {
+                if (m == null || string.IsNullOrEmpty(m.id) || !m.enabled || S.MeetingsDone.Contains(m.id)) continue;
+                if (S.Day < m.minDay) continue;
+                if (!string.IsNullOrEmpty(m.requiresSeenScene) && !Gallery.Entries.ContainsKey(m.requiresSeenScene)) continue;
+                if (m.conditions != null && m.conditions.Count() > 0 && !EvalCondition(m.conditions.ToTree(), stats)) continue;
+                if (cfg.Scene(m.sceneId) == null) continue;
+                return m;
+            }
+            return null;
+        }
+
+        /// <summary>만남 선택: 그날 출근은 하지 않은 것으로 처리하고, 수입·근무 피로 없이 저녁으로 넘어간다.</summary>
+        public void ChooseMeeting(MeetingCfg m)
+        {
+            if (m == null) return;
+            S.Today.JobSkipped = true;
+            S.Today.MorningChoice = "meet:" + m.id;
+            if (!S.MeetingsDone.Contains(m.id)) S.MeetingsDone.Add(m.id);
+            if (!Gallery.Entries.ContainsKey(m.sceneId))
+                Gallery.Entries[m.sceneId] = new GalleryEntry { Id = m.sceneId, FirstDay = S.Day, FirstUnlockedAt = DateTime.Now.ToString("yyyy-MM-dd") };
+            StartEvening();
+            SaveMeta();
         }
 
         // ───────────────────────── 결산 ─────────────────────────
@@ -70,6 +107,7 @@ namespace StockGame
             S.Today.EndedEarly = S.Today.TradingStarted && S.CurrentTick < S.SessionEnd;
             S.Today.EndInvestable = InvestableAssets();
             S.Today.EndNetFinancial = NetFinancialAssets();
+            S.Today.EndLifeProgress = LifeProgress();
             S.CumulativeRealized += S.Today.Realized;
             if (S.Today.Trades > 0)
                 S.ConsecutiveProfitNights = S.Today.Realized > 0 ? S.ConsecutiveProfitNights + 1 : 0;
@@ -130,10 +168,10 @@ namespace StockGame
             }
 
             long r = S.Today.Realized;
-            if (S.Today.Trades == 0) React("settle_no_trade");
-            else if (r > 0) React("settle_profit");
-            else if (r < 0) React("settle_loss");
-            else React("settle_flat");
+            string outcome = S.Today.Trades == 0 ? "no_trade" : (r > 0 ? "profit" : (r < 0 ? "loss" : "flat"));
+            // 첫 결산은 결과별 전용 반응을 먼저 쓴다 (없으면 일반 반응).
+            if (S.History.Count == 0 && HasReaction("first_settle_" + outcome)) React("first_settle_" + outcome);
+            else React("settle_" + outcome);
 
             S.Phase = "night";
             Save();
@@ -182,7 +220,7 @@ namespace StockGame
             d["drinks_used_today"] = ItemUsesToday("energy_drink");
             d["ended_early"] = t.EndedEarly ? 1 : 0;
             d["session_ticks_watched"] = t.TicksWatched;
-            d["session_length"] = S.TicksPerDay;
+            d["session_length"] = S.SessionEnd - S.SessionStart;
             d["rumor_early_profit_today"] = t.RumorEarlyProfit;
             d["false_rumor_loss_today"] = t.FalseRumorLoss;
             d["news_chase_loss_today"] = t.NewsChaseLoss;
@@ -194,6 +232,15 @@ namespace StockGame
             d["furniture_spent_today"] = t.FurnitureSpent;
             d["forced_liquidations_today"] = 0; // 선물 도입 전까지 항상 0
             d["story_milestones_unlocked"] = S.StoryUnlocked.Count;
+            d["life_net_funds"] = LifeNetFunds();
+            d["life_progress"] = LifeProgress();
+            d["cumulative_furniture_spent"] = S.CumulativeFurnitureSpent;
+            d["cumulative_starting_debt_repaid"] = S.CumulativeStartingDebtRepaid;
+            d["extended_today"] = t.Extended ? 1 : 0;
+            d["rested_today"] = t.MorningChoice == "rest" ? 1 : 0;
+            d["met_today"] = t.MorningChoice != null && t.MorningChoice.StartsWith("meet:") ? 1 : 0;
+            d["meetings_done"] = S.MeetingsDone.Count;
+            d["review_opened_today"] = t.ReviewOpened ? 1 : 0;
             return d;
         }
 
@@ -259,9 +306,11 @@ namespace StockGame
                 string id = J.S(m, "id", "");
                 if (S.StoryUnlocked.Contains(id)) continue;
                 string prev = J.S(m, "requires_previous_milestone", null);
-                if (prev != null && !S.StoryUnlocked.Contains(prev)) return null;
+                // 앞 구간을 열었을 뿐 아니라 그 선택까지 마쳐야 다음 구간을 확인한다.
+                if (prev != null && (!S.StoryUnlocked.Contains(prev) || !S.StoryChoices.ContainsKey(prev))) return null;
                 if (!StoryRequirementsMet(m, stats)) return null;
                 S.StoryUnlocked.Add(id);
+                S.StoryUnlockedDay[id] = S.Day;
                 return id;
             }
             return null;
@@ -323,6 +372,7 @@ namespace StockGame
             S.OwnedItems.Add(id);
             S.Equipped[J.S(item, "slot", "")] = id;
             S.Today.FurnitureSpent += price;
+            S.CumulativeFurnitureSpent += price;
             React("buy_furniture");
             Save();
             return null;

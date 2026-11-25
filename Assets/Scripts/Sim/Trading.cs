@@ -173,6 +173,7 @@ namespace StockGame
             S.StartingDebt -= amount;
             S.Cash -= amount;
             S.Today.RepaidStartingDebt += amount;
+            S.CumulativeStartingDebtRepaid += amount;
             React("repay_starting_debt");
             return amount;
         }

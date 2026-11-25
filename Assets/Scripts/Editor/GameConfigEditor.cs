@@ -282,6 +282,8 @@ namespace StockGame.EditorTools
             EditorUtility.SetDirty(cfg);
             AssetDatabase.SaveAssets();
             GameConfig.NotifyChanged();
+            if (File.Exists("Assets/Art/mvp_art_manifest.json")) MvpArtSetup.Apply();
+            if (MvpPlayUpdate.EnsureContent(cfg, new System.Collections.Generic.List<string>())) { EditorUtility.SetDirty(cfg); AssetDatabase.SaveAssets(); }
         }
 
         static void ImportValues(GameConfig cfg)

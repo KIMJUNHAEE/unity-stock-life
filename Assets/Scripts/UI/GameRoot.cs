@@ -152,6 +152,7 @@ namespace StockGame
 
             var g = Game.I;
             if (g.S != null && MarketShouldRun()) g.Advance(dt, desktop != null ? desktop.Speed : 1);
+            if (g.S != null && Screen != ScreenId.Title) g.CheckGuideProgress();
 
             if (modalLayer != null && modalLayer.gameObject.activeSelf != (modals.Count > 0)) modalLayer.gameObject.SetActive(modals.Count > 0);
         }

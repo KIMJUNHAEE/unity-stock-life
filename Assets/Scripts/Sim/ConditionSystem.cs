@@ -27,7 +27,9 @@ namespace StockGame
         public double CurrentDrainPerTick()
         {
             if (S.CurrentTick < S.DrainSuppressUntil) return 0;
-            double d = Cfg.D("balance", "condition.drain_per_tick", 0.25);
+            double d = S.InExtension
+                ? Cfg.D("balance", "condition.extension_drain_per_tick", 0.45)
+                : Cfg.D("balance", "condition.drain_per_tick", 0.25);
             if (S.CurrentTick < S.DrainReduceUntil) d *= S.DrainReduceMult;
             return d;
         }

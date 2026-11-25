@@ -28,6 +28,8 @@ KNOWN_STATS = {
     "session_length", "rumor_early_profit_today", "false_rumor_loss_today", "news_chase_loss_today",
     "articles_read_today", "posts_read_today", "job_done_today", "job_pay_today", "furniture_owned",
     "furniture_spent_today", "forced_liquidations_today", "story_milestones_unlocked",
+    "life_net_funds", "life_progress", "cumulative_furniture_spent", "cumulative_starting_debt_repaid",
+    "extended_today", "rested_today", "met_today", "meetings_done", "review_opened_today",
 }
 OPS = {">", ">=", "<", "<=", "==", "!="}
 
@@ -117,17 +119,24 @@ def main() -> int:
 
     ids = set()
     cs = cfg["cutscenes"]
+    meeting_scenes = {m.get("scene_id") for m in cs.get("meetings", []) or []}
     for sc in [cs.get("default_scene", {})] + cs.get("scenes", []):
         sid = sc.get("id")
         if sid in ids:
             errors.append(f"cutscenes: 중복 id '{sid}'")
         ids.add(sid)
         need_image(sc.get("image"), f"cutscenes.{sid}")
-        if sc is not cs.get("default_scene"):
+        if sc is not cs.get("default_scene") and sid not in meeting_scenes:
             check_condition(sc.get("conditions"), f"cutscenes.{sid}.conditions")
         for line in sc.get("lines", []):
             if "expression" in line and line["expression"] not in cfg["dialogue"].get("expressions", {}):
                 warnings.append(f"cutscenes.{sid}: 표정 '{line['expression']}' 이 dialogue.expressions 에 없음")
+
+    for m in cs.get("meetings", []) or []:
+        if m.get("scene_id") not in ids:
+            errors.append(f"cutscenes.meetings.{m.get('id')}: 장면 '{m.get('scene_id')}' 이 없음")
+        if m.get("requires_seen_scene") and m["requires_seen_scene"] not in ids:
+            errors.append(f"cutscenes.meetings.{m.get('id')}: 먼저 볼 장면 '{m['requires_seen_scene']}' 이 없음")
 
     for name, th in cfg["theme"].get("themes", {}).items():
         if "unlock" in th:

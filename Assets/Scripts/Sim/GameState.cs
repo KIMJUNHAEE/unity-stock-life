@@ -170,6 +170,13 @@ namespace StockGame
         public bool Settled;
         public long EndInvestable;
         public long EndNetFinancial;
+        public long EndLifeProgress;
+        /// <summary>아침 선택: work / rest / meet:&lt;id&gt; (비면 아직 고르지 않음)</summary>
+        public string MorningChoice;
+        /// <summary>선택형 연장 거래를 신청했는지 / 제안을 거절했는지</summary>
+        public bool Extended;
+        public bool ExtensionDeclined;
+        public bool ReviewOpened;
         public Dictionary<string, int> ItemUses = new Dictionary<string, int>();
         public List<string> CutscenesUnlocked = new List<string>();
         public string CutscenePlayed;
@@ -178,7 +185,7 @@ namespace StockGame
     /// <summary>한 회차의 전체 진행 상태. 그대로 저장 파일이 된다.</summary>
     public class GameState
     {
-        public int SaveVersion = 1;
+        public int SaveVersion = 2;
         public ulong Seed;
         public int Day;
         public string Phase = "morning";   // morning / evening / night
@@ -220,6 +227,14 @@ namespace StockGame
         public DayRecord Today = new DayRecord();
         public List<DayRecord> History = new List<DayRecord>();
         public long CumulativeRealized;
+        /// <summary>생활 진척액 계산용: 회차 시작 현금, 실제 지불한 가구 금액 누계, 시작 부채 상환 누계.</summary>
+        public long RunStartCash;
+        public long CumulativeFurnitureSpent;
+        public long CumulativeStartingDebtRepaid;
+        public Dictionary<string, int> StoryUnlockedDay = new Dictionary<string, int>();
+        public List<string> MeetingsDone = new List<string>();
+        /// <summary>사건을 미리 배정해 둔 마지막 틱 (연장 거래로 세션이 밀려도 빈 구간이 생기지 않게).</summary>
+        public int EventsGeneratedUntil;
         public int ConsecutiveProfitNights;
         public bool EverTookLoan;
 
@@ -236,7 +251,13 @@ namespace StockGame
         public void SetFlag(string f) { if (!Flags.Contains(f)) Flags.Add(f); }
 
         public int SessionStart { get { return SessionStarts.Count > Day ? SessionStarts[Day] : CurrentTick; } }
-        public int SessionEnd { get { return SessionStart + TicksPerDay; } }
+        /// <summary>기본 마감 (연장 전)</summary>
+        public int BaseSessionEnd { get { return SessionStart + TicksPerDay; } }
+        /// <summary>실제 마감: 연장을 신청했으면 연장 틱만큼 뒤</summary>
+        public int SessionEnd { get { return BaseSessionEnd + (Today != null && Today.Extended ? ExtensionTicks : 0); } }
+        /// <summary>연장 길이. 새 게임 때 설정에서 정해 저장한다 (0 = 연장 없음).</summary>
+        public int ExtensionTicks;
+        public bool InExtension { get { return Today != null && Today.Extended && CurrentTick >= BaseSessionEnd; } }
     }
 
     /// <summary>회차와 무관하게 유지되는 컷신 수집 기록.</summary>

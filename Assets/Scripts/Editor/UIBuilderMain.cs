@@ -70,6 +70,11 @@ namespace StockGame.EditorTools
             gr.settlement = settlement; gr.story = story; gr.cutscene = cutscene;
             gr.modalLayer = modal; gr.toastLayer = toasts; gr.debugPanel = debug; gr.infoOverlay = info;
 
+            AddHomeProgress(home.transform);
+            AddDesktopGuide(desktop.transform);
+            AddSettlementReview(settlement.transform);
+            StyleJobCounter(job.transform);
+            if (System.IO.File.Exists("Assets/Art/mvp_art_manifest.json")) MvpArtSetup.Apply();
             ShowOnly(ScreenId.Title);
             Undo.RegisterCreatedObjectUndo(canvasGo, "StockGame UI");
             Undo.RegisterCreatedObjectUndo(rootGo, "StockGame GameRoot");
