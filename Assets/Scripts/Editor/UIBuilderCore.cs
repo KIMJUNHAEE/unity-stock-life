@@ -257,6 +257,8 @@ namespace StockGame.EditorTools
             var s = go.AddComponent<BindShow>();
             s.key = key;
             s.invert = invert;
+            var shadow = go.transform.parent != null ? go.transform.parent.Find(go.name + "_Shadow") : null;
+            if (shadow != null && shadow.GetComponent<BindShow>() == null) Show(shadow.gameObject, key, invert, editVisible);
             return s;
         }
 

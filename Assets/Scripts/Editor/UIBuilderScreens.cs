@@ -16,8 +16,7 @@ namespace StockGame.EditorTools
             var root = Full(canvas, "Screen_Title");
             var view = root.AddComponent<TitleScreen>();
             Grad(root.transform, "Background", P("desktop_top"), P("desktop_bottom"), "desktop_top", "desktop_bottom");
-            Txt(root.transform, "Title", 0, 230, 1920, 100, "내일도, 다녀오겠습니다", 64, TextC, TextAnchor.MiddleCenter, true, "title");
-            Txt(root.transform, "Subtitle", 0, 330, 1920, 40, "편의점 알바와 밤의 투자", 30, Dim, TextAnchor.MiddleCenter, false, "subtitle");
+            Txt(root.transform, "Title", 0, 230, 1920, 100, "두근두근 트레이딩", 64, TextC, TextAnchor.MiddleCenter, true, "title");
             Btn(root.transform, "Btn_New", 770, 470, 380, 64, "새 게임", "new", Kind.Primary, 22, null, "new_label");
             Btn(root.transform, "Btn_Continue", 770, 550, 380, 64, "이어하기", "continue", Kind.Normal, 22, "has_save");
             Btn(root.transform, "Btn_Gallery", 770, 630, 380, 64, "밤의 기록 (컷신 갤러리)", "gallery");
@@ -236,7 +235,7 @@ namespace StockGame.EditorTools
 
             var hint = Txt(pt, "ScanHint", 110, 650, 1000, 30, "상품을 눌러 바코드를 스캔하세요", 19, Dim);
             Show(hint.gameObject, "scanning");
-            var card = RowList(pt, "CounterItems", 110, 700, 1060, 230, "counter", 210, 20);
+            var card = RowList(pt, "CounterItems", 110, 700, 1060, 230, "counter", 210, 20, true, TextAnchor.UpperCenter);
             RowButton(card, "scan", Color.white);
             card.gameObject.AddComponent<BindImage>().colorKey = "c_color";
             var ci = Node(card, "Image", 20, 16, 170, 120);
@@ -356,10 +355,8 @@ namespace StockGame.EditorTools
             Txt(root.transform, "Replay", 40, 24, 600, 36, "다시 보기", 19, Dim, TextAnchor.MiddleLeft, false, "replay_label");
             var box = Box(root.transform, "Dialog", 160, 780, 1600, 250, new Color(1, 1, 1, 0.94f), true, 1.4f);
             box.raycastTarget = false;
-            var por = Pic(box.transform, "Portrait", 28, 28, 190, 190, "portrait", "서하");
-            Show(por.gameObject, "has_portrait");
-            Txt(box.transform, "Speaker", 250, 24, 600, 36, "서하", 26, P("accent_dark", new Color(0.31f, 0.53f, 0.76f)), TextAnchor.MiddleLeft, true, "speaker");
-            Txt(box.transform, "Text", 250, 70, 1310, 150, "대사", 28, TextC, TextAnchor.UpperLeft, false, "text");
+            Txt(box.transform, "Speaker", 40, 24, 1520, 36, "서하", 26, P("accent_dark", new Color(0.31f, 0.53f, 0.76f)), TextAnchor.MiddleLeft, true, "speaker");
+            Txt(box.transform, "Text", 40, 70, 1520, 150, "대사", 28, TextC, TextAnchor.UpperLeft, false, "text");
             Txt(box.transform, "Progress", 0, 210, 1570, 30, "1 / 3  ▶ 클릭", 15, Dim, TextAnchor.MiddleRight, false, "progress");
             Btn(root.transform, "Btn_Skip", 1720, 24, 170, 48, "건너뛰기", "skip");
             return view;

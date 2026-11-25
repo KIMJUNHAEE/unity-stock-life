@@ -1,8 +1,8 @@
 {
-  "_about": "색·글자 크기·폰트·화면 배치. 좌표는 모두 1920x1080 기준 [x, y, 너비, 높이]. 저장하면 즉시 반영.",
+  "_about": "GameConfig 최초 생성·명시적 다시 가져오기용 원본. 실행 설정은 Assets/Resources/GameConfig.asset, 화면 배치는 Main 씬에서 편집. 좌표는 1920x1080 기준 [x, y, 너비, 높이].",
   "reference_resolution": [1920, 1080],
-  "game_title": "내일도, 다녀오겠습니다",
-  "game_subtitle": "편의점 알바와 밤의 투자",
+  "game_title": "두근두근 트레이딩",
+  "game_subtitle": "",
   "toast_seconds": 3.5,
 
   "fonts": {

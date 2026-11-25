@@ -35,10 +35,10 @@
   ],
 
   "customers": [
-    { "name": "출근길 직장인", "image": "customer_1" },
-    { "name": "등교하는 학생", "image": "customer_2" },
-    { "name": "산책 나온 어르신", "image": "customer_3" },
-    { "name": "야간 근무 끝난 손님", "image": "customer_4" }
+    { "name": "강하린 · 출근길 직장인", "image": "customer_1" },
+    { "name": "백소은 · 대학생", "image": "customer_2" },
+    { "name": "차나리 · 아침 러너", "image": "customer_3" },
+    { "name": "이도아 · 야간 근무자", "image": "customer_4" }
   ],
 
   "lines": {

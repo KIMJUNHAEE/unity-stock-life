@@ -72,11 +72,20 @@ namespace StockGame
 
         Sprite CurrentImage() { var l = Line; return l != null && l.image != null ? l.image : (scene != null ? scene.image : null); }
 
+        string CharacterExpression()
+        {
+            if (scene != null)
+                for (int i = Mathf.Min(index, scene.lines.Count - 1); i >= 0; i--)
+                    if (!string.IsNullOrEmpty(scene.lines[i].expression)) return scene.lines[i].expression;
+            return "normal";
+        }
+
         public override bool Flag(string key, Ctx c)
         {
             switch (key)
             {
                 case "has_image": return CurrentImage() != null;
+                case "character_layer": return scene != null && scene.useCharacterLayer;
                 case "no_image": return CurrentImage() == null;
                 case "replay": return replay;
                 case "has_portrait": { var l = Line; return l != null && !string.IsNullOrEmpty(l.expression); }
@@ -89,6 +98,8 @@ namespace StockGame
         public override Sprite SpriteOf(string key, Ctx c)
         {
             if (key == "image") return CurrentImage();
+            if (key == "standing") return scene != null && scene.useCharacterLayer && GameConfig.Instance != null
+                ? GameConfig.Instance.StandingOf(CharacterExpression()) : null;
             if (key == "portrait") { var l = Line; var cfg = GameConfig.Instance; return l != null && cfg != null ? cfg.PortraitOf(l.expression) : null; }
             return null;
         }
