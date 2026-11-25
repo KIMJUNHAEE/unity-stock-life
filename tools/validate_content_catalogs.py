@@ -115,7 +115,7 @@ def main():
     print("PASS: JSON syntax, IDs, references, fact/phase compatibility, parent posts,")
     print("      unique text, placeholder rendering and story proposal order.")
     print(json.dumps({key: len(value) for key, value in collections.items()}))
-    print("Market randomness, balance, save/load and Unity integration are not implemented or tested.")
+    print("This catalog check does not test market randomness, balance, save/load or Unity integration.")
 
 
 if __name__ == "__main__":
