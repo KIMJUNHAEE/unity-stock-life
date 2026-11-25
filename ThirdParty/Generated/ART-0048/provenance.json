@@ -1,0 +1,54 @@
+{
+  "asset_id": "ART-0048",
+  "key": "furn_chair_cushion",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "furniture",
+  "target_size_px": [
+    1024,
+    1536
+  ],
+  "actual_generated_size_px": [
+    1024,
+    1536
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [
+    {
+      "file": "Assets/Art/Props/Furniture/prop_chair_cushion_v001.png",
+      "sha256": "3ab5d4a4837d5cfc7163c37c8f4e7d45c0a4ade78b8192248ce8bc4ea4be6370"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "2b3a9af8ff0f20db2f8a40d0b48feeedc48c6cab6fbb76dc0c4a7059051f7d84",
+  "original_file": "generated_original.png",
+  "original_sha256": "0e8d07a657f1a420203f3f690a065bdcd1f42dd8caaaa036efcf50ffba4a8ccc",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-db2cb6ce-c9b0-447d-92e0-79c60996e17c.png",
+  "project_file": "Assets/Art/Props/Furniture/prop_chair_cushion_v002.png",
+  "project_sha256": "0e8d07a657f1a420203f3f690a065bdcd1f42dd8caaaa036efcf50ffba4a8ccc",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI.",
+    "Reference lineage is recorded; REF-001 release-use permissions remain unverified."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "asset_id": "ART-0005",
+  "key": "sheet_cha_nari",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "sheet",
+  "target_size_px": [
+    3840,
+    2160
+  ],
+  "actual_generated_size_px": [
+    1672,
+    941
+  ],
+  "transparent_background_requested": false,
+  "png_color_type": 2,
+  "alpha_channel_present": false,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [
+    {
+      "file": "docs/concepts/chr_yoon_seoha_sheet_v001.png",
+      "sha256": "2ce6939d86bb70079f673f852f4241c2c72a39e39f7b6d6549e01e1e341610b4"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "5fd5e26863e2f3d79e47ca39c70c8adb68a5d50431c87430ea25c552445239b0",
+  "original_file": "generated_original.png",
+  "original_sha256": "b5d2480c279ca1d05fcd37be837d21d933bd6951a0e05837a970a636e04c6c58",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-bd88353c-d20d-412d-804a-126d2ee9903e.png",
+  "project_file": "docs/concepts/chr_cha_nari_sheet_v001.png",
+  "project_sha256": "b5d2480c279ca1d05fcd37be837d21d933bd6951a0e05837a970a636e04c6c58",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI.",
+    "Reference lineage is recorded; REF-001 release-use permissions remain unverified."
+  ]
+}

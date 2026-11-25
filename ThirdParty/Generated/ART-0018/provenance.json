@@ -1,0 +1,54 @@
+{
+  "asset_id": "ART-0018",
+  "key": "customer_lee_doa",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "customer",
+  "target_size_px": [
+    1536,
+    2048
+  ],
+  "actual_generated_size_px": [
+    1086,
+    1448
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [
+    {
+      "file": "docs/concepts/chr_lee_doa_sheet_v001.png",
+      "sha256": "d0267180f8b27872e789075421a72e0ff5b0e0353dfa14d4c2b42c4770de0c6b"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "f1f8823793aa8a364bef9f25f788a7e3983340b99424678293f60107ad6ebe51",
+  "original_file": "generated_original.png",
+  "original_sha256": "270f8d49f95227274f9fbd8c165e2e846a647b7ed7415a571f2faf38ecb9343c",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-6076751f-f277-4794-a549-a7d6c8ef5f40.png",
+  "project_file": "Assets/Art/Characters/Customers/chr_lee_doa_customer_v001.png",
+  "project_sha256": "270f8d49f95227274f9fbd8c165e2e846a647b7ed7415a571f2faf38ecb9343c",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI.",
+    "Reference lineage is recorded; REF-001 release-use permissions remain unverified."
+  ]
+}

@@ -1,0 +1,284 @@
+[
+  {
+    "key": "sheet_kang_harin",
+    "id": "ART-0003",
+    "path": "docs/concepts/chr_kang_harin_sheet_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-7d036321-c7ce-4f26-af0e-337c1d200fa6.png"
+  },
+  {
+    "key": "sheet_baek_soeun",
+    "id": "ART-0004",
+    "path": "docs/concepts/chr_baek_soeun_sheet_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-371ca77b-f530-4492-b58e-977ac6235b43.png"
+  },
+  {
+    "key": "sheet_cha_nari",
+    "id": "ART-0005",
+    "path": "docs/concepts/chr_cha_nari_sheet_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-bd88353c-d20d-412d-804a-126d2ee9903e.png"
+  },
+  {
+    "key": "sheet_lee_doa",
+    "id": "ART-0006",
+    "path": "docs/concepts/chr_lee_doa_sheet_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3927a617-440a-4ce4-8781-cb546523aea8.png"
+  },
+  {
+    "key": "seoha_normal",
+    "id": "ART-0007",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-f49f0d16-bd3d-493c-885f-2ab6bbd0e92e.png"
+  },
+  {
+    "key": "room_bg",
+    "id": "ART-0008",
+    "path": "Assets/Art/Backgrounds/bg_home_stage01_day_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3b71abe5-d7e2-4664-b6e6-c1a9c2e93c81.png"
+  },
+  {
+    "key": "store_bg",
+    "id": "ART-0009",
+    "path": "Assets/Art/Backgrounds/bg_store_morning_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-b3d4e18e-3efd-4dc9-b227-bab1680ef83d.png"
+  },
+  {
+    "key": "wallpaper_day",
+    "id": "ART-0010",
+    "path": "Assets/Art/UI/ui_wallpaper_day_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3d6582bb-4ec3-4767-b6f6-fcce0e71994a.png"
+  },
+  {
+    "key": "customer_cha_nari",
+    "id": "ART-0017",
+    "path": "Assets/Art/Characters/Customers/chr_cha_nari_customer_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-92d94971-1d1b-4769-8cab-621b6a4c8aa3.png"
+  },
+  {
+    "key": "customer_baek_soeun",
+    "id": "ART-0016",
+    "path": "Assets/Art/Characters/Customers/chr_baek_soeun_customer_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-082782ec-6a1d-4e81-bd14-0527e7d3ede8.png"
+  },
+  {
+    "key": "customer_lee_doa",
+    "id": "ART-0018",
+    "path": "Assets/Art/Characters/Customers/chr_lee_doa_customer_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-6076751f-f277-4794-a549-a7d6c8ef5f40.png"
+  },
+  {
+    "key": "customer_kang_harin",
+    "id": "ART-0015",
+    "path": "Assets/Art/Characters/Customers/chr_kang_harin_customer_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-31152fd2-6197-4e0e-a432-b6a03a5f0455.png"
+  },
+  {
+    "key": "seoha_sad",
+    "id": "ART-0020",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_sad_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-991dd8f4-1e00-470d-8c5b-ef5684ff1e8e.png"
+  },
+  {
+    "key": "seoha_happy",
+    "id": "ART-0019",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_happy_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-8c479b47-d27e-489a-a337-994acf015ae6.png"
+  },
+  {
+    "key": "seoha_tired",
+    "id": "ART-0022",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_tired_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3da7054c-0b2a-4dea-8aed-2edde0129f61.png"
+  },
+  {
+    "key": "seoha_surprised",
+    "id": "ART-0021",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_surprised_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-6cfe703c-41d7-4d04-81f2-ab66b06b10d3.png"
+  },
+  {
+    "key": "wallpaper_sakura",
+    "id": "ART-0011",
+    "path": "Assets/Art/UI/ui_wallpaper_sakura_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3cd616ce-c483-4444-9a6e-3e0eb23071ff.png"
+  },
+  {
+    "key": "cutscene_bg",
+    "id": "ART-0012",
+    "path": "Assets/Art/Backgrounds/bg_story_room_night_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-5b8a3d16-e157-449d-a532-52e9dfbe41f3.png"
+  },
+  {
+    "key": "seoha_focus",
+    "id": "ART-0023",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_focus_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-b625bdb8-453f-41bb-a0f4-7bfa9c8dc561.png"
+  },
+  {
+    "key": "bed",
+    "id": "ART-0013",
+    "path": "Assets/Art/Props/Room/prop_bed_basic_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3d0fb12b-7be2-4448-950e-fa7008404719.png"
+  },
+  {
+    "key": "furn_desk_old",
+    "id": "ART-0024",
+    "path": "Assets/Art/Props/Furniture/prop_desk_old_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-2bbe307e-10ac-48b0-aecf-be5cb2712968.png"
+  },
+  {
+    "key": "furn_pc_old",
+    "id": "ART-0027",
+    "path": "Assets/Art/Props/Furniture/prop_pc_old_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-35395cd9-86ce-451c-a145-b8999417841a.png"
+  },
+  {
+    "key": "furn_desk_wood",
+    "id": "ART-0025",
+    "path": "Assets/Art/Props/Furniture/prop_desk_wood_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-1173b3f7-f968-4313-8705-6fe154526a42.png"
+  },
+  {
+    "key": "furn_pc_monitor",
+    "id": "ART-0028",
+    "path": "Assets/Art/Props/Furniture/prop_pc_monitor_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-52cf1d88-8c70-4fab-b673-710bf2143873.png"
+  },
+  {
+    "key": "door",
+    "id": "ART-0014",
+    "path": "Assets/Art/Props/Room/prop_door_basic_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-32687d89-56b9-48ba-995f-2b78ba26f451.png"
+  },
+  {
+    "key": "furn_desk_l",
+    "id": "ART-0026",
+    "path": "Assets/Art/Props/Furniture/prop_desk_l_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-bdeb63aa-262e-4202-bd0c-9d4aceef28c1.png"
+  },
+  {
+    "key": "furn_chair_ergo",
+    "id": "ART-0031",
+    "path": "Assets/Art/Props/Furniture/prop_chair_ergo_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-5e7e0d58-cf6d-4ced-9661-a10f14d88c67.png"
+  },
+  {
+    "key": "furn_pc_dual",
+    "id": "ART-0029",
+    "path": "Assets/Art/Props/Furniture/prop_pc_dual_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-6271e17b-c50e-498f-82b9-6fab914a7163.png"
+  },
+  {
+    "key": "furn_chair_cushion",
+    "id": "ART-0030",
+    "path": "Assets/Art/Props/Furniture/prop_chair_cushion_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-8da46e55-f834-43ca-b1a6-fac32ec3a286.png"
+  },
+  {
+    "key": "furn_light_stand",
+    "id": "ART-0032",
+    "path": "Assets/Art/Props/Furniture/prop_light_stand_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-cf861ddb-8c7b-4dd9-a9d6-40bf7a5b02e7.png"
+  },
+  {
+    "key": "furn_deco_plush",
+    "id": "ART-0035",
+    "path": "Assets/Art/Props/Furniture/prop_deco_plush_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-26da5dd2-afdd-4400-aeb5-e21f21d55698.png"
+  },
+  {
+    "key": "item_banana_milk",
+    "id": "ART-0037",
+    "path": "Assets/Art/Props/Store/prop_banana_milk_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-0613d904-b86a-435e-a9d6-77594a4d3701.png"
+  },
+  {
+    "key": "furn_deco_plant",
+    "id": "ART-0034",
+    "path": "Assets/Art/Props/Furniture/prop_deco_plant_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-b9aea2b6-6d30-4974-904d-670c84b62ed6.png"
+  },
+  {
+    "key": "furn_light_mood",
+    "id": "ART-0033",
+    "path": "Assets/Art/Props/Furniture/prop_light_mood_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-bfdc92f5-5559-41c1-b8c0-aad7afe5b3df.png"
+  },
+  {
+    "key": "item_rice_ball",
+    "id": "ART-0036",
+    "path": "Assets/Art/Props/Store/prop_rice_ball_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-cbd569de-4927-41cf-a4e4-69000a34a674.png"
+  },
+  {
+    "key": "item_water",
+    "id": "ART-0039",
+    "path": "Assets/Art/Props/Store/prop_water_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-d7dd7ab4-6406-484a-a4dc-f2ef4f21283b.png"
+  },
+  {
+    "key": "item_jelly",
+    "id": "ART-0042",
+    "path": "Assets/Art/Props/Store/prop_jelly_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-01822fe3-46ea-4246-885f-e3f07fcd13f4.png"
+  },
+  {
+    "key": "item_cup_noodle",
+    "id": "ART-0038",
+    "path": "Assets/Art/Props/Store/prop_cup_noodle_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-f4b95edb-4bf8-4849-81e1-e7f4953356e0.png"
+  },
+  {
+    "key": "item_lunchbox",
+    "id": "ART-0040",
+    "path": "Assets/Art/Props/Store/prop_lunchbox_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-fdc97198-1636-4a54-b918-205ccca56f6b.png"
+  },
+  {
+    "key": "item_soda",
+    "id": "ART-0041",
+    "path": "Assets/Art/Props/Store/prop_soda_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-ba1be42b-445b-422d-8b7c-7f620d5001fc.png"
+  },
+  {
+    "key": "item_sandwich",
+    "id": "ART-0043",
+    "path": "Assets/Art/Props/Store/prop_sandwich_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-fff01298-836a-4ab3-bb63-fa37198171e2.png"
+  },
+  {
+    "key": "item_coffee",
+    "id": "ART-0044",
+    "path": "Assets/Art/Props/Store/prop_coffee_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-bdd5d2e9-0e02-44ef-8856-304b529d2c22.png"
+  },
+  {
+    "key": "item_icecream",
+    "id": "ART-0046",
+    "path": "Assets/Art/Props/Store/prop_icecream_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-4a0c804e-dc02-491b-b9ec-a2f1b38f3507.png"
+  },
+  {
+    "key": "item_snack",
+    "id": "ART-0045",
+    "path": "Assets/Art/Props/Store/prop_snack_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-a9961f30-ace5-4d69-8308-b0a5131acf88.png"
+  },
+  {
+    "key": "item_pen",
+    "id": "ART-0047",
+    "path": "Assets/Art/Props/Store/prop_pen_v001.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-e774f0e2-2827-450a-8c12-999731efd113.png"
+  },
+  {
+    "key": "furn_chair_ergo",
+    "id": "ART-0049",
+    "path": "Assets/Art/Props/Furniture/prop_chair_ergo_v002.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-205e5254-48a3-4fbc-8f32-180e73e94169.png"
+  },
+  {
+    "key": "furn_chair_cushion",
+    "id": "ART-0048",
+    "path": "Assets/Art/Props/Furniture/prop_chair_cushion_v002.png",
+    "source": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-db2cb6ce-c9b0-447d-92e0-79c60996e17c.png"
+  }
+]

@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 570e42df69f86fe4a90285bffb04fa52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1301558579561629349
+    second: prop_jelly_v001_0
+  - first:
+      213: -6494242479213465728
+    second: prop_jelly_v001_1
+  - first:
+      213: 94824922060367494
+    second: prop_jelly_v001_2
+  - first:
+      213: -7987945137218503212
+    second: prop_jelly_v001_3
+  - first:
+      213: 7751561610451213974
+    second: prop_jelly_v001_4
+  - first:
+      213: -5010268575008677629
+    second: prop_jelly_v001_5
+  - first:
+      213: 8343438998111499830
+    second: prop_jelly_v001_6
+  - first:
+      213: -1761447932957311183
+    second: prop_jelly_v001_7
+  - first:
+      213: 601430382396418021
+    second: prop_jelly_v001_8
+  - first:
+      213: -4539343785788200331
+    second: prop_jelly_v001_9
+  - first:
+      213: -5392860933866131297
+    second: prop_jelly_v001_10
+  - first:
+      213: -6702252002900059297
+    second: prop_jelly_v001_11
+  - first:
+      213: -223020164418208225
+    second: prop_jelly_v001_12
+  - first:
+      213: -7647663580339676206
+    second: prop_jelly_v001_13
+  - first:
+      213: -2709878961828943941
+    second: prop_jelly_v001_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_jelly_v001_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 1024
+        height: 1191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59fdda2e5fefede0800000000000000
+      internalID: -1301558579561629349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_1
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1180
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08faa358fd0dfd5a0800000000000000
+      internalID: -6494242479213465728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_2
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1220
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6862343a3c2e05100800000000000000
+      internalID: 94824922060367494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1223
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd38ca383e152190800000000000000
+      internalID: -7987945137218503212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1130
+        width: 84
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69edf751734139b60800000000000000
+      internalID: 7751561610451213974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_5
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1191
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3012e4dc643f77ab0800000000000000
+      internalID: -5010268575008677629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1166
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636b3973099d9c370800000000000000
+      internalID: 8343438998111499830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_7
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1132
+        width: 100
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fbbb100741e87e0800000000000000
+      internalID: -1761447932957311183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1078
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7addb0fb5b85800800000000000000
+      internalID: 601430382396418021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_9
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 1044
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57aa7b690e20101c0800000000000000
+      internalID: -4539343785788200331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90f3d1ad85b825b0800000000000000
+      internalID: -5392860933866131297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_11
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 606
+        width: 150
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5bddfb3051dcf2a0800000000000000
+      internalID: -6702252002900059297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_12
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 115
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e7a12975ca7ecf0800000000000000
+      internalID: -223020164418208225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 41
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db59242e7a0ed590800000000000000
+      internalID: -7647663580339676206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_jelly_v001_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 29
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a1e71173946ad0800000000000000
+      internalID: -2709878961828943941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_jelly_v001_0: -1301558579561629349
+      prop_jelly_v001_1: -6494242479213465728
+      prop_jelly_v001_10: -5392860933866131297
+      prop_jelly_v001_11: -6702252002900059297
+      prop_jelly_v001_12: -223020164418208225
+      prop_jelly_v001_13: -7647663580339676206
+      prop_jelly_v001_14: -2709878961828943941
+      prop_jelly_v001_2: 94824922060367494
+      prop_jelly_v001_3: -7987945137218503212
+      prop_jelly_v001_4: 7751561610451213974
+      prop_jelly_v001_5: -5010268575008677629
+      prop_jelly_v001_6: 8343438998111499830
+      prop_jelly_v001_7: -1761447932957311183
+      prop_jelly_v001_8: 601430382396418021
+      prop_jelly_v001_9: -4539343785788200331
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

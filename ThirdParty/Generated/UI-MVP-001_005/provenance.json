@@ -1,0 +1,54 @@
+{
+  "status": "mvp_review_candidate",
+  "created_on": "2026-11-25",
+  "tool": "original C# procedural shape drawing; no external artwork",
+  "source_file": "source.cs",
+  "source_sha256": "e122f21441f9953928e3234bde5f347662136d5076398fa6f7fd5f72da5f3b19",
+  "icons": [
+    {
+      "id": "UI-MVP-001",
+      "path": "Assets/Art/UI/Icons/ui_icon_stock_v001.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "sha256": "523108170f6b1058967a60172ba1484a56db76dafe15b25c5ac66383b39240b7"
+    },
+    {
+      "id": "UI-MVP-002",
+      "path": "Assets/Art/UI/Icons/ui_icon_browser_v001.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "sha256": "e4b4169aa76083c10002914920625f23ca8d62df7349a1379e0cf28107dc744b"
+    },
+    {
+      "id": "UI-MVP-003",
+      "path": "Assets/Art/UI/Icons/ui_icon_finance_v001.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "sha256": "3dc6a5befbfb7103b8e75647801675f2564547005678ef6d543323d04dd019d2"
+    },
+    {
+      "id": "UI-MVP-004",
+      "path": "Assets/Art/UI/Icons/ui_icon_album_v001.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "sha256": "26b3bc442bd6674e78a74be133abac6ede3d5b4e8ed75a3684fea143780b647e"
+    },
+    {
+      "id": "UI-MVP-005",
+      "path": "Assets/Art/UI/Icons/ui_icon_settings_v001.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "sha256": "245c9e30403038860b23207c64bda90b781fcd1b4b4042dde16be17998ad0992"
+    }
+  ]
+}

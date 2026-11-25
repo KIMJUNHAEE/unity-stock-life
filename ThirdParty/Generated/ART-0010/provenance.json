@@ -1,0 +1,48 @@
+{
+  "asset_id": "ART-0010",
+  "key": "wallpaper_day",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "wallpaper",
+  "target_size_px": [
+    3840,
+    2160
+  ],
+  "actual_generated_size_px": [
+    1672,
+    941
+  ],
+  "transparent_background_requested": false,
+  "png_color_type": 2,
+  "alpha_channel_present": false,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "42f3dcb8282a44d3865c280f718a79edd40552cb557c8d2e7bc7497c53a4728b",
+  "original_file": "generated_original.png",
+  "original_sha256": "0037ad4cdfd76177f89a04e85c3eb06c0cc1f2f4bca01db3326ab9426789de22",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-3d6582bb-4ec3-4767-b6f6-fcce0e71994a.png",
+  "project_file": "Assets/Art/UI/ui_wallpaper_day_v001.png",
+  "project_sha256": "0037ad4cdfd76177f89a04e85c3eb06c0cc1f2f4bca01db3326ab9426789de22",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI."
+  ]
+}

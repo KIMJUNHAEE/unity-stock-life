@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 4bc3e3706b2290b458270518247037e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6025474975107837307
+    second: prop_coffee_v001_0
+  - first:
+      213: -1742595906590598294
+    second: prop_coffee_v001_1
+  - first:
+      213: 1570826205384054292
+    second: prop_coffee_v001_2
+  - first:
+      213: 5914995003398099895
+    second: prop_coffee_v001_3
+  - first:
+      213: 7625725147689993136
+    second: prop_coffee_v001_4
+  - first:
+      213: -2335461618735454262
+    second: prop_coffee_v001_5
+  - first:
+      213: -640360438936611090
+    second: prop_coffee_v001_6
+  - first:
+      213: -7420707059781401780
+    second: prop_coffee_v001_7
+  - first:
+      213: -4662362653044793204
+    second: prop_coffee_v001_8
+  - first:
+      213: 2880373236848411177
+    second: prop_coffee_v001_9
+  - first:
+      213: -626327006227447626
+    second: prop_coffee_v001_10
+  - first:
+      213: 5461152723553498255
+    second: prop_coffee_v001_11
+  - first:
+      213: -8242645558683765273
+    second: prop_coffee_v001_12
+  - first:
+      213: -3945914980002942138
+    second: prop_coffee_v001_13
+  - first:
+      213: 3594851477645855674
+    second: prop_coffee_v001_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_coffee_v001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1215
+        height: 1224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58211b93f66316ca0800000000000000
+      internalID: -6025474975107837307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_1
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 1197
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b1e90714e01d7e0800000000000000
+      internalID: -1742595906590598294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_2
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1196
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4169ac77c12bcc510800000000000000
+      internalID: 1570826205384054292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_3
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 1197
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b311c9dd98461250800000000000000
+      internalID: 5914995003398099895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_4
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1197
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b343d67e9404d960800000000000000
+      internalID: 7625725147689993136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_5
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1120
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7e6b41806c69fd0800000000000000
+      internalID: -2335461618735454262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_6
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1060
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee658f4d29bfc17f0800000000000000
+      internalID: -640360438936611090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1109
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c430f77ee3a540990800000000000000
+      internalID: -7420707059781401780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1053
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80a73b8ed5fb4fb0800000000000000
+      internalID: -4662362653044793204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_9
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1032
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92244e2b23429f720800000000000000
+      internalID: 2880373236848411177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_10
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 995
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0449008e6de47f0800000000000000
+      internalID: -626327006227447626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_11
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 217
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f843097b779e9cb40800000000000000
+      internalID: 5461152723553498255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_12
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 85
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5f339298d3c9d80800000000000000
+      internalID: -8242645558683765273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64338076b3b4d39c0800000000000000
+      internalID: -3945914980002942138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_coffee_v001_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 38
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb8e516f5a73e130800000000000000
+      internalID: 3594851477645855674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_coffee_v001_0: -6025474975107837307
+      prop_coffee_v001_1: -1742595906590598294
+      prop_coffee_v001_10: -626327006227447626
+      prop_coffee_v001_11: 5461152723553498255
+      prop_coffee_v001_12: -8242645558683765273
+      prop_coffee_v001_13: -3945914980002942138
+      prop_coffee_v001_14: 3594851477645855674
+      prop_coffee_v001_2: 1570826205384054292
+      prop_coffee_v001_3: 5914995003398099895
+      prop_coffee_v001_4: 7625725147689993136
+      prop_coffee_v001_5: -2335461618735454262
+      prop_coffee_v001_6: -640360438936611090
+      prop_coffee_v001_7: -7420707059781401780
+      prop_coffee_v001_8: -4662362653044793204
+      prop_coffee_v001_9: 2880373236848411177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

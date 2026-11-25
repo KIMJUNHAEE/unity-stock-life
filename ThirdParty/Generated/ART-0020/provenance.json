@@ -1,0 +1,69 @@
+{
+  "asset_id": "ART-0020",
+  "key": "seoha_sad",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "seoha",
+  "target_size_px": [
+    2048,
+    3072
+  ],
+  "actual_generated_size_px": [
+    1024,
+    1536
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [
+    {
+      "file": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png",
+      "sha256": "dd0ac87e778fbcce56f058f17500c3695fb69d59525dce5b50a19b2ad24238f2"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "9ff16e539f93907d9ce04beb144a9230546f1bbecc5a328cacfeedc04aa7b3e9",
+  "original_file": "generated_original.png",
+  "original_sha256": "e7db20cd58adc80dc36a08be5212fb2b922726da276d016016816bf5f33646a6",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-991dd8f4-1e00-470d-8c5b-ef5684ff1e8e.png",
+  "project_file": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_sad_v001.png",
+  "project_sha256": "e7db20cd58adc80dc36a08be5212fb2b922726da276d016016816bf5f33646a6",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI.",
+    "Shared pose and face crop; minor generated pixel differences are not claimed to be absent.",
+    "Reference lineage is recorded; REF-001 release-use permissions remain unverified."
+  ],
+  "sprite_regions_normalized_bottom_left": {
+    "standing": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "portrait": [
+      0.25,
+      0.68,
+      0.5,
+      0.32
+    ]
+  }
+}

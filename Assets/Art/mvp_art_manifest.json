@@ -1,0 +1,252 @@
+{
+  "version": 1,
+  "status": "mvp_review_candidate",
+  "entries": [
+    {
+      "id": "ART-0007",
+      "key": "seoha_normal",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0008",
+      "key": "room_bg",
+      "path": "Assets/Art/Backgrounds/bg_home_stage01_day_v001.png",
+      "kind": "background"
+    },
+    {
+      "id": "ART-0009",
+      "key": "store_bg",
+      "path": "Assets/Art/Backgrounds/bg_store_morning_v001.png",
+      "kind": "background"
+    },
+    {
+      "id": "ART-0010",
+      "key": "wallpaper_day",
+      "path": "Assets/Art/UI/ui_wallpaper_day_v001.png",
+      "kind": "wallpaper"
+    },
+    {
+      "id": "ART-0011",
+      "key": "wallpaper_sakura",
+      "path": "Assets/Art/UI/ui_wallpaper_sakura_v001.png",
+      "kind": "wallpaper"
+    },
+    {
+      "id": "ART-0012",
+      "key": "cutscene_bg",
+      "path": "Assets/Art/Backgrounds/bg_story_room_night_v001.png",
+      "kind": "background"
+    },
+    {
+      "id": "ART-0013",
+      "key": "bed",
+      "path": "Assets/Art/Props/Room/prop_bed_basic_v001.png",
+      "kind": "prop"
+    },
+    {
+      "id": "ART-0014",
+      "key": "door",
+      "path": "Assets/Art/Props/Room/prop_door_basic_v001.png",
+      "kind": "prop"
+    },
+    {
+      "id": "ART-0015",
+      "key": "customer_kang_harin",
+      "path": "Assets/Art/Characters/Customers/chr_kang_harin_customer_v001.png",
+      "kind": "customer"
+    },
+    {
+      "id": "ART-0016",
+      "key": "customer_baek_soeun",
+      "path": "Assets/Art/Characters/Customers/chr_baek_soeun_customer_v001.png",
+      "kind": "customer"
+    },
+    {
+      "id": "ART-0017",
+      "key": "customer_cha_nari",
+      "path": "Assets/Art/Characters/Customers/chr_cha_nari_customer_v001.png",
+      "kind": "customer"
+    },
+    {
+      "id": "ART-0018",
+      "key": "customer_lee_doa",
+      "path": "Assets/Art/Characters/Customers/chr_lee_doa_customer_v001.png",
+      "kind": "customer"
+    },
+    {
+      "id": "ART-0019",
+      "key": "seoha_happy",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_happy_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0020",
+      "key": "seoha_sad",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_sad_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0021",
+      "key": "seoha_surprised",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_surprised_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0022",
+      "key": "seoha_tired",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_tired_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0023",
+      "key": "seoha_focus",
+      "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_focus_v001.png",
+      "kind": "seoha"
+    },
+    {
+      "id": "ART-0024",
+      "key": "furn_desk_old",
+      "path": "Assets/Art/Props/Furniture/prop_desk_old_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0025",
+      "key": "furn_desk_wood",
+      "path": "Assets/Art/Props/Furniture/prop_desk_wood_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0026",
+      "key": "furn_desk_l",
+      "path": "Assets/Art/Props/Furniture/prop_desk_l_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0027",
+      "key": "furn_pc_old",
+      "path": "Assets/Art/Props/Furniture/prop_pc_old_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0028",
+      "key": "furn_pc_monitor",
+      "path": "Assets/Art/Props/Furniture/prop_pc_monitor_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0029",
+      "key": "furn_pc_dual",
+      "path": "Assets/Art/Props/Furniture/prop_pc_dual_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0032",
+      "key": "furn_light_stand",
+      "path": "Assets/Art/Props/Furniture/prop_light_stand_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0033",
+      "key": "furn_light_mood",
+      "path": "Assets/Art/Props/Furniture/prop_light_mood_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0034",
+      "key": "furn_deco_plant",
+      "path": "Assets/Art/Props/Furniture/prop_deco_plant_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0035",
+      "key": "furn_deco_plush",
+      "path": "Assets/Art/Props/Furniture/prop_deco_plush_v001.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0036",
+      "key": "item_rice_ball",
+      "path": "Assets/Art/Props/Store/prop_rice_ball_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0037",
+      "key": "item_banana_milk",
+      "path": "Assets/Art/Props/Store/prop_banana_milk_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0038",
+      "key": "item_cup_noodle",
+      "path": "Assets/Art/Props/Store/prop_cup_noodle_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0039",
+      "key": "item_water",
+      "path": "Assets/Art/Props/Store/prop_water_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0040",
+      "key": "item_lunchbox",
+      "path": "Assets/Art/Props/Store/prop_lunchbox_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0041",
+      "key": "item_soda",
+      "path": "Assets/Art/Props/Store/prop_soda_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0042",
+      "key": "item_jelly",
+      "path": "Assets/Art/Props/Store/prop_jelly_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0043",
+      "key": "item_sandwich",
+      "path": "Assets/Art/Props/Store/prop_sandwich_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0044",
+      "key": "item_coffee",
+      "path": "Assets/Art/Props/Store/prop_coffee_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0045",
+      "key": "item_snack",
+      "path": "Assets/Art/Props/Store/prop_snack_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0046",
+      "key": "item_icecream",
+      "path": "Assets/Art/Props/Store/prop_icecream_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0047",
+      "key": "item_pen",
+      "path": "Assets/Art/Props/Store/prop_pen_v001.png",
+      "kind": "product"
+    },
+    {
+      "id": "ART-0048",
+      "key": "furn_chair_cushion",
+      "path": "Assets/Art/Props/Furniture/prop_chair_cushion_v002.png",
+      "kind": "furniture"
+    },
+    {
+      "id": "ART-0049",
+      "key": "furn_chair_ergo",
+      "path": "Assets/Art/Props/Furniture/prop_chair_ergo_v002.png",
+      "kind": "furniture"
+    }
+  ]
+}

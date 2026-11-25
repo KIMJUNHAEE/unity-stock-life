@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: fa4bf5b38de305c47a32c668fba3bcc3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 132452360831471750
+    second: prop_light_mood_v001_0
+  - first:
+      213: -2456708701665696729
+    second: prop_light_mood_v001_1
+  - first:
+      213: 7410989659990306688
+    second: prop_light_mood_v001_2
+  - first:
+      213: 8111508504513772764
+    second: prop_light_mood_v001_3
+  - first:
+      213: -7744487294635171615
+    second: prop_light_mood_v001_4
+  - first:
+      213: -459178172893474710
+    second: prop_light_mood_v001_5
+  - first:
+      213: -6565672907760523402
+    second: prop_light_mood_v001_6
+  - first:
+      213: -335114741193373765
+    second: prop_light_mood_v001_7
+  - first:
+      213: -6402384750408093201
+    second: prop_light_mood_v001_8
+  - first:
+      213: 2185303542353744814
+    second: prop_light_mood_v001_9
+  - first:
+      213: -4374299847066730215
+    second: prop_light_mood_v001_10
+  - first:
+      213: 7490042846635845111
+    second: prop_light_mood_v001_11
+  - first:
+      213: 6879708543755988920
+    second: prop_light_mood_v001_12
+  - first:
+      213: -7007016567383330826
+    second: prop_light_mood_v001_13
+  - first:
+      213: 8126090429662673164
+    second: prop_light_mood_v001_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_light_mood_v001_0
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1155
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680950d68b096d100800000000000000
+      internalID: 132452360831471750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_1
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1048
+        width: 125
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724ea98b37408edd0800000000000000
+      internalID: -2456708701665696729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_2
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 864
+        width: 229
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fa0d5a4df19d660800000000000000
+      internalID: 7410989659990306688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 27
+        width: 1219
+        height: 1118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc7a1c120ed19070800000000000000
+      internalID: 8111508504513772764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1068
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0aebb66dd068490800000000000000
+      internalID: -7744487294635171615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1038
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a60521472eba0a9f0800000000000000
+      internalID: -459178172893474710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 879
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677278dd64b02e4a0800000000000000
+      internalID: -6565672907760523402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_7
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 850
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb70c2c1bee695bf0800000000000000
+      internalID: -335114741193373765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_8
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 860
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe13c84adf82627a0800000000000000
+      internalID: -6402384750408093201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 844
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3d5685ef1c35e10800000000000000
+      internalID: 2185303542353744814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_10
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 846
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911ca82177d5b43c0800000000000000
+      internalID: -4374299847066730215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 736
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f56f2af84af1f760800000000000000
+      internalID: 7490042846635845111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_12
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 414
+        width: 147
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfabc46872a97f50800000000000000
+      internalID: 6879708543755988920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_13
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 245
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ffe6d58e8312ce90800000000000000
+      internalID: -7007016567383330826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_light_mood_v001_14
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 66
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09beb0213ca5c070800000000000000
+      internalID: 8126090429662673164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_light_mood_v001_0: 132452360831471750
+      prop_light_mood_v001_1: -2456708701665696729
+      prop_light_mood_v001_10: -4374299847066730215
+      prop_light_mood_v001_11: 7490042846635845111
+      prop_light_mood_v001_12: 6879708543755988920
+      prop_light_mood_v001_13: -7007016567383330826
+      prop_light_mood_v001_14: 8126090429662673164
+      prop_light_mood_v001_2: 7410989659990306688
+      prop_light_mood_v001_3: 8111508504513772764
+      prop_light_mood_v001_4: -7744487294635171615
+      prop_light_mood_v001_5: -459178172893474710
+      prop_light_mood_v001_6: -6565672907760523402
+      prop_light_mood_v001_7: -335114741193373765
+      prop_light_mood_v001_8: -6402384750408093201
+      prop_light_mood_v001_9: 2185303542353744814
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

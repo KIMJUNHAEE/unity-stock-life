@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "unity_version": "6000.3.29f1",
+  "play_mode_smoke_review": true,
+  "preview_size_px": [1920,1080],
+  "expressions": 6,
+  "customers": 4,
+  "products": 12,
+  "furniture": 12,
+  "runtime_errors": 0,
+  "save_methods_called": false,
+  "seven_day_balance_test": false
+}

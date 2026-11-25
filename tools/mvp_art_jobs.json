@@ -1,0 +1,687 @@
+[
+  {
+    "id": "ART-0003",
+    "key": "sheet_kang_harin",
+    "kind": "sheet",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "path": "docs/concepts/chr_kang_harin_sheet_v001.png",
+    "references": [
+      "docs/concepts/chr_yoon_seoha_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create ONE landscape 16:9 character reference sheet, target 3840x2160, for 강하린 / KANG HARIN, age 26, an ADULT female convenience-store customer in a bishoujo life game. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nInput 1: Yoon Seoha reference sheet is a STYLE AND BOARD ORGANIZATION reference only. Design this distinct new woman: A graceful adult office woman with long warm ash-brown hair in a tidy low side ponytail, side-parted bangs, softly confident almond-shaped moss-green eyes. Cream blouse under a muted dusty-blue fitted blazer, navy tapered ankle trousers, simple ivory flats. Slim adult 6.5-7 head proportions. A small plain tan shoulder bag. Calm courteous expression; professional and approachable, no glasses, no jewelry or logo.\nLayout: pale warm-white opaque presentation board. Left two-thirds THREE LARGE complete aligned front, true side and rear full-body reference views, identical proportions, clothing and crown/waist/knee/ground levels, relaxed arms away from torso, all feet and hair within safe margins. Right upper third FOUR same-size clothed head-and-shoulder portraits, neutral, smile, surprised, tired, matching face and hair. Right lower third isolated outfit front/back construction details and six small color swatches. No weapon, fantasy appendages or other people. Maintain her own face across every view. Fine original anime facial construction, never chibi. Sparse exact title \"강하린\", subtitle \"KANG HARIN / CHARACTER SHEET v001\"; labels FRONT, SIDE, BACK, NEUTRAL, SMILE, SURPRISED, TIRED, OUTFIT. Small tag CONCEPT. Unseen rear details are design proposals. Clean polished professional art board.",
+    "person": {
+      "key": "kang_harin",
+      "name": "강하린",
+      "roman": "KANG HARIN",
+      "age": 26,
+      "role": "출근길 직장인",
+      "design": "A graceful adult office woman with long warm ash-brown hair in a tidy low side ponytail, side-parted bangs, softly confident almond-shaped moss-green eyes. Cream blouse under a muted dusty-blue fitted blazer, navy tapered ankle trousers, simple ivory flats. Slim adult 6.5-7 head proportions. A small plain tan shoulder bag. Calm courteous expression; professional and approachable, no glasses, no jewelry or logo."
+    }
+  },
+  {
+    "id": "ART-0004",
+    "key": "sheet_baek_soeun",
+    "kind": "sheet",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "path": "docs/concepts/chr_baek_soeun_sheet_v001.png",
+    "references": [
+      "docs/concepts/chr_yoon_seoha_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create ONE landscape 16:9 character reference sheet, target 3840x2160, for 백소은 / BAEK SOEUN, age 21, an ADULT female convenience-store customer in a bishoujo life game. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nInput 1: Yoon Seoha reference sheet is a STYLE AND BOARD ORGANIZATION reference only. Design this distinct new woman: A lively adult university woman with a soft peach-pink chin-length bob, inward-curved tips, short side-swept bangs, bright warm reddish-brown eyes. Milky cream oversized cardigan over a plain sky-blue T-shirt, high-waisted muted lavender knee-length pleated skirt, ankle socks and clean white sneakers, a simple mint crossbody bag. Adult slim 6.5 head proportions, upbeat smile. No school uniform, no hair ornaments, no logo.\nLayout: pale warm-white opaque presentation board. Left two-thirds THREE LARGE complete aligned front, true side and rear full-body reference views, identical proportions, clothing and crown/waist/knee/ground levels, relaxed arms away from torso, all feet and hair within safe margins. Right upper third FOUR same-size clothed head-and-shoulder portraits, neutral, smile, surprised, tired, matching face and hair. Right lower third isolated outfit front/back construction details and six small color swatches. No weapon, fantasy appendages or other people. Maintain her own face across every view. Fine original anime facial construction, never chibi. Sparse exact title \"백소은\", subtitle \"BAEK SOEUN / CHARACTER SHEET v001\"; labels FRONT, SIDE, BACK, NEUTRAL, SMILE, SURPRISED, TIRED, OUTFIT. Small tag CONCEPT. Unseen rear details are design proposals. Clean polished professional art board.",
+    "person": {
+      "key": "baek_soeun",
+      "name": "백소은",
+      "roman": "BAEK SOEUN",
+      "age": 21,
+      "role": "등교하는 대학생",
+      "design": "A lively adult university woman with a soft peach-pink chin-length bob, inward-curved tips, short side-swept bangs, bright warm reddish-brown eyes. Milky cream oversized cardigan over a plain sky-blue T-shirt, high-waisted muted lavender knee-length pleated skirt, ankle socks and clean white sneakers, a simple mint crossbody bag. Adult slim 6.5 head proportions, upbeat smile. No school uniform, no hair ornaments, no logo."
+    }
+  },
+  {
+    "id": "ART-0005",
+    "key": "sheet_cha_nari",
+    "kind": "sheet",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "path": "docs/concepts/chr_cha_nari_sheet_v001.png",
+    "references": [
+      "docs/concepts/chr_yoon_seoha_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create ONE landscape 16:9 character reference sheet, target 3840x2160, for 차나리 / CHA NARI, age 23, an ADULT female convenience-store customer in a bishoujo life game. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nInput 1: Yoon Seoha reference sheet is a STYLE AND BOARD ORGANIZATION reference only. Design this distinct new woman: A cheerful sporty adult woman with deep auburn-copper hair in a high ponytail, a few wispy bangs, clear amber eyes and lightly sun-kissed peach skin. Loose pale mint zip-up training jacket with white piping, opaque soft charcoal jogger trousers, white running shoes with pale mint accents. Healthy athletic but slim adult 6.5-7 head proportions. Energetic easy smile, no headwear, no jewelry, no logo. Practical modest running clothes.\nLayout: pale warm-white opaque presentation board. Left two-thirds THREE LARGE complete aligned front, true side and rear full-body reference views, identical proportions, clothing and crown/waist/knee/ground levels, relaxed arms away from torso, all feet and hair within safe margins. Right upper third FOUR same-size clothed head-and-shoulder portraits, neutral, smile, surprised, tired, matching face and hair. Right lower third isolated outfit front/back construction details and six small color swatches. No weapon, fantasy appendages or other people. Maintain her own face across every view. Fine original anime facial construction, never chibi. Sparse exact title \"차나리\", subtitle \"CHA NARI / CHARACTER SHEET v001\"; labels FRONT, SIDE, BACK, NEUTRAL, SMILE, SURPRISED, TIRED, OUTFIT. Small tag CONCEPT. Unseen rear details are design proposals. Clean polished professional art board.",
+    "person": {
+      "key": "cha_nari",
+      "name": "차나리",
+      "roman": "CHA NARI",
+      "age": 23,
+      "role": "아침 운동을 마친 러너",
+      "design": "A cheerful sporty adult woman with deep auburn-copper hair in a high ponytail, a few wispy bangs, clear amber eyes and lightly sun-kissed peach skin. Loose pale mint zip-up training jacket with white piping, opaque soft charcoal jogger trousers, white running shoes with pale mint accents. Healthy athletic but slim adult 6.5-7 head proportions. Energetic easy smile, no headwear, no jewelry, no logo. Practical modest running clothes."
+    }
+  },
+  {
+    "id": "ART-0006",
+    "key": "sheet_lee_doa",
+    "kind": "sheet",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "path": "docs/concepts/chr_lee_doa_sheet_v001.png",
+    "references": [
+      "docs/concepts/chr_yoon_seoha_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Create ONE landscape 16:9 character reference sheet, target 3840x2160, for 이도아 / LEE DOA, age 25, an ADULT female convenience-store customer in a bishoujo life game. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nInput 1: Yoon Seoha reference sheet is a STYLE AND BOARD ORGANIZATION reference only. Design this distinct new woman: A softly pretty sleepy adult night-shift production staff woman with long muted lavender-gray hair half tied loosely at the nape, wispy side-swept bangs, gentle muted violet eyes. Powder-blue relaxed hoodie over an ivory top, straight charcoal-blue jeans, lavender-gray canvas sneakers, a plain soft off-white tote bag. Slim adult 6.5-7 head proportions. Small weary kind smile, faint under-eye tiredness, no headphones, no logo.\nLayout: pale warm-white opaque presentation board. Left two-thirds THREE LARGE complete aligned front, true side and rear full-body reference views, identical proportions, clothing and crown/waist/knee/ground levels, relaxed arms away from torso, all feet and hair within safe margins. Right upper third FOUR same-size clothed head-and-shoulder portraits, neutral, smile, surprised, tired, matching face and hair. Right lower third isolated outfit front/back construction details and six small color swatches. No weapon, fantasy appendages or other people. Maintain her own face across every view. Fine original anime facial construction, never chibi. Sparse exact title \"이도아\", subtitle \"LEE DOA / CHARACTER SHEET v001\"; labels FRONT, SIDE, BACK, NEUTRAL, SMILE, SURPRISED, TIRED, OUTFIT. Small tag CONCEPT. Unseen rear details are design proposals. Clean polished professional art board.",
+    "person": {
+      "key": "lee_doa",
+      "name": "이도아",
+      "roman": "LEE DOA",
+      "age": 25,
+      "role": "야간 근무를 마친 방송 스태프",
+      "design": "A softly pretty sleepy adult night-shift production staff woman with long muted lavender-gray hair half tied loosely at the nape, wispy side-swept bangs, gentle muted violet eyes. Powder-blue relaxed hoodie over an ivory top, straight charcoal-blue jeans, lavender-gray canvas sneakers, a plain soft off-white tote bag. Slim adult 6.5-7 head proportions. Small weary kind smile, faint under-eye tiredness, no headphones, no logo."
+    }
+  },
+  {
+    "id": "ART-0007",
+    "key": "seoha_normal",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "docs/concepts/chr_yoon_seoha_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_normal for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nReference is the SAME adult Yoon Seoha. One COMPLETE full-body standing illustration, front three-quarter facing viewer slightly to the right. Exact blue-black layered shoulder-length hair, amber-brown eyes, ice-blue short-sleeved cropped crewneck T-shirt and blue piped drawstring shorts, bare feet. Original face construction and cel style. Neutral reserved gentle expression. Arms relaxed slightly away from body, both hands complete, natural feet. No bag, no new accessory. 6.5-7 head adult proportions. Vertical 2:3 canvas: head crown at 8% height, soles at 93%, body centered x=50%. Fix the pose for subsequent facial-expression edits.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0008",
+    "key": "room_bg",
+    "kind": "background",
+    "path": "Assets/Art/Backgrounds/bg_home_stage01_day_v001.png",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: room_bg for a Korean 2D bishoujo stock/life game. Native target 3840x2160 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nOne empty modest Korean one-room apartment SHELL background for a layered 2D game. Eye-level straight-on wall with slight floor depth, NOT isometric. Soft cream plaster wall; a small window in upper-left-to-center area with pale blue morning sky and a light lavender curtain. Pale maple plank floor begins at 68% of canvas height. Back wall broad and uncluttered; keep all key details in central 70% width because side margins may be cropped to a 1380x1080 viewport. Bright calm cozy daylight. NO desk, computer, chair, lamp, plant, plush, bed, door, person or foreground props: these will be separate sprites. No large furniture baked into background.\nOpaque background PNG, complete border-to-border scene, no transparent areas.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0009",
+    "key": "store_bg",
+    "kind": "background",
+    "path": "Assets/Art/Backgrounds/bg_store_morning_v001.png",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: store_bg for a Korean 2D bishoujo stock/life game. Native target 3840x2160 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nConvenience store interior BACKGROUND viewed by a cashier from behind an unseen checkout counter, eye-level frontal view. Cozy small original Korean corner shop in bright soft early-morning sunlight. Back wall with softly detailed organized shelves of generic cream, mint, pale pink and powder-blue packages, a glass refrigerator on far right, simple windowed entrance toward rear-left. Keep center-left area readable for customer sprite and lower 40% clear/quiet for separate counter UI. No characters, no counter in foreground, no checkout equipment, no readable packaging text or branding.\nOpaque background PNG, complete border-to-border scene, no transparent areas.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0010",
+    "key": "wallpaper_day",
+    "kind": "wallpaper",
+    "path": "Assets/Art/UI/ui_wallpaper_day_v001.png",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: wallpaper_day for a Korean 2D bishoujo stock/life game. Native target 3840x2160 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nMinimal airy computer wallpaper only: soft powder-blue sky, milky white rounded clouds low on horizon, a very faint mint-to-lilac atmosphere gradient, delicate painterly cel-style cloud edges. Calm and spacious center for floating app windows. No landscapes with complex detail, no person, sun icon, frame, desktop shortcuts or interface.\nOpaque background PNG, complete border-to-border scene, no transparent areas.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0011",
+    "key": "wallpaper_sakura",
+    "kind": "wallpaper",
+    "path": "Assets/Art/UI/ui_wallpaper_sakura_v001.png",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: wallpaper_sakura for a Korean 2D bishoujo stock/life game. Native target 3840x2160 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nMinimal original computer wallpaper only: soft pastel lavender-pink dusk sky, airy distant milky clouds, graceful small cherry blossom branch entering from upper right and a few sparse pale pink petals. Keep central 75% very quiet for floating app windows. Bright soft evening, not dark navy. No people, no icons or interface.\nOpaque background PNG, complete border-to-border scene, no transparent areas.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0012",
+    "key": "cutscene_bg",
+    "kind": "background",
+    "path": "Assets/Art/Backgrounds/bg_story_room_night_v001.png",
+    "target": [
+      3840,
+      2160
+    ],
+    "alpha": false,
+    "references": [
+      "Assets/Art/Backgrounds/bg_home_stage01_day_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: cutscene_bg for a Korean 2D bishoujo stock/life game. Native target 3840x2160 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nA cozy modest small apartment at night, establishing BACKGROUND ONLY for a layered visual-novel stage. Same broad straight-on wall, pale wood floor, lavender curtain and upper-left window as home room. Small plain bed with powder-blue bedding at back-right, old simple desk with closed notebook and generic dark laptop at back-left, soft warm cream indoor lighting with gentle blue-purple night window. Keep center-left open for separate full-body heroine layer. Furniture here is illustrative stage dressing; no luxury or trophies. No person, no readable screen or paper text. Face area should be bright enough for separate portrait.\nOpaque background PNG, complete border-to-border scene, no transparent areas.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0013",
+    "key": "bed",
+    "kind": "prop",
+    "path": "Assets/Art/Props/Room/prop_bed_basic_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: bed for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE simple single bed only, low pale maple bed frame with a white mattress, powder-blue duvet loosely folded at foot, one cream pillow. Front side elevation, slight view of top from above, headboard on right, broad horizontal silhouette, match 2D game bedroom camera, soft morning lighting. No floor, no room, no other furniture.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0014",
+    "key": "door",
+    "kind": "prop",
+    "path": "Assets/Art/Props/Room/prop_door_basic_v001.png",
+    "target": [
+      1024,
+      2048
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: door for a Korean 2D bishoujo stock/life game. Native target 1024x2048 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE plain pale maple apartment interior door in a narrow white frame, front elevation, closed door, small simple silver handle on left. Complete frame and lower edge visible. Soft pastel cream wood shading, crisp clean anime environment linework. No wall or ground around frame.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0015",
+    "key": "customer_kang_harin",
+    "kind": "customer",
+    "path": "Assets/Art/Characters/Customers/chr_kang_harin_customer_v001.png",
+    "target": [
+      1536,
+      2048
+    ],
+    "alpha": true,
+    "references": [
+      "docs/concepts/chr_kang_harin_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: customer_kang_harin for a Korean 2D bishoujo stock/life game. Native target 1536x2048 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE waist-up to upper-thigh portrait of 강하린, ADULT age 26, the customer in the reference sheet. Preserve her EXACT hairstyle, face, eye colors, outfit and bag. A graceful adult office woman with long warm ash-brown hair in a tidy low side ponytail, side-parted bangs, softly confident almond-shaped moss-green eyes. Cream blouse under a muted dusty-blue fitted blazer, navy tapered ankle trousers, simple ivory flats. Slim adult 6.5-7 head proportions. A small plain tan shoulder bag. Calm courteous expression; professional and approachable, no glasses, no jewelry or logo. Friendly near-frontal view as if talking with cashier, both hands relaxed down at her sides; no product held. Face fills upper-middle, whole hair and hands visible within safe margin. Delicate consistent bishoujo cel artwork. Reconstruct detailed single character; do not enlarge/crop from the small sheet. No added design elements.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0016",
+    "key": "customer_baek_soeun",
+    "kind": "customer",
+    "path": "Assets/Art/Characters/Customers/chr_baek_soeun_customer_v001.png",
+    "target": [
+      1536,
+      2048
+    ],
+    "alpha": true,
+    "references": [
+      "docs/concepts/chr_baek_soeun_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: customer_baek_soeun for a Korean 2D bishoujo stock/life game. Native target 1536x2048 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE waist-up to upper-thigh portrait of 백소은, ADULT age 21, the customer in the reference sheet. Preserve her EXACT hairstyle, face, eye colors, outfit and bag. A lively adult university woman with a soft peach-pink chin-length bob, inward-curved tips, short side-swept bangs, bright warm reddish-brown eyes. Milky cream oversized cardigan over a plain sky-blue T-shirt, high-waisted muted lavender knee-length pleated skirt, ankle socks and clean white sneakers, a simple mint crossbody bag. Adult slim 6.5 head proportions, upbeat smile. No school uniform, no hair ornaments, no logo. Friendly near-frontal view as if talking with cashier, both hands relaxed down at her sides; no product held. Face fills upper-middle, whole hair and hands visible within safe margin. Delicate consistent bishoujo cel artwork. Reconstruct detailed single character; do not enlarge/crop from the small sheet. No added design elements.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0017",
+    "key": "customer_cha_nari",
+    "kind": "customer",
+    "path": "Assets/Art/Characters/Customers/chr_cha_nari_customer_v001.png",
+    "target": [
+      1536,
+      2048
+    ],
+    "alpha": true,
+    "references": [
+      "docs/concepts/chr_cha_nari_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: customer_cha_nari for a Korean 2D bishoujo stock/life game. Native target 1536x2048 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE waist-up to upper-thigh portrait of 차나리, ADULT age 23, the customer in the reference sheet. Preserve her EXACT hairstyle, face, eye colors, outfit and bag. A cheerful sporty adult woman with deep auburn-copper hair in a high ponytail, a few wispy bangs, clear amber eyes and lightly sun-kissed peach skin. Loose pale mint zip-up training jacket with white piping, opaque soft charcoal jogger trousers, white running shoes with pale mint accents. Healthy athletic but slim adult 6.5-7 head proportions. Energetic easy smile, no headwear, no jewelry, no logo. Practical modest running clothes. Friendly near-frontal view as if talking with cashier, both hands relaxed down at her sides; no product held. Face fills upper-middle, whole hair and hands visible within safe margin. Delicate consistent bishoujo cel artwork. Reconstruct detailed single character; do not enlarge/crop from the small sheet. No added design elements.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0018",
+    "key": "customer_lee_doa",
+    "kind": "customer",
+    "path": "Assets/Art/Characters/Customers/chr_lee_doa_customer_v001.png",
+    "target": [
+      1536,
+      2048
+    ],
+    "alpha": true,
+    "references": [
+      "docs/concepts/chr_lee_doa_sheet_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: customer_lee_doa for a Korean 2D bishoujo stock/life game. Native target 1536x2048 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE waist-up to upper-thigh portrait of 이도아, ADULT age 25, the customer in the reference sheet. Preserve her EXACT hairstyle, face, eye colors, outfit and bag. A softly pretty sleepy adult night-shift production staff woman with long muted lavender-gray hair half tied loosely at the nape, wispy side-swept bangs, gentle muted violet eyes. Powder-blue relaxed hoodie over an ivory top, straight charcoal-blue jeans, lavender-gray canvas sneakers, a plain soft off-white tote bag. Slim adult 6.5-7 head proportions. Small weary kind smile, faint under-eye tiredness, no headphones, no logo. Friendly near-frontal view as if talking with cashier, both hands relaxed down at her sides; no product held. Face fills upper-middle, whole hair and hands visible within safe margin. Delicate consistent bishoujo cel artwork. Reconstruct detailed single character; do not enlarge/crop from the small sheet. No added design elements.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0019",
+    "key": "seoha_happy",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_happy_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_happy for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nEDIT input 1, the neutral full-body Yoon Seoha sprite. Change ONLY facial expression: Small delighted closed-mouth smile with warm eyes, relaxed joyful brows, slight blush. Keep EXACT source composition, canvas aspect ratio, pose, head/neck landmarks, hairstyle silhouette, hands, clothes, shading, body proportions, soles line and scale. Head crown at 8% height, soles at 93%, body centered x=50%. Same adult woman, blue-black hair, amber eyes, ice-blue tee and blue piped shorts, bare feet. Do not move shoulders, hands, hair or body. One complete full-body sprite with all fingers and toes in frame. Repaint only eyes/brows/mouth/cheeks, not the rest.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0020",
+    "key": "seoha_sad",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_sad_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_sad for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nEDIT input 1, the neutral full-body Yoon Seoha sprite. Change ONLY facial expression: Quietly discouraged, gently downturned mouth, worried eyebrows and damp-looking eyes, no exaggerated crying. Keep EXACT source composition, canvas aspect ratio, pose, head/neck landmarks, hairstyle silhouette, hands, clothes, shading, body proportions, soles line and scale. Head crown at 8% height, soles at 93%, body centered x=50%. Same adult woman, blue-black hair, amber eyes, ice-blue tee and blue piped shorts, bare feet. Do not move shoulders, hands, hair or body. One complete full-body sprite with all fingers and toes in frame. Repaint only eyes/brows/mouth/cheeks, not the rest.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0021",
+    "key": "seoha_surprised",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_surprised_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_surprised for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nEDIT input 1, the neutral full-body Yoon Seoha sprite. Change ONLY facial expression: Wide amber eyes, raised anxious eyebrows, small open mouth and a few sweat drops, recognizable flustered panic without hands moving. Keep EXACT source composition, canvas aspect ratio, pose, head/neck landmarks, hairstyle silhouette, hands, clothes, shading, body proportions, soles line and scale. Head crown at 8% height, soles at 93%, body centered x=50%. Same adult woman, blue-black hair, amber eyes, ice-blue tee and blue piped shorts, bare feet. Do not move shoulders, hands, hair or body. One complete full-body sprite with all fingers and toes in frame. Repaint only eyes/brows/mouth/cheeks, not the rest.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0022",
+    "key": "seoha_tired",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_tired_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_tired for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nEDIT input 1, the neutral full-body Yoon Seoha sprite. Change ONLY facial expression: Heavy half-lidded eyes, slightly weary mouth and subtle fatigue, no pose change. Keep EXACT source composition, canvas aspect ratio, pose, head/neck landmarks, hairstyle silhouette, hands, clothes, shading, body proportions, soles line and scale. Head crown at 8% height, soles at 93%, body centered x=50%. Same adult woman, blue-black hair, amber eyes, ice-blue tee and blue piped shorts, bare feet. Do not move shoulders, hands, hair or body. One complete full-body sprite with all fingers and toes in frame. Repaint only eyes/brows/mouth/cheeks, not the rest.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0023",
+    "key": "seoha_focus",
+    "kind": "seoha",
+    "path": "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_focus_v001.png",
+    "target": [
+      2048,
+      3072
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Characters/Seoha/chr_yoon_seoha_default_normal_v001.png"
+    ],
+    "prompt": "Use case: stylized-concept. Asset: seoha_focus for a Korean 2D bishoujo stock/life game. Native target 2048x3072 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nEDIT input 1, the neutral full-body Yoon Seoha sprite. Change ONLY facial expression: Composed focused eyes, slightly lowered brows, closed determined mouth, calm concentration rather than anger. Keep EXACT source composition, canvas aspect ratio, pose, head/neck landmarks, hairstyle silhouette, hands, clothes, shading, body proportions, soles line and scale. Head crown at 8% height, soles at 93%, body centered x=50%. Same adult woman, blue-black hair, amber eyes, ice-blue tee and blue piped shorts, bare feet. Do not move shoulders, hands, hair or body. One complete full-body sprite with all fingers and toes in frame. Repaint only eyes/brows/mouth/cheeks, not the rest.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0024",
+    "key": "furn_desk_old",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_desk_old_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_desk_old for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nA slightly worn pale beige rectangular folding desk, thin simple metal folding legs, modest scuffs, empty tabletop, complete feet. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0025",
+    "key": "furn_desk_wood",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_desk_wood_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_desk_wood for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nA sturdy warm light maple rectangular writing desk with rounded corners and two shallow drawers, ample empty tabletop, complete legs. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0026",
+    "key": "furn_desk_l",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_desk_l_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_desk_l for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nA large L-shaped warm pale maple work desk, simple white metal legs, clear L corner visible in a gentle front three-quarter view, empty surfaces. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0027",
+    "key": "furn_pc_old",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_pc_old_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_pc_old for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE older open silver-gray laptop, visible keyboard and trackpad, screen at 105 degrees with a plain pale powder-blue empty screen. Small signs of wear, no logo. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0028",
+    "key": "furn_pc_monitor",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_pc_monitor_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_pc_monitor for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE equipment set: older small silver laptop at left next to one larger slim pale-gray monitor at right, a small ivory keyboard in front. Empty soft powder-blue screens. No desk. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0029",
+    "key": "furn_pc_dual",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_pc_dual_v001.png",
+    "target": [
+      1536,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_pc_dual for a Korean 2D bishoujo stock/life game. Native target 1536x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE upgraded desktop equipment set: two slim pale-gray monitors side-by-side on simple stands, low small white computer tower at right, ivory keyboard and pale blue mouse. Empty soft powder-blue screens. No desk. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0030",
+    "key": "furn_chair_cushion",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_chair_cushion_v001.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_chair_cushion for a Korean 2D bishoujo stock/life game. Native target 1024x1536 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE modest cream upholstered dining/desk chair with powder-blue seat cushion and slender pale wood legs, curved simple backrest, no wheels. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters.",
+    "active": false,
+    "superseded_by": "ART-0048"
+  },
+  {
+    "id": "ART-0031",
+    "key": "furn_chair_ergo",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_chair_ergo_v001.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_chair_ergo for a Korean 2D bishoujo stock/life game. Native target 1024x1536 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE comfortable pastel gray ergonomic office chair, pale-blue breathable backrest, padded seat, white armrests and five-star wheel base, complete casters. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters.",
+    "active": false,
+    "superseded_by": "ART-0049"
+  },
+  {
+    "id": "ART-0032",
+    "key": "furn_light_stand",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_light_stand_v001.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_light_stand for a Korean 2D bishoujo stock/life game. Native target 1024x1536 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE small cream adjustable desk lamp with a round heavy base, slender articulated arm and pale powder-blue conical shade, warm subtle light inside shade, no external glow on background. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0033",
+    "key": "furn_light_mood",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_light_mood_v001.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_light_mood for a Korean 2D bishoujo stock/life game. Native target 1024x1536 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE small decorative lamp set: round frosted warm-white globe on a short pale maple base, and a loose short loop of tiny warm fairy lights arranged compactly around the base. No table or walls. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0034",
+    "key": "furn_deco_plant",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_deco_plant_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_deco_plant for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE small healthy round-leaf indoor plant with six to ten clear mint green leaves in a pale cream round ceramic pot and matching saucer. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0035",
+    "key": "furn_deco_plush",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_deco_plush_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: furn_deco_plush for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE original adorable small cream rabbit plush sitting upright, soft rounded silhouette, short floppy ears with pale pink lining, tiny simple stitched eyes and powder-blue neck bow. Not based on any existing mascot. Isolated game furniture object, front elevation with a small view of its top and right side (a gentle 2D three-quarter camera, NOT top-down isometric). Soft upper-left indoor daylight. Consistent matte materials, delicate environment outlines and neat cel shading; natural believable construction. No other furniture, no human, no baked room or floor.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0036",
+    "key": "item_rice_ball",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_rice_ball_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_rice_ball for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE triangular Korean rice ball wrapped in clear plastic, dark seaweed around a cream rice triangle, small plain mint label without text. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0037",
+    "key": "item_banana_milk",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_banana_milk_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_banana_milk for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE short rounded pale-yellow banana milk bottle with a small cream foil cap and a simple tiny banana pictogram on a blank pale-yellow label, original unbranded packaging. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0038",
+    "key": "item_cup_noodle",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_cup_noodle_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_cup_noodle for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE upright instant noodle cup with cream body, coral-pink lid rim and a small generic noodle-bowl pictogram, sealed lid, no chopsticks. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0039",
+    "key": "item_water",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_water_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_water for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE clear small bottled water container, pale-blue cap, short plain pale-blue label, realistic translucent blue-gray highlights. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0040",
+    "key": "item_lunchbox",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_lunchbox_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_lunchbox for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE rectangular takeaway lunchbox in clear-lidded off-white tray, visible white rice, rolled omelet, a few vegetables and a small brown cutlet in separate compartments. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0041",
+    "key": "item_soda",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_soda_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_soda for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE small slim pale-lavender soda can with a generic tiny lemon-and-bubble pictogram, silver pull tab, original unbranded packaging. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0042",
+    "key": "item_jelly",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_jelly_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_jelly for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE plump stand-up pale-pink resealable pouch of fruit jelly, small clear window showing a few pastel fruit-shaped candies, no lettering. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0043",
+    "key": "item_sandwich",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_sandwich_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_sandwich for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE triangular sandwich in a transparent triangular wrapper, layers of white bread, lettuce, yellow egg and pink ham visible, small blank cream label. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0044",
+    "key": "item_coffee",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_coffee_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_coffee for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE chilled takeaway coffee cup with ivory paper sleeve, clear tan coffee and milk, dark brown sealed lid; a tiny plain circle mark without text. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0045",
+    "key": "item_snack",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_snack_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_snack for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE puffed pale-orange chip snack bag with a small clear window showing a few golden chips, softly crinkled sealed edges, no lettering. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0046",
+    "key": "item_icecream",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_icecream_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_icecream for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE wrapped ice cream bar in a pastel sky-blue slim wrapper with a simple vanilla ice cream pictogram, fully sealed, no real branding. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0047",
+    "key": "item_pen",
+    "kind": "product",
+    "path": "Assets/Art/Props/Store/prop_pen_v001.png",
+    "target": [
+      1024,
+      1024
+    ],
+    "alpha": true,
+    "references": [],
+    "prompt": "Use case: stylized-concept. Asset: item_pen for a Korean 2D bishoujo stock/life game. Native target 1024x1024 pixels. Bright soft pastel Korean 2D anime life-sim game art. Delicate confident dark linework, crisp layered cel shadows, subtle angular glossy highlights; milky white, powder blue, mint, lavender and pink accents. Clear readable silhouettes. No copied existing game characters, branding, trademarks, watermark, text, interface, charts, prices or logos. Original art, coherent with supplied Yoon Seoha sheet; her character identity is NOT to be copied onto other characters.\nONE capped simple powder-blue ballpoint pen, white grip band and silver clip, angled diagonally to read clearly at small size. One centered convenience-store product icon, gentle front three-quarter view from slightly above, occupies 78 percent of square. Clean thin outlines and readable anime cel-style shapes, soft pastel accents and appetizing believable materials. No hands, no shelf, no grouped products, no cast shadow outside product. Barcode, product name and price will be separate real UI text.\nTrue transparent PNG alpha around the object/character; no painted checkerboard, no white background, no floor/background scene or shadows outside the object. All object edges fully inside an 8% safe margin.\nNo text, logo, watermark, labels, UI, buttons, price, chart, real brand or extra characters."
+  },
+  {
+    "id": "ART-0048",
+    "key": "furn_chair_cushion",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_chair_cushion_v002.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Props/Furniture/prop_chair_cushion_v001.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit the supplied chair PNG into ONE single game prop. Keep ONLY the chair on the RIGHT in its three-quarter view. Remove the left-hand front-view chair completely, then center the remaining right-hand chair on a vertical 2:3 canvas, target 1024x1536. Preserve the retained chair's exact design, pale colors, construction, upholstery, perspective and clean cel shading. Complete all legs/casters and leave 8 percent transparent margin. ONE chair, one view, no duplicate, no comparison layout. True transparent alpha background with no floor, gradient, glow, shadow haze, checkerboard, text or other object.",
+    "active": true,
+    "superseded_by": null
+  },
+  {
+    "id": "ART-0049",
+    "key": "furn_chair_ergo",
+    "kind": "furniture",
+    "path": "Assets/Art/Props/Furniture/prop_chair_ergo_v002.png",
+    "target": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "references": [
+      "Assets/Art/Props/Furniture/prop_chair_ergo_v001.png"
+    ],
+    "prompt": "Use case: precise-object-edit. Edit the supplied chair PNG into ONE single game prop. Keep ONLY the chair on the RIGHT in its three-quarter view. Remove the left-hand front-view chair completely, then center the remaining right-hand chair on a vertical 2:3 canvas, target 1024x1536. Preserve the retained chair's exact design, pale colors, construction, upholstery, perspective and clean cel shading. Complete all legs/casters and leave 8 percent transparent margin. ONE chair, one view, no duplicate, no comparison layout. True transparent alpha background with no floor, gradient, glow, shadow haze, checkerboard, text or other object.",
+    "active": true,
+    "superseded_by": null
+  }
+]

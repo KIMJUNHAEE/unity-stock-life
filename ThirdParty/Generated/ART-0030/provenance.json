@@ -1,0 +1,48 @@
+{
+  "asset_id": "ART-0030",
+  "key": "furn_chair_cushion",
+  "status": "superseded",
+  "superseded_by": "ART-0048",
+  "created_on": "2026-11-25",
+  "purpose": "furniture",
+  "target_size_px": [
+    1024,
+    1536
+  ],
+  "actual_generated_size_px": [
+    1536,
+    1024
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "809166a8eb662a41c21f969b22d14c83791d3813e3d3dd4c3203aa24d777b200",
+  "original_file": "generated_original.png",
+  "original_sha256": "3ab5d4a4837d5cfc7163c37c8f4e7d45c0a4ade78b8192248ce8bc4ea4be6370",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-8da46e55-f834-43ca-b1a6-fac32ec3a286.png",
+  "project_file": "Assets/Art/Props/Furniture/prop_chair_cushion_v001.png",
+  "project_sha256": "3ab5d4a4837d5cfc7163c37c8f4e7d45c0a4ade78b8192248ce8bc4ea4be6370",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI."
+  ]
+}

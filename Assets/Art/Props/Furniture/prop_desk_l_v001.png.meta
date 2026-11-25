@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: 9ccc3544f103b024795cce9d592fa320
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4543860190639348882
+    second: prop_desk_l_v001_0
+  - first:
+      213: -2205358627283905435
+    second: prop_desk_l_v001_1
+  - first:
+      213: 5391616594198352133
+    second: prop_desk_l_v001_2
+  - first:
+      213: -7283588986680889094
+    second: prop_desk_l_v001_3
+  - first:
+      213: 8830243545831098954
+    second: prop_desk_l_v001_4
+  - first:
+      213: -3186115893844712963
+    second: prop_desk_l_v001_5
+  - first:
+      213: -7064601721432302341
+    second: prop_desk_l_v001_6
+  - first:
+      213: 1679847002294130
+    second: prop_desk_l_v001_7
+  - first:
+      213: 2831427862761910502
+    second: prop_desk_l_v001_8
+  - first:
+      213: 4343373329235028327
+    second: prop_desk_l_v001_9
+  - first:
+      213: -1219818090035496375
+    second: prop_desk_l_v001_10
+  - first:
+      213: 1306534431940882421
+    second: prop_desk_l_v001_11
+  - first:
+      213: 5549749961624360819
+    second: prop_desk_l_v001_12
+  - first:
+      213: 2195203286890363732
+    second: prop_desk_l_v001_13
+  - first:
+      213: -7922144764414220980
+    second: prop_desk_l_v001_14
+  - first:
+      213: 580537033461235966
+    second: prop_desk_l_v001_15
+  - first:
+      213: -1422388141265958318
+    second: prop_desk_l_v001_16
+  - first:
+      213: -4581898410975492279
+    second: prop_desk_l_v001_17
+  - first:
+      213: 1885396999076191341
+    second: prop_desk_l_v001_18
+  - first:
+      213: 2210896652639369314
+    second: prop_desk_l_v001_19
+  - first:
+      213: -4333305256441987537
+    second: prop_desk_l_v001_20
+  - first:
+      213: 6895396186366835905
+    second: prop_desk_l_v001_21
+  - first:
+      213: -6408431453865451550
+    second: prop_desk_l_v001_22
+  - first:
+      213: 2640560987534306127
+    second: prop_desk_l_v001_23
+  - first:
+      213: 1942595647003814454
+    second: prop_desk_l_v001_24
+  - first:
+      213: 2160985573859133252
+    second: prop_desk_l_v001_25
+  - first:
+      213: 3430799892007745209
+    second: prop_desk_l_v001_26
+  - first:
+      213: 8654849707745144290
+    second: prop_desk_l_v001_27
+  - first:
+      213: 8103222067881951168
+    second: prop_desk_l_v001_28
+  - first:
+      213: 9125857534069688192
+    second: prop_desk_l_v001_29
+  - first:
+      213: 5384536522861435462
+    second: prop_desk_l_v001_30
+  - first:
+      213: -7012114873254948749
+    second: prop_desk_l_v001_31
+  - first:
+      213: 5018881083191152665
+    second: prop_desk_l_v001_32
+  - first:
+      213: 1730449724134941649
+    second: prop_desk_l_v001_33
+  - first:
+      213: 1584470012822044482
+    second: prop_desk_l_v001_34
+  - first:
+      213: 1977187957963746080
+    second: prop_desk_l_v001_35
+  - first:
+      213: 410649711995367416
+    second: prop_desk_l_v001_36
+  - first:
+      213: 5157992464784314261
+    second: prop_desk_l_v001_37
+  - first:
+      213: 3502252737139331848
+    second: prop_desk_l_v001_38
+  - first:
+      213: -8240360955121153343
+    second: prop_desk_l_v001_39
+  - first:
+      213: 1175366748985013771
+    second: prop_desk_l_v001_40
+  - first:
+      213: -6836019602275123559
+    second: prop_desk_l_v001_41
+  - first:
+      213: -3681086489410987910
+    second: prop_desk_l_v001_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_desk_l_v001_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 935
+        width: 265
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6327e32b37f0f0c0800000000000000
+      internalID: -4543860190639348882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_1
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 919
+        width: 59
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5645662530ef461e0800000000000000
+      internalID: -2205358627283905435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_2
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 929
+        width: 81
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5015b46f9bed2da40800000000000000
+      internalID: 5391616594198352133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_3
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 925
+        width: 137
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af030fe186e7bea90800000000000000
+      internalID: -7283588986680889094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_4
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 996
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ac27568b35b8a70800000000000000
+      internalID: 8830243545831098954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_5
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 981
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1e82ea974a8c3d0800000000000000
+      internalID: -3186115893844712963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 989
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc1a6a0a2e75fd90800000000000000
+      internalID: -7064601721432302341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_7
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 989
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27749dbdfc7f50000800000000000000
+      internalID: 1679847002294130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_8
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 957
+        width: 43
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0311fb3a04b4720800000000000000
+      internalID: 2831427862761910502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_9
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 982
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769a5ffd703c64c30800000000000000
+      internalID: 4343373329235028327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_10
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 931
+        width: 83
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ab6d4f8e5521fe0800000000000000
+      internalID: -1219818090035496375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 929
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff27aeb42eb12210800000000000000
+      internalID: 1306534431940882421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_12
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 958
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3779bdeaf2ca40d40800000000000000
+      internalID: 5549749961624360819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_13
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 967
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bbedc32cde67e10800000000000000
+      internalID: 2195203286890363732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_14
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 927
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45aed16f43ee0290800000000000000
+      internalID: -7922144764414220980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_15
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 914
+        width: 77
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef08a6a2b5b7e0800800000000000000
+      internalID: 580537033461235966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_16
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 913
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a4d1b8589a24ce0800000000000000
+      internalID: -1422388141265958318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 963
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94701e0dba3d960c0800000000000000
+      internalID: -4581898410975492279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_18
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 915
+        width: 43
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c1686d4964a2a10800000000000000
+      internalID: 1885396999076191341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_19
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 967
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2687bafaaceaeae10800000000000000
+      internalID: 2210896652639369314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_20
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 927
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e317ef3d10dd3c0800000000000000
+      internalID: -4333305256441987537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_21
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 836
+        width: 63
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc7af15c4e51bf50800000000000000
+      internalID: 6895396186366835905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_22
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 943
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2efd8e8cb8da017a0800000000000000
+      internalID: -6408431453865451550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_23
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 927
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bacb55a3825a420800000000000000
+      internalID: 2640560987534306127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_24
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 929
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ae1e9d27c75fa10800000000000000
+      internalID: 1942595647003814454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_25
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 887
+        width: 107
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4470e961eec5dfd10800000000000000
+      internalID: 2160985573859133252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_26
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 927
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6f19a1356ac9f20800000000000000
+      internalID: 3430799892007745209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_27
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 927
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edea8e24f33c1870800000000000000
+      internalID: 8654849707745144290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_28
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 927
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfb53cb98d647070800000000000000
+      internalID: 8103222067881951168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_29
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 927
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087cb0d831f85ae70800000000000000
+      internalID: 9125857534069688192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1536
+        height: 908
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ad5456077b9ba40800000000000000
+      internalID: 5384536522861435462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_31
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 891
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370d76faca6ffae90800000000000000
+      internalID: -7012114873254948749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_32
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 885
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910598501c5a6a540800000000000000
+      internalID: 5018881083191152665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_33
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 886
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d36cb41bdac30810800000000000000
+      internalID: 1730449724134941649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_34
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 864
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f348fe41b2df510800000000000000
+      internalID: 1584470012822044482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_35
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 865
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02beb90e8f1607b10800000000000000
+      internalID: 1977187957963746080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_36
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 855
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffa992ccbbe2b500800000000000000
+      internalID: 410649711995367416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_37
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 705
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f4c9981ded49740800000000000000
+      internalID: 5157992464784314261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_38
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 545
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80354d60f408a9030800000000000000
+      internalID: 3502252737139331848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 549
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca4101ee5b54ad80800000000000000
+      internalID: -8240360955121153343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_40
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 537
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b06be02b4ddbf4010800000000000000
+      internalID: 1175366748985013771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_41
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 534
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99eb8c8f3649121a0800000000000000
+      internalID: -6836019602275123559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_desk_l_v001_42
+      rect:
+        serializedVersion: 2
+        x: 1486
+        y: 431
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a781b2357572aecc0800000000000000
+      internalID: -3681086489410987910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_desk_l_v001_0: -4543860190639348882
+      prop_desk_l_v001_1: -2205358627283905435
+      prop_desk_l_v001_10: -1219818090035496375
+      prop_desk_l_v001_11: 1306534431940882421
+      prop_desk_l_v001_12: 5549749961624360819
+      prop_desk_l_v001_13: 2195203286890363732
+      prop_desk_l_v001_14: -7922144764414220980
+      prop_desk_l_v001_15: 580537033461235966
+      prop_desk_l_v001_16: -1422388141265958318
+      prop_desk_l_v001_17: -4581898410975492279
+      prop_desk_l_v001_18: 1885396999076191341
+      prop_desk_l_v001_19: 2210896652639369314
+      prop_desk_l_v001_2: 5391616594198352133
+      prop_desk_l_v001_20: -4333305256441987537
+      prop_desk_l_v001_21: 6895396186366835905
+      prop_desk_l_v001_22: -6408431453865451550
+      prop_desk_l_v001_23: 2640560987534306127
+      prop_desk_l_v001_24: 1942595647003814454
+      prop_desk_l_v001_25: 2160985573859133252
+      prop_desk_l_v001_26: 3430799892007745209
+      prop_desk_l_v001_27: 8654849707745144290
+      prop_desk_l_v001_28: 8103222067881951168
+      prop_desk_l_v001_29: 9125857534069688192
+      prop_desk_l_v001_3: -7283588986680889094
+      prop_desk_l_v001_30: 5384536522861435462
+      prop_desk_l_v001_31: -7012114873254948749
+      prop_desk_l_v001_32: 5018881083191152665
+      prop_desk_l_v001_33: 1730449724134941649
+      prop_desk_l_v001_34: 1584470012822044482
+      prop_desk_l_v001_35: 1977187957963746080
+      prop_desk_l_v001_36: 410649711995367416
+      prop_desk_l_v001_37: 5157992464784314261
+      prop_desk_l_v001_38: 3502252737139331848
+      prop_desk_l_v001_39: -8240360955121153343
+      prop_desk_l_v001_4: 8830243545831098954
+      prop_desk_l_v001_40: 1175366748985013771
+      prop_desk_l_v001_41: -6836019602275123559
+      prop_desk_l_v001_42: -3681086489410987910
+      prop_desk_l_v001_5: -3186115893844712963
+      prop_desk_l_v001_6: -7064601721432302341
+      prop_desk_l_v001_7: 1679847002294130
+      prop_desk_l_v001_8: 2831427862761910502
+      prop_desk_l_v001_9: 4343373329235028327
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1495 @@
+fileFormatVersion: 2
+guid: a076260e4b8c8ff4da086db0e10a99c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4566964042493503403
+    second: prop_chair_cushion_v001_0
+  - first:
+      213: -3820616249470503503
+    second: prop_chair_cushion_v001_1
+  - first:
+      213: -5735286466920004414
+    second: prop_chair_cushion_v001_2
+  - first:
+      213: 93499132013329388
+    second: prop_chair_cushion_v001_3
+  - first:
+      213: -2417900274830832610
+    second: prop_chair_cushion_v001_4
+  - first:
+      213: 2002269267721924744
+    second: prop_chair_cushion_v001_5
+  - first:
+      213: -2616501431595176379
+    second: prop_chair_cushion_v001_6
+  - first:
+      213: 1049513137582795521
+    second: prop_chair_cushion_v001_7
+  - first:
+      213: 8800707783563723239
+    second: prop_chair_cushion_v001_8
+  - first:
+      213: 270019365491070834
+    second: prop_chair_cushion_v001_9
+  - first:
+      213: -835583983593608453
+    second: prop_chair_cushion_v001_10
+  - first:
+      213: 2878898279770313932
+    second: prop_chair_cushion_v001_11
+  - first:
+      213: 304586070193113459
+    second: prop_chair_cushion_v001_12
+  - first:
+      213: 30259896707319091
+    second: prop_chair_cushion_v001_13
+  - first:
+      213: 98441424405858893
+    second: prop_chair_cushion_v001_14
+  - first:
+      213: 4101197431484870306
+    second: prop_chair_cushion_v001_15
+  - first:
+      213: 2838575754274751385
+    second: prop_chair_cushion_v001_16
+  - first:
+      213: 8760478213499650219
+    second: prop_chair_cushion_v001_17
+  - first:
+      213: -902302104827579599
+    second: prop_chair_cushion_v001_18
+  - first:
+      213: -250081387143343145
+    second: prop_chair_cushion_v001_19
+  - first:
+      213: -2811096628660927809
+    second: prop_chair_cushion_v001_20
+  - first:
+      213: 3496314006602563603
+    second: prop_chair_cushion_v001_21
+  - first:
+      213: -5039141378133804870
+    second: prop_chair_cushion_v001_22
+  - first:
+      213: -3724015927994824877
+    second: prop_chair_cushion_v001_23
+  - first:
+      213: -3173069304500400919
+    second: prop_chair_cushion_v001_24
+  - first:
+      213: 1581675422139656178
+    second: prop_chair_cushion_v001_25
+  - first:
+      213: -4980796813541332376
+    second: prop_chair_cushion_v001_26
+  - first:
+      213: -5584416524452457915
+    second: prop_chair_cushion_v001_27
+  - first:
+      213: -2972578396634521118
+    second: prop_chair_cushion_v001_28
+  - first:
+      213: 2402878457515668783
+    second: prop_chair_cushion_v001_29
+  - first:
+      213: 3647896639517879003
+    second: prop_chair_cushion_v001_30
+  - first:
+      213: 6787292994260855578
+    second: prop_chair_cushion_v001_31
+  - first:
+      213: -7215220057062674535
+    second: prop_chair_cushion_v001_32
+  - first:
+      213: -5958103106532986051
+    second: prop_chair_cushion_v001_33
+  - first:
+      213: 7423718884688214657
+    second: prop_chair_cushion_v001_34
+  - first:
+      213: -6501030193569921461
+    second: prop_chair_cushion_v001_35
+  - first:
+      213: -2099258197935192205
+    second: prop_chair_cushion_v001_36
+  - first:
+      213: 4555680441277189319
+    second: prop_chair_cushion_v001_37
+  - first:
+      213: 7306555708027087098
+    second: prop_chair_cushion_v001_38
+  - first:
+      213: 252449701800655373
+    second: prop_chair_cushion_v001_39
+  - first:
+      213: -3697506897153584244
+    second: prop_chair_cushion_v001_40
+  - first:
+      213: 1349571477363517743
+    second: prop_chair_cushion_v001_41
+  - first:
+      213: -5018688081378020464
+    second: prop_chair_cushion_v001_42
+  - first:
+      213: 3243308761190692929
+    second: prop_chair_cushion_v001_43
+  - first:
+      213: 756625984554168173
+    second: prop_chair_cushion_v001_44
+  - first:
+      213: 6157274440341192736
+    second: prop_chair_cushion_v001_45
+  - first:
+      213: 7799175635488185175
+    second: prop_chair_cushion_v001_46
+  - first:
+      213: -2545950152019828637
+    second: prop_chair_cushion_v001_47
+  - first:
+      213: 7009258145464178409
+    second: prop_chair_cushion_v001_48
+  - first:
+      213: 3952923906178134511
+    second: prop_chair_cushion_v001_49
+  - first:
+      213: -6031918981645783710
+    second: prop_chair_cushion_v001_50
+  - first:
+      213: 5135034897087951909
+    second: prop_chair_cushion_v001_51
+  - first:
+      213: 5714278677816056195
+    second: prop_chair_cushion_v001_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 725
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7aece899d116f30800000000000000
+      internalID: 4566964042493503403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 981
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5b93b73c17afac0800000000000000
+      internalID: -3820616249470503503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_2
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 999
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4c02e585b2860b0800000000000000
+      internalID: -5735286466920004414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_3
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 997
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb367617fc2c4100800000000000000
+      internalID: 93499132013329388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_4
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 991
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c8368b284e17ed0800000000000000
+      internalID: -2417900274830832610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 967
+        width: 55
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8803f3f5a4d79cb10800000000000000
+      internalID: 2002269267721924744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_6
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1001
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ee77f8fc150bbd0800000000000000
+      internalID: -2616501431595176379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_7
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 987
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b6ab853ae909e00800000000000000
+      internalID: 1049513137582795521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_8
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 995
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1c45bd915622a70800000000000000
+      internalID: 8800707783563723239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_9
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 969
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277529aae2d4fb300800000000000000
+      internalID: 270019365491070834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 975
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaa5e54bc86764f0800000000000000
+      internalID: -835583983593608453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 975
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4513e7bb6e3f720800000000000000
+      internalID: 2878898279770313932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_12
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 0
+        width: 781
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3798465ca6b1a3400800000000000000
+      internalID: 304586070193113459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_13
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 943
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3350e2a37318b6000800000000000000
+      internalID: 30259896707319091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_14
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 947
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a05e434fbbd5100800000000000000
+      internalID: 98441424405858893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_15
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 949
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae6669b5516ae830800000000000000
+      internalID: 4101197431484870306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_16
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 966
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993459deb95a46720800000000000000
+      internalID: 2838575754274751385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_17
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 983
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0023a2588739970800000000000000
+      internalID: 8760478213499650219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_18
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 962
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333aa924016a73f0800000000000000
+      internalID: -902302104827579599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_19
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 919
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3526aad48878cf0800000000000000
+      internalID: -250081387143343145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_20
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 943
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb20e53928afcf8d0800000000000000
+      internalID: -2811096628660927809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 897
+        width: 37
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310c4c29017658030800000000000000
+      internalID: 3496314006602563603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 645
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8bc577d9f511ab0800000000000000
+      internalID: -5039141378133804870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_23
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 599
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357c8f18e33a15cc0800000000000000
+      internalID: -3724015927994824877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_24
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 515
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecce89774ef6f3d0800000000000000
+      internalID: -3173069304500400919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_25
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 509
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7a9969a6d33f510800000000000000
+      internalID: 1581675422139656178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_26
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 495
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86aa87effa7a0eab0800000000000000
+      internalID: -4980796813541332376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_27
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 403
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542903e22ca2082b0800000000000000
+      internalID: -5584416524452457915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_28
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 351
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1699992b74fb6d0800000000000000
+      internalID: -2972578396634521118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25f8a2e93db85120800000000000000
+      internalID: 2402878457515668783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_30
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaedcf8aaeef9230800000000000000
+      internalID: 3647896639517879003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_31
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 25
+        width: 255
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b6a65840f413e50800000000000000
+      internalID: 6787292994260855578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_32
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 237
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f618206936edb90800000000000000
+      internalID: -7215220057062674535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 205
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3333ffbac0905da0800000000000000
+      internalID: -5958103106532986051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_34
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 191
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a333a3ef8560760800000000000000
+      internalID: 7423718884688214657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 135
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b460d2e9b73b7c5a0800000000000000
+      internalID: -6501030193569921461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_36
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 101
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3770f349acfedd2e0800000000000000
+      internalID: -2099258197935192205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_37
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 112
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc858c6937093f30800000000000000
+      internalID: 4555680441277189319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_38
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 115
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8ae8464b9166560800000000000000
+      internalID: 7306555708027087098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_39
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 31
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a3b7f8aa1e08300800000000000000
+      internalID: 252449701800655373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_40
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 115
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c839a983111dfacc0800000000000000
+      internalID: -3697506897153584244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_41
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 51
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29604bbb14aab210800000000000000
+      internalID: 1349571477363517743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_42
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 81
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093f9f6b7c90a5ab0800000000000000
+      internalID: -5018688081378020464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_43
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 17
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148feaf622c820d20800000000000000
+      internalID: 3243308761190692929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 17
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f6e2df253108a00800000000000000
+      internalID: 756625984554168173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_45
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 28
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02001291b78037550800000000000000
+      internalID: 6157274440341192736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_46
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 17
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b972e2bec3c3c60800000000000000
+      internalID: 7799175635488185175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_47
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 31
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360a10563d7faacd0800000000000000
+      internalID: -2545950152019828637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_48
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 19
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6d76b8523e54160800000000000000
+      internalID: 7009258145464178409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_49
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 21
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1b5e3695b9bd630800000000000000
+      internalID: 3952923906178134511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_50
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 14
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d211905a15a4ca0800000000000000
+      internalID: -6031918981645783710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_51
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 15
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5247926480f434740800000000000000
+      internalID: 5135034897087951909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_cushion_v001_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38990d29e223d4f40800000000000000
+      internalID: 5714278677816056195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_chair_cushion_v001_0: 4566964042493503403
+      prop_chair_cushion_v001_1: -3820616249470503503
+      prop_chair_cushion_v001_10: -835583983593608453
+      prop_chair_cushion_v001_11: 2878898279770313932
+      prop_chair_cushion_v001_12: 304586070193113459
+      prop_chair_cushion_v001_13: 30259896707319091
+      prop_chair_cushion_v001_14: 98441424405858893
+      prop_chair_cushion_v001_15: 4101197431484870306
+      prop_chair_cushion_v001_16: 2838575754274751385
+      prop_chair_cushion_v001_17: 8760478213499650219
+      prop_chair_cushion_v001_18: -902302104827579599
+      prop_chair_cushion_v001_19: -250081387143343145
+      prop_chair_cushion_v001_2: -5735286466920004414
+      prop_chair_cushion_v001_20: -2811096628660927809
+      prop_chair_cushion_v001_21: 3496314006602563603
+      prop_chair_cushion_v001_22: -5039141378133804870
+      prop_chair_cushion_v001_23: -3724015927994824877
+      prop_chair_cushion_v001_24: -3173069304500400919
+      prop_chair_cushion_v001_25: 1581675422139656178
+      prop_chair_cushion_v001_26: -4980796813541332376
+      prop_chair_cushion_v001_27: -5584416524452457915
+      prop_chair_cushion_v001_28: -2972578396634521118
+      prop_chair_cushion_v001_29: 2402878457515668783
+      prop_chair_cushion_v001_3: 93499132013329388
+      prop_chair_cushion_v001_30: 3647896639517879003
+      prop_chair_cushion_v001_31: 6787292994260855578
+      prop_chair_cushion_v001_32: -7215220057062674535
+      prop_chair_cushion_v001_33: -5958103106532986051
+      prop_chair_cushion_v001_34: 7423718884688214657
+      prop_chair_cushion_v001_35: -6501030193569921461
+      prop_chair_cushion_v001_36: -2099258197935192205
+      prop_chair_cushion_v001_37: 4555680441277189319
+      prop_chair_cushion_v001_38: 7306555708027087098
+      prop_chair_cushion_v001_39: 252449701800655373
+      prop_chair_cushion_v001_4: -2417900274830832610
+      prop_chair_cushion_v001_40: -3697506897153584244
+      prop_chair_cushion_v001_41: 1349571477363517743
+      prop_chair_cushion_v001_42: -5018688081378020464
+      prop_chair_cushion_v001_43: 3243308761190692929
+      prop_chair_cushion_v001_44: 756625984554168173
+      prop_chair_cushion_v001_45: 6157274440341192736
+      prop_chair_cushion_v001_46: 7799175635488185175
+      prop_chair_cushion_v001_47: -2545950152019828637
+      prop_chair_cushion_v001_48: 7009258145464178409
+      prop_chair_cushion_v001_49: 3952923906178134511
+      prop_chair_cushion_v001_5: 2002269267721924744
+      prop_chair_cushion_v001_50: -6031918981645783710
+      prop_chair_cushion_v001_51: 5135034897087951909
+      prop_chair_cushion_v001_52: 5714278677816056195
+      prop_chair_cushion_v001_6: -2616501431595176379
+      prop_chair_cushion_v001_7: 1049513137582795521
+      prop_chair_cushion_v001_8: 8800707783563723239
+      prop_chair_cushion_v001_9: 270019365491070834
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "files": 47,
+  "runtime_files": 41,
+  "kinds": {
+    "sheet": 4,
+    "seoha": 6,
+    "background": 3,
+    "wallpaper": 2,
+    "prop": 2,
+    "customer": 4,
+    "furniture": 12,
+    "product": 12
+  },
+  "original_copy_hashes_equal": true
+}

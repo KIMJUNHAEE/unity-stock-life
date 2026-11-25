@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 8e43ccf4c53e64747a3e67f04ea421d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6927444980645568671
+    second: prop_chair_ergo_v001_0
+  - first:
+      213: 9054488478019744100
+    second: prop_chair_ergo_v001_1
+  - first:
+      213: -1519255137081030364
+    second: prop_chair_ergo_v001_2
+  - first:
+      213: -7025686057405481003
+    second: prop_chair_ergo_v001_3
+  - first:
+      213: -5456561462062693085
+    second: prop_chair_ergo_v001_4
+  - first:
+      213: -4587555086065681133
+    second: prop_chair_ergo_v001_5
+  - first:
+      213: -7308234939927839431
+    second: prop_chair_ergo_v001_6
+  - first:
+      213: 7632352754702058308
+    second: prop_chair_ergo_v001_7
+  - first:
+      213: -4383258668408484255
+    second: prop_chair_ergo_v001_8
+  - first:
+      213: -9001407270499565718
+    second: prop_chair_ergo_v001_9
+  - first:
+      213: -8667031906513580968
+    second: prop_chair_ergo_v001_10
+  - first:
+      213: 5484557143703850691
+    second: prop_chair_ergo_v001_11
+  - first:
+      213: -7757151336485919635
+    second: prop_chair_ergo_v001_12
+  - first:
+      213: 2783535734412338156
+    second: prop_chair_ergo_v001_13
+  - first:
+      213: -4282069416600774205
+    second: prop_chair_ergo_v001_14
+  - first:
+      213: 7591240737197670738
+    second: prop_chair_ergo_v001_15
+  - first:
+      213: -209380336454338175
+    second: prop_chair_ergo_v001_16
+  - first:
+      213: -5807282019062269263
+    second: prop_chair_ergo_v001_17
+  - first:
+      213: -7979357836035141586
+    second: prop_chair_ergo_v001_18
+  - first:
+      213: 3183788765680236542
+    second: prop_chair_ergo_v001_19
+  - first:
+      213: 2243110915086468465
+    second: prop_chair_ergo_v001_20
+  - first:
+      213: -6946370750641189978
+    second: prop_chair_ergo_v001_21
+  - first:
+      213: -678890314114969057
+    second: prop_chair_ergo_v001_22
+  - first:
+      213: -3654078671989848579
+    second: prop_chair_ergo_v001_23
+  - first:
+      213: -3705376004253882047
+    second: prop_chair_ergo_v001_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 705
+        height: 996
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fde874e75ccdf90800000000000000
+      internalID: -6927444980645568671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_1
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 431
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461fb3b4c4108ad70800000000000000
+      internalID: 9054488478019744100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_2
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 436
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429091f80858aeae0800000000000000
+      internalID: -1519255137081030364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_3
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 699
+        height: 1004
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df7ee421cfbf7e90800000000000000
+      internalID: -7025686057405481003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_4
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 381
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325caa6a2466644b0800000000000000
+      internalID: -5456561462062693085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_5
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 383
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31db48384fab550c0800000000000000
+      internalID: -4587555086065681133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_6
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 339
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93db086fa0fe39a90800000000000000
+      internalID: -7308234939927839431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 319
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4438d7874609be960800000000000000
+      internalID: 7632352754702058308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_8
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 317
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e4cdee6798b23c0800000000000000
+      internalID: -4383258668408484255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_9
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 285
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f314b67c3941380800000000000000
+      internalID: -9001407270499565718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_10
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 224
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c0843a66488b780800000000000000
+      internalID: -8667031906513580968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_11
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 224
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce8ccce9af0d1c40800000000000000
+      internalID: 5484557143703850691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_12
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 236
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d646fc765ff095490800000000000000
+      internalID: -7757151336485919635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_13
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 233
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3e04da00b11a620800000000000000
+      internalID: 2783535734412338156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 237
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c952ff8d880394c0800000000000000
+      internalID: -4282069416600774205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_15
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 231
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2514429fa31895960800000000000000
+      internalID: 7591240737197670738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_16
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 205
+        width: 45
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189ffae71b1281df0800000000000000
+      internalID: -209380336454338175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_17
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 215
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bab74f95c3686fa0800000000000000
+      internalID: -5807282019062269263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_18
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 205
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2055671350a34190800000000000000
+      internalID: -7979357836035141586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 195
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7ff3293071f2c20800000000000000
+      internalID: 3183788765680236542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_20
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 85
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175c7852e71212f10800000000000000
+      internalID: 2243110915086468465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 45
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab4ed11b98899f90800000000000000
+      internalID: -6946370750641189978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_22
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 43
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1259b13bd81496f0800000000000000
+      internalID: -678890314114969057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_23
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 31
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5c6b6deca1a4dc0800000000000000
+      internalID: -3654078671989848579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: prop_chair_ergo_v001_24
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 15
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149e033f72cd39cc0800000000000000
+      internalID: -3705376004253882047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      prop_chair_ergo_v001_0: -6927444980645568671
+      prop_chair_ergo_v001_1: 9054488478019744100
+      prop_chair_ergo_v001_10: -8667031906513580968
+      prop_chair_ergo_v001_11: 5484557143703850691
+      prop_chair_ergo_v001_12: -7757151336485919635
+      prop_chair_ergo_v001_13: 2783535734412338156
+      prop_chair_ergo_v001_14: -4282069416600774205
+      prop_chair_ergo_v001_15: 7591240737197670738
+      prop_chair_ergo_v001_16: -209380336454338175
+      prop_chair_ergo_v001_17: -5807282019062269263
+      prop_chair_ergo_v001_18: -7979357836035141586
+      prop_chair_ergo_v001_19: 3183788765680236542
+      prop_chair_ergo_v001_2: -1519255137081030364
+      prop_chair_ergo_v001_20: 2243110915086468465
+      prop_chair_ergo_v001_21: -6946370750641189978
+      prop_chair_ergo_v001_22: -678890314114969057
+      prop_chair_ergo_v001_23: -3654078671989848579
+      prop_chair_ergo_v001_24: -3705376004253882047
+      prop_chair_ergo_v001_3: -7025686057405481003
+      prop_chair_ergo_v001_4: -5456561462062693085
+      prop_chair_ergo_v001_5: -4587555086065681133
+      prop_chair_ergo_v001_6: -7308234939927839431
+      prop_chair_ergo_v001_7: 7632352754702058308
+      prop_chair_ergo_v001_8: -4383258668408484255
+      prop_chair_ergo_v001_9: -9001407270499565718
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

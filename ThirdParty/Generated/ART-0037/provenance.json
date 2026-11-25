@@ -1,0 +1,48 @@
+{
+  "asset_id": "ART-0037",
+  "key": "item_banana_milk",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "product",
+  "target_size_px": [
+    1024,
+    1024
+  ],
+  "actual_generated_size_px": [
+    1254,
+    1254
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "baf7d0107c9e60e03a24800b04f6760fbc5dbb19d984abbf0c88bbe23db1d88e",
+  "original_file": "generated_original.png",
+  "original_sha256": "caed69cba736a27e9a5cbdf5128ad44397776714120ac5007ba68811bc14b1ba",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-0613d904-b86a-435e-a9d6-77594a4d3701.png",
+  "project_file": "Assets/Art/Props/Store/prop_banana_milk_v001.png",
+  "project_sha256": "caed69cba736a27e9a5cbdf5128ad44397776714120ac5007ba68811bc14b1ba",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI."
+  ]
+}

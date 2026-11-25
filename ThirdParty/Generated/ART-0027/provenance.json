@@ -1,0 +1,48 @@
+{
+  "asset_id": "ART-0027",
+  "key": "furn_pc_old",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "furniture",
+  "target_size_px": [
+    1536,
+    1024
+  ],
+  "actual_generated_size_px": [
+    1536,
+    1024
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "6bc9152882c696a2de5c311266af2e623dc5d9edcf882e7d71e6a3346a69e872",
+  "original_file": "generated_original.png",
+  "original_sha256": "dee633721368d88f2869b8b3b27a52929522684e5638d6d75bbbe362387bd415",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-35395cd9-86ce-451c-a145-b8999417841a.png",
+  "project_file": "Assets/Art/Props/Furniture/prop_pc_old_v001.png",
+  "project_sha256": "dee633721368d88f2869b8b3b27a52929522684e5638d6d75bbbe362387bd415",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI."
+  ]
+}

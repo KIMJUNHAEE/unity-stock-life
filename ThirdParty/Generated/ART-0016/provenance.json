@@ -1,0 +1,54 @@
+{
+  "asset_id": "ART-0016",
+  "key": "customer_baek_soeun",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "customer",
+  "target_size_px": [
+    1536,
+    2048
+  ],
+  "actual_generated_size_px": [
+    1086,
+    1448
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [
+    {
+      "file": "docs/concepts/chr_baek_soeun_sheet_v001.png",
+      "sha256": "75b3ba62405b08eea11fea20d86f66c75ebe320af7863c07891e430fccc53bf8"
+    }
+  ],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "63836894092123a78c8888570fac1cf8949cc822014759cb206388bf1c384c16",
+  "original_file": "generated_original.png",
+  "original_sha256": "bc3f076a1d7489c2e19897e816b46cd26d5b06387237ff37692ecb13861516a2",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-082782ec-6a1d-4e81-bd14-0527e7d3ede8.png",
+  "project_file": "Assets/Art/Characters/Customers/chr_baek_soeun_customer_v001.png",
+  "project_sha256": "bc3f076a1d7489c2e19897e816b46cd26d5b06387237ff37692ecb13861516a2",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI.",
+    "Reference lineage is recorded; REF-001 release-use permissions remain unverified."
+  ]
+}

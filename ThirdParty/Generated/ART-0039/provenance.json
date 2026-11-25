@@ -1,0 +1,48 @@
+{
+  "asset_id": "ART-0039",
+  "key": "item_water",
+  "status": "mvp_review_candidate",
+  "superseded_by": null,
+  "created_on": "2026-11-25",
+  "purpose": "product",
+  "target_size_px": [
+    1024,
+    1024
+  ],
+  "actual_generated_size_px": [
+    1254,
+    1254
+  ],
+  "transparent_background_requested": true,
+  "png_color_type": 6,
+  "alpha_channel_present": true,
+  "tool": "Codex built-in image_gen",
+  "model": null,
+  "seed": null,
+  "reference_files_and_hashes": [],
+  "prompt_file": "prompt.txt",
+  "prompt_sha256": "29b1021bd0ed2792b7746d66194c5f6d7db894fed4b820d3382f1f5417ed900a",
+  "original_file": "generated_original.png",
+  "original_sha256": "a04e139de503964d5e4a4ae9e30346c53365c16a1665f0b03092baed31aa124b",
+  "generator_saved_output": "C:\\Users\\kkjjh\\.codex\\generated_images\\01a20ea3-f399-78e2-9701-3f8d87b5bfb3\\exec-d7dd7ab4-6406-484a-a4dc-f2ef4f21283b.png",
+  "project_file": "Assets/Art/Props/Store/prop_water_v001.png",
+  "project_sha256": "a04e139de503964d5e4a4ae9e30346c53365c16a1665f0b03092baed31aa124b",
+  "transformations": [],
+  "terms_evidence": [
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_terms_of_use_20261125.html",
+      "sha256": "82eac147f0161c0015cfec27f17e472bd6112be45b824341ab5bb900bf4badf6"
+    },
+    {
+      "file": "ThirdParty/Generated/ART-0001/terms/openai_service_terms_20261125.html",
+      "sha256": "934b8ca82062097727ac72c438f10c0ac5da2460ab753b00c14957d7d7c3defe"
+    }
+  ],
+  "terms_note": "Reuses the same tool terms checked and archived on 2026-11-25 for ART-0001; no new legal clearance claimed.",
+  "release_clearance": "not established; development MVP candidate",
+  "review_notes": [
+    "Native output retained; no enlargement, retouch or color-profile conversion.",
+    "Appearance is a generated proposal, not automatic user approval.",
+    "UI labels, prices, dialogue and charts remain real game UI."
+  ]
+}
